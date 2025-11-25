@@ -22,6 +22,7 @@ LANGUAGES: List[str] = [
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 EXPORT_DIR = DATA_DIR / "export"
+RAW_DUMP_DIR = DATA_DIR / "raw_dump"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 
 # AssetStudio Paths
