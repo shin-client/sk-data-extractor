@@ -4,12 +4,12 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - "src/**"
-      - "main.py"
-      - ".github/workflows/exportskdata.yml"
-      - "requirements.txt"
+      - 'src/**'
+      - 'main.py'
+      - '.github/workflows/exportskdata.yml'
+      - 'requirements.txt'
   schedule:
-    - cron: "0 0 * * *"
+    - cron: '0 0 * * *'
 
 permissions:
   contents: write
@@ -25,7 +25,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: '3.10'
+
+      - name: Set up .NET 9
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x'
 
       - name: Install Python dependencies
         run: |
@@ -49,5 +54,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add output/
-          git commit -m "Auto-update SK Data via AssetRipper [skip ci]" || echo "No changes to commit"
+          git commit -m "Auto-update SK Data [skip ci]" || echo "No changes to commit"
           git push

@@ -7,7 +7,10 @@ APK_REGEX = re.compile(
     r"https://apk\.chillyroom\.com/apks/[\w\d.\-]+/SoulKnight-release-chillyroom-([\w\d.\-]+)\.apk"
 )
 
-ASSET_RIPPER_URL = "https://github.com/AssetRipper/AssetRipper/releases/download/1.3.6/AssetRipper_linux_x64.zip"
+ASSET_STUDIO_CLI_URL = (
+    "https://github.com/aelurum/AssetStudio/releases/download/"
+    "v0.19.0/AssetStudioModCLI_net9_linux64.zip"
+)
 
 LANGUAGES: List[str] = [
     "English",
@@ -22,6 +25,6 @@ DATA_DIR = PROJECT_ROOT / "data"
 EXPORT_DIR = DATA_DIR / "export"
 OUTPUT_DIR = PROJECT_ROOT / "output"
 
-# Thư mục chứa tool
-ASSET_RIPPER_DIR = DATA_DIR / "AssetRipper"
-ASSET_RIPPER_ZIP = DATA_DIR / "AssetRipper.zip"
+# AssetStudio Paths
+ASSET_STUDIO_DIR = DATA_DIR / "AssetStudio"
+ASSET_STUDIO_ZIP = DATA_DIR / "AssetStudio.zip"

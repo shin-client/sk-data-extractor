@@ -1,11 +1,11 @@
 import logging
+import zipfile
+import requests
 import os
 import stat
 from pathlib import Path
 from typing import Tuple
-import requests
-import zipfile
-from src.config import APK_REGEX, BASE_URL, DATA_DIR, ASSET_RIPPER_URL, ASSET_RIPPER_DIR, ASSET_RIPPER_ZIP
+from src.config import APK_REGEX, BASE_URL, DATA_DIR, ASSET_STUDIO_CLI_URL, ASSET_STUDIO_DIR, ASSET_STUDIO_ZIP
 
 def download_file(url: str, dest: Path, chunk_size: int = 8192) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
@@ -65,21 +65,22 @@ def ensure_apk_extracted(version: str, link: str) -> Path:
 
     return sk_extracted_path
 
-def ensure_asset_ripper() -> Path:
+def ensure_asset_studio() -> Path:
     """
-    Tải, giải nén và cấp quyền thực thi cho AssetRipper.
+    Tải, giải nén và cấp quyền thực thi cho AssetStudio CLI (Linux).
     """
-    if not ASSET_RIPPER_ZIP.exists():
-        download_file(ASSET_RIPPER_URL, ASSET_RIPPER_ZIP)
+    if not ASSET_STUDIO_ZIP.exists():
+        download_file(ASSET_STUDIO_CLI_URL, ASSET_STUDIO_ZIP)
 
-    if not ASSET_RIPPER_DIR.exists():
-        extract_zip(ASSET_RIPPER_ZIP, ASSET_RIPPER_DIR)
+    if not ASSET_STUDIO_DIR.exists():
+        extract_zip(ASSET_STUDIO_ZIP, ASSET_STUDIO_DIR)
 
-        # Cấp quyền execute cho file binary AssetRipper (Linux)
-        executable = ASSET_RIPPER_DIR / "AssetRipper"
+        # Cấp quyền thực thi cho file binary trên Linux
+        # Tên file thường là AssetStudioModCLI (không đuôi .exe)
+        executable = ASSET_STUDIO_DIR / "AssetStudioModCLI"
         if executable.exists():
             st = os.stat(executable)
             os.chmod(executable, st.st_mode | stat.S_IEXEC)
-            logging.info("Granted execute permission to AssetRipper binary.")
+            logging.info("Granted execute permission to AssetStudioModCLI.")
 
-    return ASSET_RIPPER_DIR
+    return ASSET_STUDIO_DIR
