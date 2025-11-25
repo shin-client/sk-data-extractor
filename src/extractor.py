@@ -1,8 +1,7 @@
 import logging
 import subprocess
 from pathlib import Path
-from typing import List, Optional
-from .config import EXPORT_DIR, ASSET_STUDIO_DIR, RAW_DUMP_DIR
+from .config import EXPORT_DIR, ASSET_STUDIO_DIR
 
 
 def run_asset_studio_cli(
@@ -12,7 +11,6 @@ def run_asset_studio_cli(
     mode: str,
     filter_name: str,
     assembly_folder: Path | None = None,
-    extra_args: Optional[List[str]] = None,
 ) -> None:
     """
     Hàm gọi AssetStudioModCLI thông qua subprocess.
@@ -54,10 +52,9 @@ def run_asset_studio_cli(
         mode,
         "-o",
         str(output_dir),
+        "--filter-by-name",
+        filter_name,
     ]
-
-    if filter_name:
-        cmd.extend(["--filter-by-name", filter_name])
 
     if assembly_folder:
         if not assembly_folder.exists():
@@ -65,13 +62,7 @@ def run_asset_studio_cli(
         else:
             cmd.extend(["--assembly-folder", str(assembly_folder)])
 
-    # Thêm các tham số phụ (như --json, --image-format, v.v.)
-    if extra_args:
-        cmd.extend(extra_args)
-
-    logging.info(
-        f"Running AssetStudio CLI (Type: {asset_type}, Filter: '{filter_name}')..."
-    )
+    logging.info(f"Running AssetStudio CLI for {filter_name}...")
 
     try:
         # cwd là thư mục chứa file thực thi để nó load được DLL
@@ -81,14 +72,13 @@ def run_asset_studio_cli(
             f"AssetStudioModCLI failed with exit code {e.returncode}"
         ) from e
 
-    logging.info(f"Finished extracting/dumping {asset_type}.")
+    logging.info(f"Finished extracting {filter_name}.")
 
 
 def run_asset_extractions(sk_extracted_path: Path) -> None:
     """
     Chạy AssetStudio để trích xuất dữ liệu.
     """
-    assets_root = sk_extracted_path / "assets"
     unity_data = sk_extracted_path / "assets/bin/Data/data.unity3d"
     managed_folder = sk_extracted_path / "assets/bin/Data/Managed"
 
@@ -96,7 +86,6 @@ def run_asset_extractions(sk_extracted_path: Path) -> None:
         raise FileNotFoundError(f"Unity data file missing: {unity_data}")
 
     EXPORT_DIR.mkdir(parents=True, exist_ok=True)
-    RAW_DUMP_DIR.mkdir(parents=True, exist_ok=True)
 
     # 1. Extract I2Languages
     run_asset_studio_cli(
@@ -117,7 +106,6 @@ def run_asset_extractions(sk_extracted_path: Path) -> None:
                 pass
 
     # 2. Extract WeaponInfo
-    logging.info("--- Step 2: Extracting WeaponInfo ---")
     run_asset_studio_cli(
         unity_data_path=unity_data,
         output_dir=EXPORT_DIR,
@@ -125,37 +113,3 @@ def run_asset_extractions(sk_extracted_path: Path) -> None:
         mode="export",
         filter_name="WeaponInfo",
     )
-
-    # --- 3. DUMP TOÀN BỘ TEXT ASSET (Tìm file config ẩn) ---
-    # Xuất ra thư mục: data/raw_dump/TextAsset
-    logging.info("--- Step 3: Dumping ALL TextAssets (Configs, XMLs, JSONs) ---")
-    text_asset_dir = RAW_DUMP_DIR / "TextAsset"
-    text_asset_dir.mkdir(exist_ok=True)
-
-    run_asset_studio_cli(
-        unity_data_path=assets_root,  # Quét cả thư mục assets để tìm file trong .ab
-        output_dir=text_asset_dir,
-        asset_type="TextAsset",
-        mode="export",  # Export nội dung text
-        filter_name="",  # Rỗng = Lấy tất cả
-        # extra_args=["--group-by-type"] # Tuỳ chọn: gom nhóm folder (nếu CLI hỗ trợ)
-    )
-
-    # --- 4. DUMP TOÀN BỘ MONOBEHAVIOUR (Chỉ số Game) ---
-    # Xuất ra thư mục: data/raw_dump/MonoBehaviour
-    # Lưu ý: Cần assembly_folder để giải mã tên biến
-    logging.info("--- Step 4: Dumping ALL MonoBehaviours (Game Stats) ---")
-    mono_dir = RAW_DUMP_DIR / "MonoBehaviour"
-    mono_dir.mkdir(exist_ok=True)
-
-    run_asset_studio_cli(
-        unity_data_path=assets_root,  # Quét cả thư mục assets
-        output_dir=mono_dir,
-        asset_type="MonoBehaviour",
-        mode="dump",  # Mode dump sẽ tạo ra file json/txt cấu trúc dữ liệu
-        filter_name="",  # Rỗng = Lấy tất cả
-        assembly_folder=managed_folder,
-        extra_args=["--json"],  # Thử ép xuất ra JSON (nếu CLI hỗ trợ flag này)
-    )
-
-    logging.info(f"Full raw dump completed. Check folder: {RAW_DUMP_DIR}")
