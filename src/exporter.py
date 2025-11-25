@@ -8,12 +8,12 @@ from typing import List, Tuple, Dict, Any, Union
 from .config import OUTPUT_DIR, LANGUAGES
 
 
-def write_i2_csv(version: str, records: List[Tuple[str, List[str]]]) -> Path:
+def write_i2_csv(version: str, records: List[Tuple[str, List[str]]], output_dir: Path = OUTPUT_DIR) -> Path:
     """
     Given (key, [fields...]) records, write them into I2language_{version}.csv
     under the script folder. Returns the CSV path.
     """
-    csv_path = OUTPUT_DIR / f"I2language_{version}.csv"
+    csv_path = output_dir / f"I2language.csv"
     logging.info(f"Writing CSV: {csv_path}")
     try:
         with open(csv_path, "w", encoding="utf-8", newline="") as f:
@@ -27,15 +27,15 @@ def write_i2_csv(version: str, records: List[Tuple[str, List[str]]]) -> Path:
 
 
 def write_master_txt(
-    version: str,
     weapon_json_path: Path,
     lang_maps: Dict[str, Dict[str, Any]],
+    output_dir: Path = OUTPUT_DIR,
 ) -> Path:
     """
     Read WeaponInfo.txt (JSON), sort weapons, then write out the big ASCII master file.
     Returns path to the TXT.
     """
-    txt_path = OUTPUT_DIR / f"Allinfo_{version}.txt"
+    txt_path = output_dir / f"Allinfo.txt"
     logging.info(f"Writing master TXT: {txt_path}")
     if not weapon_json_path.exists():
         raise FileNotFoundError(f"WeaponInfo JSON not found: {weapon_json_path}")

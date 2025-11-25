@@ -31,6 +31,11 @@ def main() -> None:
 
     # --- 3. Parse Data (I2Languages) ---
     try:
+        # Tạo thư mục output theo version
+        version_output_dir = OUTPUT_DIR / version
+        version_output_dir.mkdir(parents=True, exist_ok=True)
+        logging.info(f"Output directory: {version_output_dir}")
+        
         # Tìm file I2Languages
         i2_files = list(EXPORT_DIR.rglob("I2Languages*.dat"))
         valid_i2 = None
@@ -52,8 +57,7 @@ def main() -> None:
         logging.info(f"Parsing I2 file: {valid_i2.name}")
         records, _ = parser.parse_i2_asset_file(valid_i2)
 
-        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-        csv_path = exporter.write_i2_csv(version, records)
+        csv_path = exporter.write_i2_csv(version, records, version_output_dir)
         logging.info(f"Raw CSV exported: {csv_path}")
 
     except Exception as e:
@@ -76,26 +80,26 @@ def main() -> None:
         if not weapon_json_file:
             logging.warning("WeaponInfo.txt not found. Skipping weapon exports.")
         else:
-            txt_path = exporter.write_master_txt(version, weapon_json_file, lang_maps)
+            txt_path = exporter.write_master_txt(version, weapon_json_file, lang_maps, version_output_dir)
             logging.info(f"Master TXT exported: {txt_path}")
 
             exporter.export_filtered_weapons_from_info(
                 weapon_json_file,
                 lang_maps["weapons"],
-                OUTPUT_DIR / f"weapons_{version}.json"
+                version_output_dir / "weapons.json"
             )
 
         exporter.export_weapon_evo_data(
             full_lang_map,
-            OUTPUT_DIR / f"weapon_skins_{version}.json"
+            version_output_dir / "weapon_skins.json"
         )
         exporter.export_needed_data_from_langmap(
             full_lang_map,
-            OUTPUT_DIR / f"needed_data_{version}.json"
+            version_output_dir / "needed_data.json"
         )
         exporter.export_needed_data_from_langmap(
             full_lang_map_cn,
-            OUTPUT_DIR / f"needed_data_cn_{version}.json"
+            version_output_dir / "needed_data_cn.json"
         )
 
         logging.info("All exports completed successfully.")
