@@ -5,10 +5,10 @@ import re
 from collections import defaultdict
 from pathlib import Path
 from typing import List, Tuple, Dict, Any, Union
-from .config import OUTPUT_DIR, LANGUAGES
+from .config import LANGUAGES
 
 
-def write_i2_csv(version: str, records: List[Tuple[str, List[str]]], output_dir: Path = OUTPUT_DIR) -> Path:
+def write_i2_csv(version: str, records: List[Tuple[str, List[str]]], output_dir: Path) -> Path:
     """
     Given (key, [fields...]) records, write them into I2language_{version}.csv
     under the script folder. Returns the CSV path.
@@ -30,7 +30,7 @@ def write_master_txt(
     version: str,
     weapon_json_path: Path,
     lang_maps: Dict[str, Dict[str, Any]],
-    output_dir: Path = OUTPUT_DIR,
+    output_dir: Path,
 ) -> Path:
     """
     Read WeaponInfo.txt (JSON), sort weapons, then write out the big ASCII master file.
@@ -175,7 +175,7 @@ def write_master_txt(
             for pid, pname in sorted(plants.items(), key=lambda kv: kv[0]):
                 out.write(f"{pid}\n")
                 out.write(f"    Display name : {pname}\n\n")
-            skin_id_json_path = OUTPUT_DIR / "highest_skin_ids.json"
+            skin_id_json_path = output_dir / "highest_skin_ids.json"
             with open(skin_id_json_path, "w", encoding="utf-8") as f:
                 json.dump(max_skin_ids, f, indent=2, sort_keys=True)
             logging.info(f"Exported max skin IDs to {skin_id_json_path}")
