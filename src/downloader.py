@@ -1,23 +1,17 @@
 import logging
+import os
+import stat
 from pathlib import Path
 from typing import Tuple
-import zipfile
-from .config import DATA_DIR
-
 import requests
-
-from src.config import APK_REGEX, BASE_URL
-
+import zipfile
+from src.config import APK_REGEX, BASE_URL, DATA_DIR, ASSET_RIPPER_URL, ASSET_RIPPER_DIR, ASSET_RIPPER_ZIP
 
 def download_file(url: str, dest: Path, chunk_size: int = 8192) -> None:
-    """
-    Download `url` to `dest` with a custom progress bar, download speed, and ETA.
-    """
     dest.parent.mkdir(parents=True, exist_ok=True)
     logging.info(f"Downloading: {url}")
-
     try:
-        with requests.get(url, verify=False, stream=True, timeout=30) as resp:
+        with requests.get(url, verify=False, stream=True, timeout=120) as resp:
             resp.raise_for_status()
             with open(dest, "wb") as f:
                 for chunk in resp.iter_content(chunk_size=chunk_size):
@@ -26,12 +20,18 @@ def download_file(url: str, dest: Path, chunk_size: int = 8192) -> None:
     except Exception as e:
         raise RuntimeError(f"Failed to download {url}: {e}") from e
 
+def extract_zip(zip_path: Path, target_dir: Path) -> None:
+    if not zip_path.exists():
+        raise FileNotFoundError(f"Zip file not found: {zip_path}")
+    logging.info(f"Extracting zip: {zip_path} -> {target_dir}")
+    target_dir.mkdir(parents=True, exist_ok=True)
+    try:
+        with zipfile.ZipFile(zip_path, "r") as zf:
+            zf.extractall(target_dir)
+    except zipfile.BadZipFile as e:
+        raise RuntimeError(f"Bad zip file {zip_path}: {e}") from e
 
 def get_latest_apk_info() -> Tuple[str, str]:
-    """
-    Fetch BASE_URL, search for APK_REGEX. Return (version, download_link).
-    Raises RuntimeError if not found.
-    """
     logging.info(f"Fetching website: {BASE_URL}")
     try:
         resp = requests.get(BASE_URL, timeout=15)
@@ -47,11 +47,7 @@ def get_latest_apk_info() -> Tuple[str, str]:
     logging.info(f"Found version: {version}")
     return version, link
 
-
 def ensure_apk_extracted(version: str, link: str) -> Path:
-    """
-    Download APK và giải nén. Trả về đường dẫn folder đã giải nén.
-    """
     versioned_apk_file = DATA_DIR / f"sk-{version}.apk"
     sk_extracted_path = DATA_DIR / f"sk-{version}"
 
@@ -68,3 +64,22 @@ def ensure_apk_extracted(version: str, link: str) -> Path:
             raise RuntimeError(f"Failed extracting APK: {e}") from e
 
     return sk_extracted_path
+
+def ensure_asset_ripper() -> Path:
+    """
+    Tải, giải nén và cấp quyền thực thi cho AssetRipper.
+    """
+    if not ASSET_RIPPER_ZIP.exists():
+        download_file(ASSET_RIPPER_URL, ASSET_RIPPER_ZIP)
+
+    if not ASSET_RIPPER_DIR.exists():
+        extract_zip(ASSET_RIPPER_ZIP, ASSET_RIPPER_DIR)
+
+        # Cấp quyền execute cho file binary AssetRipper (Linux)
+        executable = ASSET_RIPPER_DIR / "AssetRipper"
+        if executable.exists():
+            st = os.stat(executable)
+            os.chmod(executable, st.st_mode | stat.S_IEXEC)
+            logging.info("Granted execute permission to AssetRipper binary.")
+
+    return ASSET_RIPPER_DIR

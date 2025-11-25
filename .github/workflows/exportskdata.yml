@@ -2,16 +2,14 @@ name: Run SKData
 
 on:
   workflow_dispatch:
-
   push:
     paths:
-      - 'src/**'
-      - 'main.py'
-      - '.github/workflows/exportskdata.yml'
-
-  # CRONJOB: 2h00 UTC every day
+      - "src/**"
+      - "main.py"
+      - ".github/workflows/exportskdata.yml"
+      - "requirements.txt"
   schedule:
-    - cron: '0 2 * * *'
+    - cron: "0 0 * * *"
 
 permissions:
   contents: write
@@ -27,7 +25,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: "3.10"
 
       - name: Install Python dependencies
         run: |
@@ -50,9 +48,6 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
           git add output/
-
-          git commit -m "Auto-update SK Data $(date +'%Y-%m-%d') [skip ci]" || echo "No changes to commit"
-
+          git commit -m "Auto-update SK Data via AssetRipper [skip ci]" || echo "No changes to commit"
           git push
