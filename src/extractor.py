@@ -17,17 +17,31 @@ def run_asset_studio_cli(
     if not unity_data_path.exists():
         raise FileNotFoundError(f"Unity data file not found: {unity_data_path}")
 
-    # Tìm file thực thi (Ưu tiên binary Linux không đuôi)
+    # Tìm file thực thi
+    # 1. Tìm trực tiếp tại root (Trường hợp lý tưởng sau khi flatten)
     executable = ASSET_STUDIO_DIR / "AssetStudioModCLI"
 
-    # Nếu không thấy, thử tìm .exe (trường hợp chạy trên Windows hoặc file zip cấu trúc khác)
+    # 2. Nếu không thấy, tìm đệ quy (Trường hợp flatten lỗi)
+    if not executable.exists():
+        found = list(ASSET_STUDIO_DIR.rglob("AssetStudioModCLI"))
+        if found:
+            executable = found[0]
+            logging.info(f"Found binary in nested folder: {executable}")
+
+    # 3. Fallback cho bản Windows (.exe)
     if not executable.exists():
         executable = ASSET_STUDIO_DIR / "AssetStudioModCLI.exe"
+        if not executable.exists():
+            # Thử tìm exe đệ quy
+            found_exe = list(ASSET_STUDIO_DIR.rglob("AssetStudioModCLI.exe"))
+            if found_exe:
+                executable = found_exe[0]
 
     if not executable.exists():
-        raise FileNotFoundError(f"AssetStudioModCLI binary not found in {ASSET_STUDIO_DIR}")
+        raise FileNotFoundError(f"AssetStudioModCLI binary not found in {ASSET_STUDIO_DIR} or subfolders")
 
     # Xây dựng câu lệnh CLI
+    # Với .NET Core/5/6+, ta có thể chạy trực tiếp binary nếu đã chmod +x
     cmd = [
         str(executable),
         str(unity_data_path),
@@ -46,8 +60,8 @@ def run_asset_studio_cli(
     logging.info(f"Running AssetStudio CLI for {filter_name}...")
 
     try:
-        # cwd=ASSET_STUDIO_DIR quan trọng
-        subprocess.run(cmd, check=True, cwd=str(ASSET_STUDIO_DIR))
+        # cwd là thư mục chứa file thực thi để nó load được DLL
+        subprocess.run(cmd, check=True, cwd=str(executable.parent))
     except subprocess.CalledProcessError as e:
         raise RuntimeError(f"AssetStudioModCLI failed with exit code {e.returncode}") from e
 

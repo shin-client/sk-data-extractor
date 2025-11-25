@@ -2,6 +2,7 @@ import logging
 import zipfile
 import requests
 import os
+import shutil
 import stat
 from pathlib import Path
 from typing import Tuple
@@ -30,6 +31,46 @@ def extract_zip(zip_path: Path, target_dir: Path) -> None:
             zf.extractall(target_dir)
     except zipfile.BadZipFile as e:
         raise RuntimeError(f"Bad zip file {zip_path}: {e}") from e
+
+def flatten_directory(root_dir: Path, target_file_name: str) -> None:
+    """
+    Nếu file mục tiêu (target_file_name) nằm trong thư mục con,
+    di chuyển tất cả file từ thư mục con đó ra root_dir.
+    """
+    # Kiểm tra xem file đã ở root chưa
+    target_path = root_dir / target_file_name
+    if target_path.exists():
+        return
+
+    # Tìm file trong các thư mục con
+    found_files = list(root_dir.rglob(target_file_name))
+    if not found_files:
+        logging.warning(f"Could not find {target_file_name} in {root_dir} (even recursively).")
+        return
+
+    # Lấy file đầu tiên tìm thấy
+    actual_file = found_files[0]
+    parent_dir = actual_file.parent
+
+    # Nếu cha của file không phải là root_dir, tiến hành di chuyển
+    if parent_dir != root_dir:
+        logging.info(f"Found nested folder structure at {parent_dir}. Flattening to {root_dir}...")
+
+        # Di chuyển tất cả nội dung từ parent_dir ra root_dir
+        for item in parent_dir.iterdir():
+            dest = root_dir / item.name
+            if dest.exists():
+                if dest.is_dir():
+                    shutil.rmtree(dest)
+                else:
+                    dest.unlink()
+            shutil.move(str(item), str(root_dir))
+
+        # Xóa thư mục rỗng
+        try:
+            shutil.rmtree(parent_dir)
+        except Exception as e:
+            logging.warning(f"Could not delete empty folder {parent_dir}: {e}")
 
 def get_latest_apk_info() -> Tuple[str, str]:
     logging.info(f"Fetching website: {BASE_URL}")
@@ -67,7 +108,7 @@ def ensure_apk_extracted(version: str, link: str) -> Path:
 
 def ensure_asset_studio() -> Path:
     """
-    Tải, giải nén và cấp quyền thực thi cho AssetStudio CLI (Linux).
+    Tải, giải nén, làm phẳng thư mục và cấp quyền thực thi.
     """
     if not ASSET_STUDIO_ZIP.exists():
         download_file(ASSET_STUDIO_CLI_URL, ASSET_STUDIO_ZIP)
@@ -75,12 +116,22 @@ def ensure_asset_studio() -> Path:
     if not ASSET_STUDIO_DIR.exists():
         extract_zip(ASSET_STUDIO_ZIP, ASSET_STUDIO_DIR)
 
-        # Cấp quyền thực thi cho file binary trên Linux
-        # Tên file thường là AssetStudioModCLI (không đuôi .exe)
+        # 1. Làm phẳng thư mục nếu file binary nằm trong subfolder
+        # Tên file binary trên Linux là AssetStudioModCLI (không đuôi)
+        flatten_directory(ASSET_STUDIO_DIR, "AssetStudioModCLI")
+
+        # 2. Cấp quyền thực thi
         executable = ASSET_STUDIO_DIR / "AssetStudioModCLI"
         if executable.exists():
             st = os.stat(executable)
             os.chmod(executable, st.st_mode | stat.S_IEXEC)
             logging.info("Granted execute permission to AssetStudioModCLI.")
+        else:
+            # Fallback check file .exe nếu lỡ tải nhầm bản Windows
+            exe_file = ASSET_STUDIO_DIR / "AssetStudioModCLI.exe"
+            if exe_file.exists():
+                logging.warning("Found .exe file on Linux. Ensure you installed .NET runtime correctly.")
+            else:
+                logging.error(f"Binary AssetStudioModCLI NOT found in {ASSET_STUDIO_DIR} after flattening.")
 
     return ASSET_STUDIO_DIR
