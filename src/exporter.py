@@ -27,6 +27,7 @@ def write_i2_csv(version: str, records: List[Tuple[str, List[str]]], output_dir:
 
 
 def write_master_txt(
+    version: str,
     weapon_json_path: Path,
     lang_maps: Dict[str, Dict[str, Any]],
     output_dir: Path = OUTPUT_DIR,
