@@ -48,6 +48,7 @@ jobs:
             output/*.csv
             output/*.txt
             output/*.json
+            data/export/DebugTextAssets/**
 
       - name: Commit and Push changes
         run: |
