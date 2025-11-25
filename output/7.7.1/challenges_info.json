@@ -1,0 +1,681 @@
+[
+  {
+    "id": "ARAMDisableAttack",
+    "raw_id": "ARAMDisableAttack",
+    "name": null,
+    "title": "Spellbound",
+    "description": "You are unable to attack or use skills, and receive {0} Rosemary Beans at the end of combat."
+  },
+  {
+    "id": "ARAMMagicBomb",
+    "raw_id": "ARAMMagicBomb",
+    "name": null,
+    "title": "Alchemy Accident",
+    "description": "Bombs randomly drop on the battlefield, dealing {1} unavoidable damage to all nearby units after {0}s."
+  },
+  {
+    "id": "ARAMPickUpCoinDamage",
+    "raw_id": "ARAMPickUpCoinDamage",
+    "name": null,
+    "title": "Undercooked Rosemary Bean",
+    "description": "Lose {1} health for every {0} pickups of Rosemary Beans."
+  },
+  {
+    "id": "ARAMUseSkillToMove",
+    "raw_id": "ARAMUseSkillToMove",
+    "name": null,
+    "title": "Root Entanglement",
+    "description": "Unable to move and take {0}% less damage. This effect is temporarily disabled for {1}s after using a skill."
+  },
+  {
+    "id": "AggressiveEnemy",
+    "raw_id": "AggressiveEnemy",
+    "name": "More aggressive enemies!",
+    "title": "Feral Enemies",
+    "description": "More aggressive enemies!"
+  },
+  {
+    "id": "AllAlone",
+    "raw_id": "AllAlone",
+    "name": "No pets or mercenaries",
+    "title": "Lone Wolf",
+    "description": "No pets or mercenaries"
+  },
+  {
+    "id": "BadLuck",
+    "raw_id": "BadLuck",
+    "name": "Bad Luck",
+    "title": "Bad Luck",
+    "description": "You are jinxed!"
+  },
+  {
+    "id": "BigSale",
+    "raw_id": "BigSale",
+    "name": "First three purchases in dungeon are free",
+    "title": null,
+    "description": null
+  },
+  {
+    "id": "BlackFog",
+    "raw_id": "BlackFog",
+    "name": "Miasma",
+    "title": null,
+    "description": "Turn invisible but gain stacks within miasmas. Lose HP if stacks max."
+  },
+  {
+    "id": "BombGift",
+    "raw_id": "BombGift",
+    "name": "Bombs and coins spawn in chests when you clear a room (except for boss rooms).",
+    "title": "Bomb Chest",
+    "description": "Bombs and coins spawn in chests when you clear a room (except for boss rooms)."
+  },
+  {
+    "id": "BoomBoomBoom",
+    "raw_id": "BoomBoomBoom",
+    "name": "Boom Boom Boom",
+    "title": "Boom Boom Boom",
+    "description": "Complete the game once. And in this game, both enemies and players explode upon death. The explosion deals damage to players.\\n\\n"
+  },
+  {
+    "id": "BoxMutation",
+    "raw_id": "BoxMutation",
+    "name": "Crate Mutation",
+    "title": null,
+    "description": "Some crates in levels will become special chests."
+  },
+  {
+    "id": "Cruel",
+    "raw_id": "Cruel",
+    "name": "Increase critical damage",
+    "title": "Dagger Frenzy",
+    "description": "Increase critical damage"
+  },
+  {
+    "id": "Dark",
+    "raw_id": "Dark",
+    "name": "Vision is limited",
+    "title": "Nearsighted",
+    "description": "Vision is limited"
+  },
+  {
+    "id": "Dejavu",
+    "raw_id": "Dejavu",
+    "name": "Deja Vu",
+    "title": "Deja Vu",
+    "description": "You may encounter levels that you have encountered before."
+  },
+  {
+    "id": "DoubleBoss",
+    "raw_id": "DoubleBoss",
+    "name": "Fight with 2 slightly nerfed bosses in each Boss room",
+    "title": "Boss Duo",
+    "description": "Fight with 2 slightly nerfed bosses in each Boss room"
+  },
+  {
+    "id": "DoubleCd",
+    "raw_id": "DoubleCd",
+    "name": "Skill cooldown +100%",
+    "title": "Double Cooldown",
+    "description": "Skill cooldown +100%"
+  },
+  {
+    "id": "DoubleCritic",
+    "raw_id": "DoubleCritic",
+    "name": "Weapon crit rate +100%, crit damage -50%",
+    "title": "Precision Booster",
+    "description": "Weapon crit rate +100%, crit damage -50%"
+  },
+  {
+    "id": "EnemyBuffImmune",
+    "raw_id": "EnemyBuffImmune",
+    "name": "Enemy debuff time -50%",
+    "title": "Vigorous Enemies",
+    "description": "Enemy debuff time -50%"
+  },
+  {
+    "id": "EnemyDefence",
+    "raw_id": "EnemyDefence",
+    "name": "Enemy defense +1",
+    "title": "Tough Enemies",
+    "description": "Enemy defense +1"
+  },
+  {
+    "id": "EnemyDoubleHp",
+    "raw_id": "EnemyDoubleHp",
+    "name": "Enemy HP +100%",
+    "title": "Double Joy",
+    "description": "Enemy HP +100%"
+  },
+  {
+    "id": "EnemyFlash",
+    "raw_id": "EnemyFlash",
+    "name": "Monsters shift to a different position the moment they get hit",
+    "title": "Blinking Enemies",
+    "description": "Monsters shift to a different position the moment they get hit"
+  },
+  {
+    "id": "EnemyReborn",
+    "raw_id": "EnemyReborn",
+    "name": "Killed monsters may revive",
+    "title": null,
+    "description": null
+  },
+  {
+    "id": "EnemySplit",
+    "raw_id": "EnemySplit",
+    "name": "Monsters split into two when their HP is below 50%",
+    "title": "Cell Division",
+    "description": "Monsters split into two when their HP is below 50%"
+  },
+  {
+    "id": "ExEnemy",
+    "raw_id": "ExEnemy",
+    "name": "Elite enemies appear more often",
+    "title": "Full Alert",
+    "description": "Elite enemies appear more often"
+  },
+  {
+    "id": "Exception",
+    "raw_id": "Exception",
+    "name": "When you take a hit, a random debuff will be applied to you. The effect only triggers once every 5 seconds.",
+    "title": "Elemental Anomaly",
+    "description": "When you take a hit, a random debuff will be applied to you. The effect only triggers once every 5 seconds."
+  },
+  {
+    "id": "ExtraHurtDamage",
+    "raw_id": "ExtraHurtDamage",
+    "name": "Character damage taken +1. Enemy damage taken +2. Can be obtained up to 10 times.",
+    "title": "Double Edge (Lord of Evil)",
+    "description": "Character damage taken +1. Enemy damage taken +2. Can be obtained up to 10 times."
+  },
+  {
+    "id": "FastEnemy",
+    "raw_id": "FastEnemy",
+    "name": "Enemies move faster, but will be stunned from time to time.",
+    "title": "Sprinting Enemies",
+    "description": "Enemies move faster, but will be stunned from time to time."
+  },
+  {
+    "id": "FastEnemyBullet",
+    "raw_id": "FastEnemyBullet",
+    "name": "Enemy fire rate up!",
+    "title": "Wild Enemies",
+    "description": "Enemy fire rate up!"
+  },
+  {
+    "id": "FastShooter",
+    "raw_id": "FastShooter",
+    "name": "Weapon fire rate +100%, attack -50%",
+    "title": "Speed Booster",
+    "description": "Weapon fire rate +100%, attack -50%"
+  },
+  {
+    "id": "FloorCrack",
+    "raw_id": "FloorCrack",
+    "name": "Rift in Time and Space",
+    "title": "Rift in Time and Space",
+    "description": "Complete the game once. And in this game monsters, upon death, have a chance to open a rift of time and space. You will take damage if you fall into the rift."
+  },
+  {
+    "id": "FullHouse",
+    "raw_id": "FullHouse",
+    "name": "A bonus room in each level",
+    "title": "Genie Lamp",
+    "description": "A bonus room in each level"
+  },
+  {
+    "id": "GainMount",
+    "raw_id": "GainMount",
+    "name": "A mount awaits when you enter a new biome.",
+    "title": "Beastmaster",
+    "description": "A mount awaits when you enter a new biome."
+  },
+  {
+    "id": "GainWeapon",
+    "raw_id": "GainWeapon",
+    "name": "Get a weapon when entering a new biome",
+    "title": "Mythical Artifact",
+    "description": "Get a weapon when entering a new biome"
+  },
+  {
+    "id": "GoodLuck",
+    "raw_id": "GoodLuck",
+    "name": "Good Luck",
+    "title": "Good Luck",
+    "description": "Today is your lucky day!"
+  },
+  {
+    "id": "HalfCd",
+    "raw_id": "HalfCd",
+    "name": "Skill cooldown -50%",
+    "title": "Halved Cooldown",
+    "description": "Skill cooldown -50%"
+  },
+  {
+    "id": "HardShield",
+    "raw_id": "HardShield",
+    "name": "Better defense, but armor does not regenerate during combat.",
+    "title": "Shell Protection",
+    "description": "Better defense, but armor does not regenerate during combat."
+  },
+  {
+    "id": "Huge",
+    "raw_id": "Huge",
+    "name": "Gigantism",
+    "title": "Giant Form",
+    "description": "Become larger and gain extra health and armor, but move slower."
+  },
+  {
+    "id": "HugePet",
+    "raw_id": "HugePet",
+    "name": "Pet is gigantic, more aggressive and deals higher damage.",
+    "title": "Gigantic Pet",
+    "description": "Pet is gigantic, more aggressive and deals higher damage."
+  },
+  {
+    "id": "IncreaseEnemyBuffImmune",
+    "raw_id": "IncreaseEnemyBuffImmune",
+    "name": "Increases enemy resistance to control effects. Can be obtained up to 10 times.",
+    "title": "Immunity Gene (Lord of Evil)",
+    "description": "Increases enemy resistance to control effects. Can be obtained up to 10 times."
+  },
+  {
+    "id": "InferiorMedicine",
+    "raw_id": "InferiorMedicine",
+    "name": "Inferior Medicament",
+    "title": "Inferior Medicament",
+    "description": "All recovery -50%"
+  },
+  {
+    "id": "InfiniteEnergy",
+    "raw_id": "InfiniteEnergy",
+    "name": "Infinite energy",
+    "title": "Infinite Energy",
+    "description": "Infinite energy"
+  },
+  {
+    "id": "Inflation",
+    "raw_id": "Inflation",
+    "name": "Store price +100%",
+    "title": "Exorbitant Price",
+    "description": "Store price +100%"
+  },
+  {
+    "id": "Intensive",
+    "raw_id": "Intensive",
+    "name": "More enemies in the dungeon",
+    "title": "Strength in Numbers",
+    "description": "More enemies in the dungeon"
+  },
+  {
+    "id": "ItIsFate",
+    "raw_id": "ItIsFate",
+    "name": "Destined",
+    "title": "Destined",
+    "description": "Complete the game once, and in this game, the whole team (all the team members combined) can't revive more than 2 times. If one is revived by a weapon or a challenge condition, it is not counted as one revival consumed.\\n"
+  },
+  {
+    "id": "KillEnemyRebornTeammate",
+    "raw_id": "KillEnemyRebornTeammate",
+    "name": "Chance to revive all teammates upon killing enemies.",
+    "title": "Resurrection (Lord of Evil)",
+    "description": "Chance to revive all teammates upon killing enemies."
+  },
+  {
+    "id": "LackEnergy",
+    "raw_id": "LackEnergy",
+    "name": "Max energy -50%",
+    "title": "Energy Decay",
+    "description": "Max energy -50%"
+  },
+  {
+    "id": "LackHp",
+    "raw_id": "LackHp",
+    "name": "Max HP =1",
+    "title": "Fragility",
+    "description": "Max HP =1"
+  },
+  {
+    "id": "LessBuff",
+    "raw_id": "LessBuff",
+    "name": "Buff slot -1, but option +1 when you choose buffs.",
+    "title": "Buff Choice +1",
+    "description": "Buff slot -1, but option +1 when you choose buffs."
+  },
+  {
+    "id": "LessChoice",
+    "raw_id": "LessChoice",
+    "name": "Buff slot +1, but option -1 when you choose buffs.",
+    "title": "Buff Slot +1",
+    "description": "Buff slot +1, but option -1 when you choose buffs."
+  },
+  {
+    "id": "LongMap",
+    "raw_id": "LongMap",
+    "name": "More rooms in the dungeon",
+    "title": "Dungeon Expansion",
+    "description": "Each level may contain an extra battle room."
+  },
+  {
+    "id": "MelleOnly",
+    "raw_id": "MelleOnly",
+    "name": "Melee weapons only",
+    "title": "Melee Only",
+    "description": "Melee weapons only"
+  },
+  {
+    "id": "MelleWeaken",
+    "raw_id": "MelleWeaken",
+    "name": "Melee weapons can't destroy bullets",
+    "title": null,
+    "description": null
+  },
+  {
+    "id": "MeridianDisorder",
+    "raw_id": "MeridianDisorder",
+    "name": "Meridian Disorder",
+    "title": "Meridian Disorder",
+    "description": "Max armor and max HP are fixed at 1. Max energy is fixed at 999."
+  },
+  {
+    "id": "MonsterAircraft",
+    "raw_id": "MonsterAircraft",
+    "name": "Monster Bomber",
+    "title": "Monster Bomber",
+    "description": "Complete the game once. And in this game, from time to time, a bomber will fly across the room and bombard everyone in it, including monsters."
+  },
+  {
+    "id": "MoreBrave",
+    "raw_id": "MoreBrave",
+    "name": "Killing Spree",
+    "title": "Killing Spree",
+    "description": "You get stronger as you acquire a killstreak."
+  },
+  {
+    "id": "MoreBuff",
+    "raw_id": "MoreBuff",
+    "name": "Max number of buffs +3",
+    "title": "Exceptionally Talented",
+    "description": "Max number of buffs +3"
+  },
+  {
+    "id": "MoreChoice",
+    "raw_id": "MoreChoice",
+    "name": "Options +2 when you choose buffs",
+    "title": "Buff Buffet",
+    "description": "Options +2 when you choose buffs"
+  },
+  {
+    "id": "MoreGeneEnemy",
+    "raw_id": "MoreGeneEnemy",
+    "name": "Spawn chance of mutated enemies +2%. Can be obtained up to 10 times.",
+    "title": "Gene Mutation (Lord of Evil)",
+    "description": "Spawn chance of mutated enemies +2%. Can be obtained up to 10 times."
+  },
+  {
+    "id": "MultiStatue",
+    "raw_id": "MultiStatue",
+    "name": "You can worship multiple statues",
+    "title": "Multiple Statues",
+    "description": "You can worship multiple statues"
+  },
+  {
+    "id": "OneWeapon",
+    "raw_id": "OneWeapon",
+    "name": "Can only carry one weapon",
+    "title": "One Hand",
+    "description": "Can only carry one weapon"
+  },
+  {
+    "id": "Painless",
+    "raw_id": "Painless",
+    "name": "Functional UI is disabled",
+    "title": "Imperception",
+    "description": "Functional UI is disabled"
+  },
+  {
+    "id": "RandomCharactor",
+    "raw_id": "RandomCharactor",
+    "name": "May switch character when you enter a new level",
+    "title": "Multiple Personalities",
+    "description": "May switch character when you enter a new level"
+  },
+  {
+    "id": "RebornTwice",
+    "raw_id": "RebornTwice",
+    "name": "You can resurrect twice",
+    "title": "Revive Me",
+    "description": "Gains +1 revival chance."
+  },
+  {
+    "id": "ReduceEnemyBuffImmune",
+    "raw_id": "ReduceEnemyBuffImmune",
+    "name": "Cancels 1 increased Pressure Level's weight on enemy resistance to control effects. Can be obtained up to 10 times.",
+    "title": "Weaken (Lord of Evil)",
+    "description": "Cancels 1 increased Pressure Level's weight on enemy resistance to control effects. Can be obtained up to 10 times."
+  },
+  {
+    "id": "ReduceEnemyMoveSpeed",
+    "raw_id": "ReduceEnemyMoveSpeed",
+    "name": "Movement speed of enemies -1%. Can be obtained up to 10 times.",
+    "title": "Slow (Lord of Evil)",
+    "description": "Movement speed of enemies -1%. Can be obtained up to 10 times."
+  },
+  {
+    "id": "ReforgeWeapon",
+    "raw_id": "ReforgeWeapon",
+    "name": "Weapons get reforged at the start of each level",
+    "title": "Reforge Weapon",
+    "description": "Weapons get reforged at the start of each level"
+  },
+  {
+    "id": "RenduErmai",
+    "raw_id": "RenduErmai",
+    "name": "Meridian Patency",
+    "title": "Meridian Patency",
+    "description": "Attack speed +10%, health +1, movement speed +10%, and crit hit rate +5%."
+  },
+  {
+    "id": "ReturnPlayer",
+    "raw_id": "ReturnPlayer",
+    "name": null,
+    "title": "Knight's Return",
+    "description": "2 free revivals and +100 max energy in the returning level."
+  },
+  {
+    "id": "ReturnPlayerH5",
+    "raw_id": "ReturnPlayerH5",
+    "name": null,
+    "title": "Teamwork Dreamwork",
+    "description": "Max HP +1; Max energy +20."
+  },
+  {
+    "id": "SaleDay",
+    "raw_id": "SaleDay",
+    "name": "Sales Day",
+    "title": "Sales Day",
+    "description": "Trader's special sale is on!"
+  },
+  {
+    "id": "SleepWalking",
+    "raw_id": "SleepWalking",
+    "name": "Random levels",
+    "title": "Sleepwalk",
+    "description": "Random levels"
+  },
+  {
+    "id": "SlowShooter",
+    "raw_id": "SlowShooter",
+    "name": "Weapon attack +100%, fire rate -50%",
+    "title": "Muscle Booster",
+    "description": "Weapon attack +100%, fire rate -50%"
+  },
+  {
+    "id": "SpaceDistortion",
+    "raw_id": "SpaceDistortion",
+    "name": "Distorted Space",
+    "title": "Distorted Space",
+    "description": "Complete the game once. And in this game, you will get bigger or smaller from time to time. You move slower if you grow bigger, and you move faster once you shrink smaller.\\n"
+  },
+  {
+    "id": "SuperFactor",
+    "raw_id": "SuperFactor",
+    "name": "Other challenge conditions are reinforced",
+    "title": null,
+    "description": null
+  },
+  {
+    "id": "Tenacious",
+    "raw_id": "Tenacious",
+    "name": "Regenerate HP when it's below 50%",
+    "title": "Regeneration",
+    "description": "Regenerate HP when it's below 50%"
+  },
+  {
+    "id": "TimeDistortion",
+    "raw_id": "TimeDistortion",
+    "name": "Time Fluctuation",
+    "title": "Time Fluctuation",
+    "description": "Your movement speed randomly increases or decreases."
+  },
+  {
+    "id": "TimeRacing",
+    "raw_id": "TimeRacing",
+    "name": "Complete the game within {0} minutes on Normal difficulty or {1} minutes on Badass difficulty.\\n",
+    "title": "Matrix Racer",
+    "description": "Complete the game once. And in this game you should finish a run within 12 minutes on Normal difficulty or 16 minutes on Badass difficulty.\\n"
+  },
+  {
+    "id": "Tiny",
+    "raw_id": "Tiny",
+    "name": "Dwarfism",
+    "title": "Shrinkage",
+    "description": "Become smaller and lose health and armor, but move faster."
+  },
+  {
+    "id": "TopWanted",
+    "raw_id": "TopWanted",
+    "name": "Most Wanted",
+    "title": "Most Wanted",
+    "description": "Complete the game once. And in this game you will run into a bigger elite monster in each battle room."
+  },
+  {
+    "id": "TrackingLaser",
+    "raw_id": "TrackingLaser",
+    "name": "Homing Laser",
+    "title": null,
+    "description": "A beam of laser will appear regularly, tracking you and dealing damage to both you and your enemies!"
+  },
+  {
+    "id": "VolcanaEruption",
+    "raw_id": "VolcanaEruption",
+    "name": "Volcano Eruption",
+    "title": "Volcano Eruption",
+    "description": null
+  },
+  {
+    "id": "VolcanoEruption",
+    "raw_id": "VolcanoEruption",
+    "name": null,
+    "title": null,
+    "description": "Complete the game once. And in this game volcanic rocks will pelt down on you. These rocks deal no damage to enemies.\\n"
+  },
+  {
+    "id": "WeaponEquip",
+    "raw_id": "WeaponEquip",
+    "name": "All weapons are equipped with attachments",
+    "title": "Attachment Master",
+    "description": "All weapons are equipped with attachments"
+  },
+  {
+    "id": "WeaponOverheating",
+    "raw_id": "WeaponOverheating",
+    "name": "Weapon Overheating",
+    "title": "Weapon Overheating",
+    "description": "The fire rate of weapons that discharge projectiles reduces after consecutive attacks."
+  },
+  {
+    "id": "WrongConfig",
+    "raw_id": "WrongConfig",
+    "name": "Config Error",
+    "title": "Config Error",
+    "description": "Only one type of enemy will appear in each room."
+  },
+  {
+    "id": "blessing",
+    "raw_id": "blessing",
+    "name": "Blessing Staff",
+    "title": "Blessing Staff",
+    "description": "Revive with HP reduced to 1. Melee weapon damage +1."
+  },
+  {
+    "id": "change",
+    "raw_id": "change",
+    "name": "Do you want to refresh the set of challenges?",
+    "title": null,
+    "description": null
+  },
+  {
+    "id": "curse",
+    "raw_id": "curse",
+    "name": "Curse of Grave Robbers",
+    "title": "Curse of Grave Robbers",
+    "description": "You won't be immune to poison. The next 4 boxes will be empty."
+  },
+  {
+    "id": "endurance",
+    "raw_id": "endurance",
+    "name": "Tenacity",
+    "title": "Tenacity",
+    "description": "Staff weapon damage +1. Immune to traps."
+  },
+  {
+    "id": "frozen",
+    "raw_id": "frozen",
+    "name": "Frostbite",
+    "title": "Frostbite",
+    "description": "Armor regenerates more slowly and you won't be immune to freeze"
+  },
+  {
+    "id": "looptravel",
+    "raw_id": "looptravel",
+    "name": null,
+    "title": "Matrix of the Lord of Evil",
+    "description": "[Mode] Matrix of the Lord of Evil"
+  },
+  {
+    "id": "might",
+    "raw_id": "might",
+    "name": "Strong Body",
+    "title": "Strong Body",
+    "description": "Armor regenerates faster and you are immune to freeze"
+  },
+  {
+    "id": "Loop",
+    "raw_id": "name/Loop",
+    "name": "Loop",
+    "title": null,
+    "description": null
+  },
+  {
+    "id": "Troop",
+    "raw_id": "name/Troop",
+    "name": "Mercenary Army",
+    "title": null,
+    "description": null
+  },
+  {
+    "id": "new",
+    "raw_id": "new",
+    "name": "Drillmaster is secretly helping you. The challenge condition will be effective for {0} more games.\\nIn the multiplayer mode, it does not work but a stack will be consumed. This challenge condition will be removed from the season mode and the Badass difficulty level.",
+    "title": null,
+    "description": null
+  },
+  {
+    "id": "psyche",
+    "raw_id": "psyche",
+    "name": "Deranged",
+    "title": "Deranged",
+    "description": "When HP reduces, Tentacles of the Past spawn around you. And you won't be immune to freeze, fire or poison."
+  }
+]

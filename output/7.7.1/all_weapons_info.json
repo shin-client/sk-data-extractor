@@ -1,0 +1,6786 @@
+[
+  {
+    "id": "ring_0",
+    "english_name": "Ring blue",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "ring_1",
+    "english_name": "Ring yellow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "ring_2",
+    "english_name": "Ring red",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "ring_3",
+    "english_name": "Ring green",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "transform_weapon_beheaded",
+    "english_name": "Cytoplasm",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "transform_weapon_envoy",
+    "english_name": "Echo Amber",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "transform_weapon_ninja",
+    "english_name": "Time Traveler's Gadget",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "transform_weapon_specialforces",
+    "english_name": "Walkie Talkie",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "transform_weapon_transcendent",
+    "english_name": "Dimension Travel Guide",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_000",
+    "english_name": "Bad Pistol",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_000x",
+    "english_name": "New Pistol",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_000xx",
+    "english_name": "New Pistol",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_000xx10",
+    "english_name": "Azure Dragon",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_000xx11",
+    "english_name": "Scorching Soul",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_000xx12",
+    "english_name": "Y-Box Blaster",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_000xx2",
+    "english_name": "Serpent Spear",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_000xx3",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_000xx4",
+    "english_name": "Shortsword of Romulus",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_000xx5",
+    "english_name": "Brand New Pistol",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_000xx6",
+    "english_name": "Inferno",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_000xx7",
+    "english_name": "Golden Bow & Silver Arrow",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_000xx8",
+    "english_name": "Justice Servant",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_000xx9",
+    "english_name": "Loyal Spirit",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_001",
+    "english_name": "P250 Pistol",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_002",
+    "english_name": "AK-47",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_003",
+    "english_name": "Shotgun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_004",
+    "english_name": "Shotgun Pro",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_005",
+    "english_name": "UZI",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_006",
+    "english_name": "Splitter Cannon",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_007",
+    "english_name": "Snow Fox L",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_008",
+    "english_name": "Snow Fox XL",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_009",
+    "english_name": "Snow Fox XXL",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_010",
+    "english_name": "Desert Eagle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_011",
+    "english_name": "Alien Eagle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_012",
+    "english_name": "Frost Eagle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_013",
+    "english_name": "Flame Eagle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_014",
+    "english_name": "Plasma Eagle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_015",
+    "english_name": "Revolver",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_016",
+    "english_name": "Twin-barrel Pistol",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_017",
+    "english_name": "Assault Rifle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_018",
+    "english_name": "Assault Rocket",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_019",
+    "english_name": "Assault Rifle Pro",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_020",
+    "english_name": "Shaky Blaster",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_021",
+    "english_name": "Blaster",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_022",
+    "english_name": "Twin-barrel Rifle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_023",
+    "english_name": "Splitter Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_024",
+    "english_name": "Volcanic Blaster",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_025",
+    "english_name": "M4",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_026",
+    "english_name": "Improved SMG",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_027",
+    "english_name": "MP5",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_028",
+    "english_name": "Snow Fox Vintage",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_029",
+    "english_name": "Shotgun Galaxy",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_030",
+    "english_name": "Sidewinder Red",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_031",
+    "english_name": "Sidewinder Green",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_032",
+    "english_name": "Sniper Rifle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_033",
+    "english_name": "Soul Calibre",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_034",
+    "english_name": "Glacier",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_035",
+    "english_name": "Aurora",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_036",
+    "english_name": "Furnace",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_037",
+    "english_name": "Fine Machine Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_038",
+    "english_name": "Knight's Fist",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_039",
+    "english_name": "Gas Blaster",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_040",
+    "english_name": "Flame Blaster",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_041",
+    "english_name": "Gatling Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_042",
+    "english_name": "Fusion Drill",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Laser"
+  },
+  {
+    "id": "weapon_043",
+    "english_name": "Rocket Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_044",
+    "english_name": "Implosion",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_045",
+    "english_name": "Ion Railgun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Hold"
+  },
+  {
+    "id": "weapon_046",
+    "english_name": "Ion Laser",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Laser"
+  },
+  {
+    "id": "weapon_047",
+    "english_name": "Missile Battery",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_048",
+    "english_name": "Next-gen SMG",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_049",
+    "english_name": "Next-next-gen SMG",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_050",
+    "english_name": "Guardian Rifle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_051",
+    "english_name": "Guardian Railgun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Hold"
+  },
+  {
+    "id": "weapon_052",
+    "english_name": "Shotgun M1",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_053",
+    "english_name": "Shotgun M2",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_054",
+    "english_name": "Shotgun M3",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_055",
+    "english_name": "SMG M2",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_056",
+    "english_name": "Rocket Gun M1",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_057",
+    "english_name": "SMG M1",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_058",
+    "english_name": "SMG Helix",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_059",
+    "english_name": "Prototype Railgun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Hold"
+  },
+  {
+    "id": "weapon_060",
+    "english_name": "Pioneer",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_061",
+    "english_name": "Blind Missile Battery",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_062",
+    "english_name": "Machete",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_063",
+    "english_name": "Broadsword",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_064",
+    "english_name": "Willowblade",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_065",
+    "english_name": "Pirate Saber",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_066",
+    "english_name": "Double Blade Sword",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_067",
+    "english_name": "Rapier",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_068",
+    "english_name": "Axe",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_069",
+    "english_name": "Battle Axe",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_070",
+    "english_name": "Flame Battleaxe",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_071",
+    "english_name": "Mace",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_072",
+    "english_name": "Pitchfork",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_073",
+    "english_name": "Spear",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_074",
+    "english_name": "Laser Sword Blue",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_075",
+    "english_name": "Laser Sword Red",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_076",
+    "english_name": "Trident",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_077",
+    "english_name": "Grand Knight's Sword",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_078",
+    "english_name": "Flame Sword",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_079",
+    "english_name": "Frost Sword",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_080",
+    "english_name": "Bow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_081",
+    "english_name": "Strong Bow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_082",
+    "english_name": "Composite Bow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_083",
+    "english_name": "Hunter Bow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_084",
+    "english_name": "Crystal Bow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_085",
+    "english_name": "Frost Bow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_086",
+    "english_name": "Flame Bow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_087",
+    "english_name": "Jade Bow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_088",
+    "english_name": "Hero bow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_089",
+    "english_name": "Magic Bow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_090",
+    "english_name": "Plunger",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_091",
+    "english_name": "Broom",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_092",
+    "english_name": "Laser Shotgun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "ShortLaser"
+  },
+  {
+    "id": "weapon_093",
+    "english_name": "Fish",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_094",
+    "english_name": "Laser Fish",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_095",
+    "english_name": "Shield",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_096",
+    "english_name": "Basketball",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_097",
+    "english_name": "Football",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_098",
+    "english_name": "Green Onions",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_099",
+    "english_name": "Meat",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_100",
+    "english_name": "Badminton Racket",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_101",
+    "english_name": "Ice Breaker",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "ShortLaser"
+  },
+  {
+    "id": "weapon_102",
+    "english_name": "Nasty Laser",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "ShortLaser"
+  },
+  {
+    "id": "weapon_103",
+    "english_name": "Arbitrator",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShortLaser"
+  },
+  {
+    "id": "weapon_104",
+    "english_name": "The Judge",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShortLaser"
+  },
+  {
+    "id": "weapon_105",
+    "english_name": "Triple Crossbow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Crossbow"
+  },
+  {
+    "id": "weapon_106",
+    "english_name": "Crossbow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Crossbow"
+  },
+  {
+    "id": "weapon_107",
+    "english_name": "Crossbow Plus",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Crossbow"
+  },
+  {
+    "id": "weapon_108",
+    "english_name": "Illusion",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Laser"
+  },
+  {
+    "id": "weapon_109",
+    "english_name": "Horn",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_110",
+    "english_name": "Grenade SMG",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_111",
+    "english_name": "Bazooka",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_112",
+    "english_name": "Magic Staff",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_113",
+    "english_name": "Fine Magic Staff",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_114",
+    "english_name": "Staff Of Thunder",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_115",
+    "english_name": "Staff Of Nature",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_116",
+    "english_name": "Staff of Skeleton",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_117",
+    "english_name": "Staff Of Frost",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_118",
+    "english_name": "Staff Of Flame",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_119",
+    "english_name": "Staff Of Light",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_120",
+    "english_name": "Caliburn",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_121",
+    "english_name": "Electric Therapy",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Laser"
+  },
+  {
+    "id": "weapon_122",
+    "english_name": "Snow Ape's Longbow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_123",
+    "english_name": "Staff of Shooting Stars",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_124",
+    "english_name": "TNT",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_125",
+    "english_name": "Blowpipe",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Hold"
+  },
+  {
+    "id": "weapon_126",
+    "english_name": "Feathered Crossbow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Crossbow"
+  },
+  {
+    "id": "weapon_127",
+    "english_name": "Crystal Crab's Katana",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_128",
+    "english_name": "Dragon Bros' Sniper Rifle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_129",
+    "english_name": "Red Dragon",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_130",
+    "english_name": "Bleach",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_131",
+    "english_name": "Sandworm",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_132",
+    "english_name": "Varkolyn Assault Rifle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_133",
+    "english_name": "Goblin Spear",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_134",
+    "english_name": "Cannibal Plant",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_135",
+    "english_name": "One Punch",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_135x",
+    "english_name": "One Punch",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_136",
+    "english_name": "PKP",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_137",
+    "english_name": "Floating Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_138",
+    "english_name": "Floating Laser",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_139",
+    "english_name": "Assault Shotgun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_140",
+    "english_name": "Cherry Blossom",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_141",
+    "english_name": "Bomber",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_142",
+    "english_name": "Bouncing Sniper Rifle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_143",
+    "english_name": "Bouncing Assault Rifle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_144",
+    "english_name": "Knight Spear",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_145",
+    "english_name": "Staff Of Wizard",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_146",
+    "english_name": "Plunger Plus",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_147",
+    "english_name": "Charged Railgun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Hold"
+  },
+  {
+    "id": "weapon_148",
+    "english_name": "Splash Railgun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Hold"
+  },
+  {
+    "id": "weapon_149",
+    "english_name": "Laser Sword Green",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_150",
+    "english_name": "Umbrella",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_151",
+    "english_name": "M14",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_152",
+    "english_name": "Old Sniper Rifle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_153",
+    "english_name": "Old Rocket Launcher",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_154",
+    "english_name": "Jumper",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "ShortLaser"
+  },
+  {
+    "id": "weapon_155",
+    "english_name": "Cleaner",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "ShortLaser"
+  },
+  {
+    "id": "weapon_156",
+    "english_name": "Webber",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "ShortLaser"
+  },
+  {
+    "id": "weapon_157",
+    "english_name": "Laser",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_158",
+    "english_name": "Wizard's Staff",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_159",
+    "english_name": "Cluster Missile",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_160",
+    "english_name": "Black Hole Missile",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_161",
+    "english_name": "Heavenly Sword",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_162",
+    "english_name": "Ninja Stars",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_163",
+    "english_name": "Wrenches",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_164",
+    "english_name": "Spike Knives",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_165",
+    "english_name": "Ice Spikes",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_166",
+    "english_name": "Boomerang",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_167",
+    "english_name": "Hand Grenade",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_168",
+    "english_name": "Molotov Cocktail",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_169",
+    "english_name": "Butcher's Knife",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_170",
+    "english_name": "Eagle of Ice and Fire",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_171",
+    "english_name": "Paper Slip",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_172",
+    "english_name": "Windforce",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_173",
+    "english_name": "Rainbow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_174",
+    "english_name": "Staff of Illusion",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_175",
+    "english_name": "Snowman Eagle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_176",
+    "english_name": "Agitated Trunk",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_177",
+    "english_name": "Carrot",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_178",
+    "english_name": "Mini UZI",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_179",
+    "english_name": "SMG M3",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_180",
+    "english_name": "RYB Assault Rifle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_181",
+    "english_name": "Assault Rifle Pro+",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_182",
+    "english_name": "Poison Eagle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_183",
+    "english_name": "Grenade Pistol",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_184",
+    "english_name": "Next-next-next-gen SMG",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_185",
+    "english_name": "Bouncing Railgun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Hold"
+  },
+  {
+    "id": "weapon_186",
+    "english_name": "Baseball Bat",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_187",
+    "english_name": "Ninja Stars Plus",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_188",
+    "english_name": "Buckler",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_189",
+    "english_name": "Iron Claw",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_190",
+    "english_name": "Midnight Sickle",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_191",
+    "english_name": "Hammer",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_192",
+    "english_name": "Wooden Hammer",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_193",
+    "english_name": "Stone Hammer",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_194",
+    "english_name": "Bow Plus",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_195",
+    "english_name": "Trekking Pole",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_196",
+    "english_name": "Void Sword",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_197",
+    "english_name": "Long-handled Axe",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_198",
+    "english_name": "Meat Grinder",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_199",
+    "english_name": "Executioner",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_200",
+    "english_name": "Laser Therapy",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Laser"
+  },
+  {
+    "id": "weapon_201",
+    "english_name": "Halberd",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_202",
+    "english_name": "Woodstick",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_203",
+    "english_name": "Bamboo",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_204",
+    "english_name": "Javelin",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_205",
+    "english_name": "Frost Spear",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_206",
+    "english_name": "Throwing Axe",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_207",
+    "english_name": "Heavy Hunter Axe",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_208",
+    "english_name": "Vine",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_209",
+    "english_name": "Chu Ko Nu",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Crossbow"
+  },
+  {
+    "id": "weapon_210",
+    "english_name": "Tidal Staff",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_211",
+    "english_name": "Reusable Health Pot",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_212",
+    "english_name": "Reusable Energy Pot",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_213",
+    "english_name": "Reusable Restoration Potion",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_214",
+    "english_name": "Extra Crown",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_215",
+    "english_name": "The Emperor's New Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_216",
+    "english_name": "Bayonet Rifle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_217",
+    "english_name": "Money Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_218",
+    "english_name": "Assault Sniper Rifle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_219",
+    "english_name": "EM Sniper Rifle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_220",
+    "english_name": "Explosive Crossbow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Crossbow"
+  },
+  {
+    "id": "weapon_221",
+    "english_name": "Explosive Warhammer",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_222",
+    "english_name": "Thunder Warhammer",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_223",
+    "english_name": "Green Basin",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_224",
+    "english_name": "Electric Ninja Stars",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_230",
+    "english_name": "Sawed-off Shotgun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_231",
+    "english_name": "Groundwater",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_233",
+    "english_name": "Rainbow Horse",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_234",
+    "english_name": "Meteo Laser Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "ShortLaser"
+  },
+  {
+    "id": "weapon_235",
+    "english_name": "Green Essence",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_236",
+    "english_name": "Deadly Frisbee",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_237",
+    "english_name": "Advanced Scientific Calculator",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_238",
+    "english_name": "Retouch-free Camera",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_239",
+    "english_name": "Burp Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_240",
+    "english_name": "Fantastic Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_241",
+    "english_name": "40m Long Blade",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_242",
+    "english_name": "Box",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_243",
+    "english_name": "Grand Wizard's Old Staff",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_244",
+    "english_name": "Nirvana Cross",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_245",
+    "english_name": "Laser Sword Gold",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 4,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_246",
+    "english_name": "Thunder Sword",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_247",
+    "english_name": "Star Bow",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_248",
+    "english_name": "Weeping Eagle",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_249",
+    "english_name": "Next-next-next-next-gen SMG",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "ShortLaser"
+  },
+  {
+    "id": "weapon_250",
+    "english_name": "Snow Fox Rose Gold",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_251",
+    "english_name": "Nunchaku",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_252",
+    "english_name": "Super Buddy",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_253",
+    "english_name": "Magic Gloves",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_254",
+    "english_name": "Staff of Anubis",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_255",
+    "english_name": "Dead Star Laser Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "ShortLaser"
+  },
+  {
+    "id": "weapon_256",
+    "english_name": "AK47 Gold",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_257",
+    "english_name": "Desert Eagle Gold",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_258",
+    "english_name": "Blue Fire Gatling",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_259",
+    "english_name": "Coilgun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Hold"
+  },
+  {
+    "id": "weapon_25hammer",
+    "english_name": "Two-Five's Pummeler",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_260",
+    "english_name": "Brownian Coilgun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_261",
+    "english_name": "Ion Coilgun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Hold"
+  },
+  {
+    "id": "weapon_264",
+    "english_name": "Bubble Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_265",
+    "english_name": "Lasso Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_266",
+    "english_name": "Broken Hilt",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_267",
+    "english_name": "Damaged Blade",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_268",
+    "english_name": "Reforged Sacred Sword",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_270",
+    "english_name": "Bayonet in a Gourd",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_273",
+    "english_name": "Trumpet",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_274",
+    "english_name": "Fist of Heaven",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Hold"
+  },
+  {
+    "id": "weapon_275",
+    "english_name": "Sweet Talk",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_276",
+    "english_name": "Death Note",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_277",
+    "english_name": "Firebolt",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_278",
+    "english_name": "Double Therapy",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Laser"
+  },
+  {
+    "id": "weapon_279",
+    "english_name": "Grilled Fish",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_280",
+    "english_name": "Grilled Laser Fish",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_281",
+    "english_name": "Grilled Green Onion",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_282",
+    "english_name": "Grilled Meat",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_283",
+    "english_name": "Grilled Heavenly Sword",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_284",
+    "english_name": "Grilled Carrot",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_285",
+    "english_name": "Gold Staff",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_286",
+    "english_name": "Fine Magic Staff Gold",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_287",
+    "english_name": "Revolver Gold",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_288",
+    "english_name": "Sniper Rifle Gold",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_289",
+    "english_name": "Sniper Rifle Gold Pro",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_290",
+    "english_name": "Rainbow Gatling",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_291",
+    "english_name": "Fist Bump",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_292",
+    "english_name": "Pill",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_293",
+    "english_name": "Happy New Year",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_294",
+    "english_name": "Ranger's Revolver",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_295",
+    "english_name": "Toxic Webber",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "ShortLaser"
+  },
+  {
+    "id": "weapon_296",
+    "english_name": "Thunderstorm Warhammer",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 4,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_297",
+    "english_name": "Ion Railgun M2",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Hold"
+  },
+  {
+    "id": "weapon_298",
+    "english_name": "EM Railgun",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Hold"
+  },
+  {
+    "id": "weapon_299",
+    "english_name": "Giant Axe",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_300",
+    "english_name": "Verbal Fire",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_301",
+    "english_name": "Golden Cudgel",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_302",
+    "english_name": "Snow Fox XXXL",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_303",
+    "english_name": "Windforce Ninja Stars",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_304",
+    "english_name": "Centennial Carrot",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_305",
+    "english_name": "Millennia Bamboo",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_306",
+    "english_name": "Golden Crab Warhammer",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_307",
+    "english_name": "Deep Dark Blade",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_308",
+    "english_name": "Organic Wave",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_309",
+    "english_name": "Quantum Ninja Stars",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_310",
+    "english_name": "Mo Dao",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_311",
+    "english_name": "Zeus Thunderbolt",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_312",
+    "english_name": "Spike Knives Eagle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_313",
+    "english_name": "Goddess Staff",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_314",
+    "english_name": "Salamander",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_315",
+    "english_name": "Super Shotgun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_316",
+    "english_name": "Ballista",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Crossbow"
+  },
+  {
+    "id": "weapon_317",
+    "english_name": "Whisper of Dark",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_318",
+    "english_name": "SMG M4",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_319",
+    "english_name": "Assault Rifle Elite",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_320",
+    "english_name": "Ordeal in Disguise",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_321",
+    "english_name": "Electric Drill",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_322",
+    "english_name": "Slingshot",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_323",
+    "english_name": "Breath of Hades",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 4,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_324",
+    "english_name": "Viper",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_325",
+    "english_name": "Laser Sword Purple",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_326",
+    "english_name": "Ice Bazooka",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_327",
+    "english_name": "Gray Fox",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Crossbow"
+  },
+  {
+    "id": "weapon_328",
+    "english_name": "Alien Plasma Eagle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_329",
+    "english_name": "Paper Bomb Kunai",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_330",
+    "english_name": "Pulse",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Laser"
+  },
+  {
+    "id": "weapon_331",
+    "english_name": "Strength Potion",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_332",
+    "english_name": "Scratch Card",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_333",
+    "english_name": "Mini Knight Figure",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_334",
+    "english_name": "Dark Shadow",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_335",
+    "english_name": "Grave Guard's Hatchet",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_336",
+    "english_name": "Shuddering Thunder",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_337",
+    "english_name": "Romantic UZI SMG",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_338",
+    "english_name": "Frost Battleaxe",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_339",
+    "english_name": "Poker Cards",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_340",
+    "english_name": "Super Monster Card",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_341",
+    "english_name": "Short Staff of Valiant Youngster",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_342",
+    "english_name": "Sword of King Hero",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_343",
+    "english_name": "Laser Rain",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_344",
+    "english_name": "Cyan Dragon Staff",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_345",
+    "english_name": "Xuan Ming",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_346",
+    "english_name": "Portable Bomber",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_347",
+    "english_name": "Hurricane Gauntlets",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_348",
+    "english_name": "Broken Warbow of Royal Guard",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_349",
+    "english_name": "Warbow of Royal Guard",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_350",
+    "english_name": "Old Sword of Royal Guard",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_351",
+    "english_name": "Sword of Royal Guard",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_352",
+    "english_name": "Forgotten Staff of Wizard Guard",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_353",
+    "english_name": "Staff of Wizard Guard",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_354",
+    "english_name": "Unfinished Shark Gun",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_355",
+    "english_name": "Captain's Medal",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_356",
+    "english_name": "Scarlet Imp",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_357",
+    "english_name": "Queen's Touch",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Laser"
+  },
+  {
+    "id": "weapon_358",
+    "english_name": "Queen's Stroke",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_359",
+    "english_name": "Scepter of Majesty",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_360",
+    "english_name": "Polychrome",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Laser"
+  },
+  {
+    "id": "weapon_361",
+    "english_name": "Serenity",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_362",
+    "english_name": "Storm Eye",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_363",
+    "english_name": "Ancestor's Call",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_364",
+    "english_name": "Hyperspace Tractor",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_365",
+    "english_name": "\"Lollipop\"",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_366",
+    "english_name": "Tome of Light",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_367",
+    "english_name": "Tome of Darkness",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_368",
+    "english_name": "Christmas Gift",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_369",
+    "english_name": "Mega Pill",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_370",
+    "english_name": "Frontier Crossbow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Crossbow"
+  },
+  {
+    "id": "weapon_371",
+    "english_name": "Buccaneer Captain's Naval Cannon",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_372",
+    "english_name": "Warlock's Staff",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_373",
+    "english_name": "Wooden Flintlock",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Crossbow"
+  },
+  {
+    "id": "weapon_374",
+    "english_name": "Face-Sized Momiji",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_375",
+    "english_name": "Triumvirite Twinblades",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_376",
+    "english_name": "40m Long Long Blade",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_377",
+    "english_name": "Plunger Gatling",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_378",
+    "english_name": "Laser Tempest",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_379",
+    "english_name": "Ice Implosion",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_380",
+    "english_name": "Smithy's Hammer",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_381",
+    "english_name": "Miraculous Welding Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Laser"
+  },
+  {
+    "id": "weapon_382",
+    "english_name": "Staff of Incantation",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_383",
+    "english_name": "Zongzi Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_384",
+    "english_name": "Cursed Chalice",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_385",
+    "english_name": "Asura",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_386",
+    "english_name": "Iconic",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_387",
+    "english_name": "Laggy Laser Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "ShortLaser"
+  },
+  {
+    "id": "weapon_388",
+    "english_name": "Moo Moo Mallet",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_389",
+    "english_name": "Sonar Detector",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_392",
+    "english_name": "Out-of-Tune Mic",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_393",
+    "english_name": "Trader Trigger",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_394",
+    "english_name": "40cm Ruler",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_395",
+    "english_name": "Brick Dictionary",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_396",
+    "english_name": "Omni Launcher",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_397",
+    "english_name": "Dirty Palette",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_398",
+    "english_name": "Bow of Lava Core",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_399",
+    "english_name": "Cue Stick",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_400",
+    "english_name": "Storm Battleaxe",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 4,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_401",
+    "english_name": "Keyboard Warrior",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_402",
+    "english_name": "Medusa's Gaze",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_403",
+    "english_name": "Jingubang",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_404",
+    "english_name": "Lightning Pentawhips",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_405",
+    "english_name": "Soul Crusher",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 4,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_406",
+    "english_name": "Plasummonic",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "ShortLaser"
+  },
+  {
+    "id": "weapon_407",
+    "english_name": "Wig",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_408",
+    "english_name": "Bug Blaster",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_409",
+    "english_name": "Sweetie Milktea",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_410",
+    "english_name": "Eternal Night",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_411",
+    "english_name": "Seed Blaster",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_900",
+    "english_name": "Candied Hawberries",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_901",
+    "english_name": "Firecrackers",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_902",
+    "english_name": "Channeling Monkey",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_903",
+    "english_name": "Rocket Fireworks",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_banana",
+    "english_name": "Banana",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_bladefish",
+    "english_name": "Bladefish",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_boss_year_beast",
+    "english_name": "Super Rocket Fireworks",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_bossrushfinal",
+    "english_name": "Warhammer of Sealed Souls",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_bossrushfinalA",
+    "english_name": "Oathkeeper",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_bossrushfinalB",
+    "english_name": "Oathbreaker",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_cg_0",
+    "english_name": "Yellow Turban Rifle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_cg_1",
+    "english_name": "Vanguard Battalion Kinetic Rifle",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_cg_2",
+    "english_name": "Flying Bear Laser Cannon",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_cg_3",
+    "english_name": "Qinggang Light Sword",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_coop_tennis",
+    "english_name": "Tennis Racket",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_crabclaw",
+    "english_name": "Pincer",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_deepwaterlaserfish",
+    "english_name": "Deep-sea Laser Fish",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "ShortLaser"
+  },
+  {
+    "id": "weapon_fel_fabric",
+    "english_name": "Fragmented Fel Cloak",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_fertilizer",
+    "english_name": "Fertilizer",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_fire_squid",
+    "english_name": "Squid",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_fish_rod_a",
+    "english_name": "Handmade Rod",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_fish_rod_b",
+    "english_name": "Average Rod",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 3,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_fish_rod_c",
+    "english_name": "Quality Rod",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 4,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_fish_rod_d",
+    "english_name": "Premium Rod",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_globefish",
+    "english_name": "Pufferfish",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_hammerhead",
+    "english_name": "Hammerhead Shark",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_aigirl",
+    "english_name": "Sparking Gemini",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_aigirlx",
+    "english_name": "Sparking Gemini",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_aigirlxx",
+    "english_name": "Quantum Stinger",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_aigirlxx2",
+    "english_name": "Zephyrage",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_aigirlxx3",
+    "english_name": "Endgame Etiquette",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_airbender",
+    "english_name": "Qian-kun Punch",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_init_airbenderx",
+    "english_name": "Qian-kun Punch",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_init_airbenderxx",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_init_airbenderxx2",
+    "english_name": "Cyber-Pulsating Punch",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_init_airbenderxx3",
+    "english_name": "Devil-Demolishing Punch",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_init_airbenderxx4",
+    "english_name": "Stellar Punch",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_init_airbenderxx5",
+    "english_name": "Blazing Steel Punch",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_init_airbenderxx6",
+    "english_name": "Warbreaker Punch",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_init_airbenderxx7",
+    "english_name": "Lee Punch",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_init_airbenderxx8",
+    "english_name": "Tempest Fang",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_init_alchemist",
+    "english_name": "Dormant Bubble Machine",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_alchemistx",
+    "english_name": "Dormant Bubble Machine",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_alchemistxx",
+    "english_name": "Dormant Bubble Machine",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_alchemistxx10",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_alchemistxx2",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_alchemistxx3",
+    "english_name": "Sun and Moon",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_alchemistxx4",
+    "english_name": "Jinx Doll",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_alchemistxx5",
+    "english_name": "Particle Bubble Gun",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_alchemistxx6",
+    "english_name": "Lovelorn Pipa",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_alchemistxx7",
+    "english_name": "Gold Power",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_alchemistxx8",
+    "english_name": "Divine Revelation",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_alchemistxx9",
+    "english_name": "Arcana Flask",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_arcaneknight",
+    "english_name": "Banishing Staff",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_arcaneknightx",
+    "english_name": "Advanced Banishing Staff",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_arcaneknightxx",
+    "english_name": "Long River Chant",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_arcaneknightxx2",
+    "english_name": "Gloves of Wisdom",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_arcaneknightxx3",
+    "english_name": "Palm-leaf Fan",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_arcaneknightxx4",
+    "english_name": "Ancestor's Wrath",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_assassin",
+    "english_name": "Blood Blade",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_assassinx",
+    "english_name": "Blood Blade",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_assassinxx",
+    "english_name": "Blood Blade",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_assassinxx10",
+    "english_name": "Key of Atlantis",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_assassinxx2",
+    "english_name": "Dragon Den",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_assassinxx3",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_assassinxx4",
+    "english_name": "Desert Lamp",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_assassinxx5",
+    "english_name": "Broken Rainbow",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_assassinxx6",
+    "english_name": "Free Spirit Steelbaston",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_assassinxx7",
+    "english_name": "Air-Filled Knife",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_assassinxx8",
+    "english_name": "Shadow Blade",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_assassinxx9",
+    "english_name": "True Heaven's Halberd",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_astrologist",
+    "english_name": "Astro Wand",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_astrologistx",
+    "english_name": "Astro Staff",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_astrologistxx",
+    "english_name": "Enlightened Plume",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_astrologistxx2",
+    "english_name": "Quantum Oculus",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_astrologistxx3",
+    "english_name": "Radiowave Catcher",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_astrologistxx4",
+    "english_name": "Wink of the Deep",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_bard",
+    "english_name": "Forest Melody",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_bardx",
+    "english_name": "Forest Melody",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_bardxx",
+    "english_name": "Purr Ballad",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_bardxx2",
+    "english_name": "Cheerleading Pom-Poms",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_bardxx3",
+    "english_name": "Maple Echo",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_init_beheaded",
+    "english_name": "Vorpan",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_beheadedx",
+    "english_name": "Vorpan",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_captain",
+    "english_name": "Cutlass & Flintlock",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_captainx",
+    "english_name": "Cutlass & Flintlock",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_captainxx",
+    "english_name": "Netherflare Duet",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_captainxx2",
+    "english_name": "Key of Liberty",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_costumeprince",
+    "english_name": "Plastic Mucus Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_costumeprincex",
+    "english_name": "Magnum Mucus Gun",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_costumeprincexx",
+    "english_name": "Homemade Magnum Mucus Gun",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_costumeprincexx2",
+    "english_name": "Monster-subduing Precious Rod",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_costumeprincexx3",
+    "english_name": "Soda (Large)",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_costumeprincexx4",
+    "english_name": "Etherealeon",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_costumeprincexx5",
+    "english_name": "Scepter of Domination",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_costumeprincexx6",
+    "english_name": "Rainbow Brush",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_doctor",
+    "english_name": "Ion Excitator",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_doctorx",
+    "english_name": "Ion Fuser",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_doctorxx",
+    "english_name": "Sanguine Flurry",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_doctorxx2",
+    "english_name": "The Enforcer",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_doctorxx3",
+    "english_name": "Ethereal Dream",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_doctorxx4",
+    "english_name": "Illusive Drum",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_doctorxx5",
+    "english_name": "Violet Devourer",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_doctorxx6",
+    "english_name": "Owlways Win",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_druid",
+    "english_name": "Crispy Bone",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_druidx",
+    "english_name": "Crispy Bone",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_druidxx",
+    "english_name": "Crispy Bone",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_druidxx10",
+    "english_name": "Dawn Dewdrop",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_druidxx11",
+    "english_name": "Ashenbeak",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_druidxx2",
+    "english_name": "Feather Fan",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_druidxx3",
+    "english_name": "Magic Twig",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_druidxx4",
+    "english_name": "Reincarnation",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_druidxx5",
+    "english_name": "Staff of Conduct",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_druidxx6",
+    "english_name": "Cage of Stars",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_druidxx7",
+    "english_name": "Scattered Flower",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_druidxx8",
+    "english_name": "Dragontone",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_druidxx9",
+    "english_name": "Lawspeaker",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_elves",
+    "english_name": "Ancient Bow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_init_elvesx",
+    "english_name": "Ancient Bow",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_init_elvesxx",
+    "english_name": "Ancient Bow",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_init_elvesxx10",
+    "english_name": "Mistglow Bow",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_init_elvesxx2",
+    "english_name": "Iron Bow",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_init_elvesxx3",
+    "english_name": "Golden Bow",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_init_elvesxx4",
+    "english_name": "Starhunter",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_init_elvesxx5",
+    "english_name": "Apricot Bow",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_init_elvesxx6",
+    "english_name": "Cobalt Wings",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_init_elvesxx7",
+    "english_name": "Shimmer Strum",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_init_elvesxx8",
+    "english_name": "Feather Bow",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_init_elvesxx9",
+    "english_name": "Field Volleyer",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Bow"
+  },
+  {
+    "id": "weapon_init_engineer",
+    "english_name": "H2O",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_engineerx",
+    "english_name": "H2O",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_engineerxx",
+    "english_name": "H2O",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_engineerxx10",
+    "english_name": "Inventor's Drill",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_engineerxx2",
+    "english_name": "Tyrant's Halberd",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_engineerxx3",
+    "english_name": "Stellar Bronze Hammer",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_engineerxx4",
+    "english_name": "Impostor's Phaser",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_engineerxx5",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_engineerxx6",
+    "english_name": "Baby Gourd",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_engineerxx7",
+    "english_name": "Stardust Bottle",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_engineerxx8",
+    "english_name": "Rejuvenation",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_engineerxx9",
+    "english_name": "Dream Techgun",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_envoy",
+    "english_name": "Visage of Elemental Power",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_envoyx",
+    "english_name": "Visage of Elemental Power",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_envoyxx",
+    "english_name": "Erosion",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_fighter",
+    "english_name": "Qi Punch",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_fighterx",
+    "english_name": "Burst Punch",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_fighterxx",
+    "english_name": "Crescent Bladefists",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_fighterxx2",
+    "english_name": "Velvet Paws",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_fighterxx3",
+    "english_name": "Tanghulu Punch",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_fighterxx4",
+    "english_name": "Jolly Mics",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_fighterxx5",
+    "english_name": "Blazing Banquet",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_joker",
+    "english_name": "Phantom Blade",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_jokerx",
+    "english_name": "Ethereal Blade",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_jokerxx",
+    "english_name": "",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_jokerxx2",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_lancer",
+    "english_name": "Dragon Fang",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_init_lancerx",
+    "english_name": "Dragon Fang",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_init_lancerxx",
+    "english_name": "Valor Silver Lance",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_init_lancerxx2",
+    "english_name": "Waning Moon",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_init_lancerxx3",
+    "english_name": "Loong of Brilliance",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_init_lancerxx4",
+    "english_name": "Lance Ultima",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_init_mage",
+    "english_name": "The Code",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_magex",
+    "english_name": "The Code",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_magexx",
+    "english_name": "The Code",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_magexx10",
+    "english_name": "Luxumbra Scepter",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_magexx11",
+    "english_name": "Starry Glowstick",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_magexx2",
+    "english_name": "Embroidered Blade",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_magexx3",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_magexx4",
+    "english_name": "Gohei",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_magexx5",
+    "english_name": "Lifebinder",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_magexx6",
+    "english_name": "Floral Feather Fan",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_magexx7",
+    "english_name": "Heart of the Ocean",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_magexx8",
+    "english_name": "Plume Dance",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_magexx9",
+    "english_name": "Azure Wave",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_miner",
+    "english_name": "Pickaxe",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_minerx",
+    "english_name": "Gemmed Pickaxe",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_minerxx",
+    "english_name": "Carrot Pickaxe",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_minerxx2",
+    "english_name": "Colorful Toy Pickaxe",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_minerxx3",
+    "english_name": "Star Digger",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_minerxx4",
+    "english_name": "Nugget Rider's Pickaxe",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_minerxx5",
+    "english_name": "Fragrance Fan",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_minerxx6",
+    "english_name": "Quantum Axe",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_minerxx7",
+    "english_name": "Love Fairy's Wand",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_minerxx8",
+    "english_name": "Wings of Sweetness",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_minerxx9",
+    "english_name": "₍•ʚ•₎",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_necromancer",
+    "english_name": "Staff of Plague",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_necromancerx",
+    "english_name": "Staff of Plague",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_necromancerxx",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_necromancerxx10",
+    "english_name": "Dear Dialer",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_necromancerxx11",
+    "english_name": "Transcendent Trumpet",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_necromancerxx12",
+    "english_name": "Sanguine Sprout",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_necromancerxx2",
+    "english_name": "Green Snake Sword",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_necromancerxx3",
+    "english_name": "Life & Death",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_necromancerxx4",
+    "english_name": "The Promise of Light",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_necromancerxx5",
+    "english_name": "Crow",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_necromancerxx6",
+    "english_name": "Naraka's Breeze",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_necromancerxx7",
+    "english_name": "Starfall Scepter",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_necromancerxx8",
+    "english_name": "Blossom Fan",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_necromancerxx9",
+    "english_name": "Meteoric Melody",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_ninja",
+    "english_name": "Molecule Ichimonji",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_ninjax",
+    "english_name": "Molecule Ichimonji",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_ninjaxx",
+    "english_name": "Mindsplitter",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_officer",
+    "english_name": "Nemesis of Villains",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_officerx",
+    "english_name": "Nemesis of Villains",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_officerxx",
+    "english_name": "Coin Sword",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_officerxx2",
+    "english_name": "Path of the Dead",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_officerxx3",
+    "english_name": "Sanction",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_officerxx4",
+    "english_name": "Skywrath Sword",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_officerxx5",
+    "english_name": "Mediator",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_officerxx6",
+    "english_name": "Golden Tiger Lance",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_officerxx7",
+    "english_name": "Pistol of Courage",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_officerxx8",
+    "english_name": "Bloodthirst Revolver",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_officerxx9",
+    "english_name": "Wavebreaker",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Pistol"
+  },
+  {
+    "id": "weapon_init_paladin",
+    "english_name": "Sacred Flail",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_paladinx",
+    "english_name": "Sacred Flail",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_paladinxx",
+    "english_name": "Sacred Flail",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_paladinxx10",
+    "english_name": "Flamebringer Edge",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_paladinxx11",
+    "english_name": "Stormrender",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_paladinxx2",
+    "english_name": "Green Dragon Crescent Blade",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_paladinxx3",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_paladinxx4",
+    "english_name": "Sparta's Glory",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_paladinxx5",
+    "english_name": "Justice",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_paladinxx6",
+    "english_name": "Nine-Toothed Rake",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_paladinxx7",
+    "english_name": "Puffy Inflatable Hammer",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_paladinxx8",
+    "english_name": "Starfall",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_paladinxx9",
+    "english_name": "Tiger Roar",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_init_priest",
+    "english_name": "Wooden Cross",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_priestx",
+    "english_name": "Wooden Cross",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_priestxx",
+    "english_name": "Wooden Cross",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_priestxx10",
+    "english_name": "Osmanthus Bloom",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_priestxx11",
+    "english_name": "Soothing Syringe",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_priestxx2",
+    "english_name": "Flower Rain",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_priestxx3",
+    "english_name": "Yi Tian Qiu",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_priestxx4",
+    "english_name": "Oops!... I Did It Again",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_priestxx5",
+    "english_name": "Key of Recovery",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_priestxx6",
+    "english_name": "Nine-Ring Khakkhara",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_priestxx7",
+    "english_name": "Stellar Whisper",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_priestxx8",
+    "english_name": "Ink Harmony Brush",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_priestxx9",
+    "english_name": "Starlight Sword",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_ranger",
+    "english_name": "Jack and Mary",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_rangerx",
+    "english_name": "Jack and Mary",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_rangerxx",
+    "english_name": "Jack and Mary",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_rangerxx10",
+    "english_name": "Nether Destroyer",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_rangerxx11",
+    "english_name": "Solarshade Flame",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_rangerxx12",
+    "english_name": "Luminous Edges",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_rangerxx13",
+    "english_name": "Veiled Leaves",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_rangerxx2",
+    "english_name": "Gan Jiang & Mo Ye",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_rangerxx3",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_rangerxx4",
+    "english_name": "An Eye for an Eye",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_rangerxx5",
+    "english_name": "Vinyl: Mania & Craze",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_rangerxx6",
+    "english_name": "Ionic Blades",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_rangerxx7",
+    "english_name": "Drizzle Sword & Thunder Spear",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_rangerxx8",
+    "english_name": "Verity & Fallacy",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_rangerxx9",
+    "english_name": "White Emperor's Swords",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Throw"
+  },
+  {
+    "id": "weapon_init_robot",
+    "english_name": "Satellite Floating Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_robotx",
+    "english_name": "Satellite Floating Gun",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_robotxx",
+    "english_name": "Satellite Floating Gun",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_robotxx10",
+    "english_name": "Signal of Decay",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_robotxx2",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_robotxx3",
+    "english_name": "Farewell",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_robotxx4",
+    "english_name": "Energy Ore",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_robotxx5",
+    "english_name": "Gun HEV-3",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_robotxx6",
+    "english_name": "Fish-Belly White",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_robotxx7",
+    "english_name": "Space Hunter",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_robotxx8",
+    "english_name": "Fledgling Phoenix",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_robotxx9",
+    "english_name": "Catnos",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_shooter",
+    "english_name": "Jackdaw",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_init_shooterx",
+    "english_name": "Jackdaw",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_init_shooterxx",
+    "english_name": "Sanguine Trial",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_init_shooterxx2",
+    "english_name": "Doctrinal Edict",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Rifle"
+  },
+  {
+    "id": "weapon_init_specialforces",
+    "english_name": "S.O. Firearm",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_specialforcesx",
+    "english_name": "S.O. Firearm",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_swordmaster",
+    "english_name": "Breeze",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_swordmasterx",
+    "english_name": "Zephyr",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_swordmasterxx",
+    "english_name": "Phoenix Sword",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_swordmasterxx2",
+    "english_name": "Rhythmic Radiance",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_swordmasterxx3",
+    "english_name": "Plasma Edge",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_swordmasterxx4",
+    "english_name": "Thorned Rose",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_swordmasterxx5",
+    "english_name": "Soul Rapier",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_taoist",
+    "english_name": "Tao Sword",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_taoistx",
+    "english_name": "Tao Sword",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_taoistxx",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_taoistxx10",
+    "english_name": "Sawtooth",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_taoistxx2",
+    "english_name": "Taiyi Hossu",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_taoistxx3",
+    "english_name": "Dragon's Eye Brush",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_taoistxx4",
+    "english_name": "Spine",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_taoistxx5",
+    "english_name": "Sword of the Heavenly Way",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_taoistxx6",
+    "english_name": "Comet Laser Sword",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_taoistxx7",
+    "english_name": "Sword & Scroll",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_taoistxx8",
+    "english_name": "Full Marks",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_taoistxx9",
+    "english_name": "Arbiter of Purgatory",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_transcendent",
+    "english_name": "Dimensional Grip",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_transcendentx",
+    "english_name": "Dimensional Grip",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_transcendentxx",
+    "english_name": "Stygian Lance",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_trapmaster",
+    "english_name": "Grappling Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_trapmasterx",
+    "english_name": "Precision Grappling Gun",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_trapmasterxx",
+    "english_name": "Psyche-Locking Hook",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_trapmasterxx2",
+    "english_name": "Space Ripper",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_trapmasterxx3",
+    "english_name": "Polaris Pistol",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_trapmasterxx4",
+    "english_name": "Million Miles",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_trapmasterxx5",
+    "english_name": "Netherflame Grappler",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_init_vampire",
+    "english_name": "Crimson Wine Glass",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vampirex",
+    "english_name": "Crimson Wine Glass",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vampirexx",
+    "english_name": "Crimson Wine Glass",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vampirexx10",
+    "english_name": "Bloodwrath Cleaver",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vampirexx11",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vampirexx2",
+    "english_name": "Soul Shackles & Soul Leading Flag",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vampirexx3",
+    "english_name": "Night Screech",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vampirexx4",
+    "english_name": "Blood Moon Grail",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vampirexx5",
+    "english_name": "Sprite Stinger",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vampirexx6",
+    "english_name": "Abyssal Core",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vampirexx7",
+    "english_name": "Wolfshade Fan",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vampirexx8",
+    "english_name": "Linglong",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vampirexx9",
+    "english_name": "Milk Tea Terminator",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_viking",
+    "english_name": "Boxing Gloves",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vikingx",
+    "english_name": "Boxing Gloves",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vikingxx",
+    "english_name": "Boxing Gloves",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vikingxx10",
+    "english_name": "Searing Grip",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vikingxx11",
+    "english_name": "Waverider",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vikingxx12",
+    "english_name": "Deicide's Grasp",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vikingxx2",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vikingxx3",
+    "english_name": "Tiger Hunt",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vikingxx4",
+    "english_name": "Handaxe of Heroic Soul",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vikingxx5",
+    "english_name": "Bling Bling Punch",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vikingxx6",
+    "english_name": "Radically Invasive Punch",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vikingxx7",
+    "english_name": "Flaming Claw",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vikingxx8",
+    "english_name": "Unyielding Grip",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_vikingxx9",
+    "english_name": "True Dragon Crescent Blade",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_warliege",
+    "english_name": "Blade & Shield",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_warliegex",
+    "english_name": "Legendary Blade & Shield",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_warliegexx",
+    "english_name": "Sever Star Broadsword",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_warliegexx2",
+    "english_name": "Shadow Reaper",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_warliegexx3",
+    "english_name": "Tiger's Might",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_warliegexx4",
+    "english_name": "Judicator's Judgement",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_warliegexx5",
+    "english_name": "Noizwave",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_init_warlock",
+    "english_name": "Key of the Faint Star",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_warlockx",
+    "english_name": "Key of the Faint Star",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_warlockxx",
+    "english_name": "Key of Umbra",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_warlockxx2",
+    "english_name": "Fiery Spear",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_warlockxx3",
+    "english_name": "Ursa Key",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_warlockxx4",
+    "english_name": "Kitten Gunner",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_warlockxx5",
+    "english_name": "Scarlet Moon",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_warlockxx6",
+    "english_name": "Lavender Dew",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_warlockxx7",
+    "english_name": "Pearlescent Conch",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_init_werewolf",
+    "english_name": "Flaring Claw",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_werewolfx",
+    "english_name": "Flaring Claw",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_werewolfxx",
+    "english_name": "Flaring Claw",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_werewolfxx2",
+    "english_name": "Fire-tipped Spear & Universe Ring",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_werewolfxx3",
+    "english_name": "Vigor of Boreas",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_werewolfxx4",
+    "english_name": "Bonecrusher",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_werewolfxx5",
+    "english_name": "Ironclad Horned Knuckles",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_werewolfxx6",
+    "english_name": "Giant Claws",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_werewolfxx7",
+    "english_name": "True Serpent Spear",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_init_werewolfxx8",
+    "english_name": "Molten Claws",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_inkfish",
+    "english_name": "Octopus",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 2,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_laserfishee",
+    "english_name": "Baby Laser Fish",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 2,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_lighter",
+    "english_name": "Staff of Relic Flames",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_mythic_00",
+    "english_name": "Three Pointed Double-Edged Blade",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_01",
+    "english_name": "Heaven and Earth Bow",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_02",
+    "english_name": "Five-Color Pen",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_03",
+    "english_name": "Flying Dagger Miss No Doubter",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_04",
+    "english_name": "Golden-Dragon Scissors",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_05",
+    "english_name": "Nebula-Cannon",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_06",
+    "english_name": "Fu-Xi Shield",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_07",
+    "english_name": "Taiyi Hossu of Windrush",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_08",
+    "english_name": "Jade Vase",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_09",
+    "english_name": "Buddha's Palm",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_10",
+    "english_name": "Moonshine Frost Blade",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_11",
+    "english_name": "Butterfly Dance",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_12",
+    "english_name": "Laser Lance",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_13",
+    "english_name": "Sky Piercer",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_14",
+    "english_name": "Emerald Crescent - EX",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_15",
+    "english_name": "Sword of Sacrifice",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_16",
+    "english_name": "Staff of Magic Crystal",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_17",
+    "english_name": "Bow of Crystal Core",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_18",
+    "english_name": "Dragon Slayer",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_19",
+    "english_name": "True Samadhi Fire",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_20",
+    "english_name": "True Palm-leaf Fan",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_21",
+    "english_name": "Immortal-Binding Rope",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_22",
+    "english_name": "Long Blade of Inferno King",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_23",
+    "english_name": "Lightning Claymore",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_24",
+    "english_name": "True Fiery Spear",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_25",
+    "english_name": "Vajra Hoop",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_26",
+    "english_name": "Eight Trigrams Furnace",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_mythic_27",
+    "english_name": "Grimsteel Greatsword",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 6,
+    "type": "Mythic"
+  },
+  {
+    "id": "weapon_officer_combo",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Token"
+  },
+  {
+    "id": "weapon_pet_1",
+    "english_name": "Royal Knight's Short Sword",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_pet_10",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 1,
+    "type": "Laser"
+  },
+  {
+    "id": "weapon_pet_11",
+    "english_name": "Hope",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_pet_12",
+    "english_name": "Pharaoh's Blade",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_pet_2",
+    "english_name": "Headgear Hero's Machine Gun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Gun"
+  },
+  {
+    "id": "weapon_pet_3",
+    "english_name": "Mercenary Intern's Shotgun",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "ShotGun"
+  },
+  {
+    "id": "weapon_pet_4",
+    "english_name": "Legendary Apprentice's Magic Staff",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Staff"
+  },
+  {
+    "id": "weapon_pet_5",
+    "english_name": "Raw Axe",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Axe"
+  },
+  {
+    "id": "weapon_pet_6",
+    "english_name": "Monster Cuisine",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_pet_7",
+    "english_name": "Crowbar",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_pet_8",
+    "english_name": "Retro Spear",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Spear"
+  },
+  {
+    "id": "weapon_pet_9",
+    "english_name": "Worn Bazooka",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Rocket"
+  },
+  {
+    "id": "weapon_shooter_combo",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Token"
+  },
+  {
+    "id": "weapon_shovel",
+    "english_name": "Shovel",
+    "forgeable": true,
+    "is_melee": true,
+    "rarity": 0,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_shower",
+    "english_name": "Watering Can",
+    "forgeable": true,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Strange"
+  },
+  {
+    "id": "weapon_skill_joker_phantom",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 1,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_swordfish",
+    "english_name": "Swordfish",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 3,
+    "type": "Sword"
+  },
+  {
+    "id": "weapon_troop_armor",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_atk_speed",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_book",
+    "english_name": "A  Mercenary Prepares",
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_cd",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_critic",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_defence",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_heal",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Token"
+  },
+  {
+    "id": "weapon_troop_hp",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_ice",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Token"
+  },
+  {
+    "id": "weapon_troop_reborn",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Token"
+  },
+  {
+    "id": "weapon_troop_shield",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 5,
+    "type": "Token"
+  },
+  {
+    "id": "weapon_troop_statue_assassin",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_statue_engineer",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_statue_knight",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_statue_minister",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_statue_paladin",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_statue_spirit",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_statue_thief",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_statue_viking",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_statue_wizzard",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_statue_wolf",
+    "english_name": null,
+    "forgeable": false,
+    "is_melee": false,
+    "rarity": 0,
+    "type": "Default"
+  },
+  {
+    "id": "weapon_troop_whistle",
+    "english_name": "Whistle",
+    "forgeable": false,
+    "is_melee": true,
+    "rarity": 5,
+    "type": "Default"
+  }
+]

@@ -1,0 +1,478 @@
+[
+  {
+    "id": "material_activity_christmas2024",
+    "name": "Ice Coin"
+  },
+  {
+    "id": "material_activity_coin_bug_feature",
+    "name": "Inherited Coin"
+  },
+  {
+    "id": "material_activity_coin_dream",
+    "name": ""
+  },
+  {
+    "id": "material_activity_coin_element",
+    "name": "Elemental Coin"
+  },
+  {
+    "id": "material_activity_coin_fire",
+    "name": "Firepower Token"
+  },
+  {
+    "id": "material_activity_coin_fusion_2025",
+    "name": "Fusion Particle"
+  },
+  {
+    "id": "material_activity_coin_legend",
+    "name": "Ingot"
+  },
+  {
+    "id": "material_activity_coin_reborn_egg",
+    "name": "Monster Coin"
+  },
+  {
+    "id": "material_activity_coin_school",
+    "name": "Scholar Coin"
+  },
+  {
+    "id": "material_ancient_weapon_fragment",
+    "name": "Fragments of Ancient Weapon"
+  },
+  {
+    "id": "material_battery",
+    "name": "Battery"
+  },
+  {
+    "id": "material_c17_book_1",
+    "name": "Shepherd's Book"
+  },
+  {
+    "id": "material_c17_book_2",
+    "name": "Resurrection Book"
+  },
+  {
+    "id": "material_c18_book_1",
+    "name": "Tear of Elf"
+  },
+  {
+    "id": "material_c18_book_2",
+    "name": "Magic Crystals"
+  },
+  {
+    "id": "material_c20_book_1",
+    "name": "Inherited Emblem"
+  },
+  {
+    "id": "material_c20_book_2",
+    "name": "Portable Time Travel Device"
+  },
+  {
+    "id": "material_c21_book_1",
+    "name": "Valued Badge"
+  },
+  {
+    "id": "material_c21_book_2",
+    "name": "Operation Order"
+  },
+  {
+    "id": "material_cell",
+    "name": "Organic Matter"
+  },
+  {
+    "id": "material_choose_hero",
+    "name": "Character Selection Card"
+  },
+  {
+    "id": "material_choose_skin",
+    "name": "Skin Selection Card"
+  },
+  {
+    "id": "material_dead_cell",
+    "name": "Cell"
+  },
+  {
+    "id": "material_fertilize",
+    "name": "Fertilizer"
+  },
+  {
+    "id": "material_fish",
+    "name": "Fish Chip"
+  },
+  {
+    "id": "material_fragment_c6h8o6",
+    "name": "C6H8O6 Fragment"
+  },
+  {
+    "id": "material_fragment_zulan",
+    "name": "Zulan Fragment"
+  },
+  {
+    "id": "material_fusion_fragment",
+    "name": "Fusion Particle"
+  },
+  {
+    "id": "material_gear",
+    "name": "Parts"
+  },
+  {
+    "id": "material_gem",
+    "name": "Gem"
+  },
+  {
+    "id": "material_grain",
+    "name": "Pet Treats"
+  },
+  {
+    "id": "material_halloween_new_money",
+    "name": "Hades Coin"
+  },
+  {
+    "id": "material_iron",
+    "name": "Ironstone"
+  },
+  {
+    "id": "material_jewelry_fragment",
+    "name": "General Blueprint Fragments"
+  },
+  {
+    "id": "material_magic_black",
+    "name": "Magic Stone Fragment Obsidian"
+  },
+  {
+    "id": "material_magic_blue",
+    "name": "Magic Fragment Blue"
+  },
+  {
+    "id": "material_magic_cyan",
+    "name": "Magic Stone Fragment Cyan"
+  },
+  {
+    "id": "material_magic_green",
+    "name": "Magic Fragment Green"
+  },
+  {
+    "id": "material_magic_orange",
+    "name": "Magic Stone Fragment Orange"
+  },
+  {
+    "id": "material_magic_purple",
+    "name": "Magic Fragment Purple"
+  },
+  {
+    "id": "material_magic_red",
+    "name": "Magic Fragment Red"
+  },
+  {
+    "id": "material_mech_fragment",
+    "name": "{} Blueprint Fragment"
+  },
+  {
+    "id": "material_mech_fragment_m_mech_coin",
+    "name": ""
+  },
+  {
+    "id": "material_multi",
+    "name": "Interdimensional Fragment"
+  },
+  {
+    "id": "material_season_coin",
+    "name": "Season Coin"
+  },
+  {
+    "id": "material_season_ticket_treasure_box",
+    "name": "Can be used to summon bodyguards and mounts at the season shop for Three Kingdoms - Gunfight."
+  },
+  {
+    "id": "material_season_ticket_treasure_box_2",
+    "name": "Summon Voucher"
+  },
+  {
+    "id": "material_season_treasure_box_2",
+    "name": "Temporal Treasure"
+  },
+  {
+    "id": "material_season_tresure_box",
+    "name": "Season Supply Crate"
+  },
+  {
+    "id": "material_skill_Officer_2",
+    "name": "Radio"
+  },
+  {
+    "id": "material_skill_Paladin_2",
+    "name": "High Templar Martial Arts"
+  },
+  {
+    "id": "material_skill_fragment",
+    "name": "Torn Page [{0}]"
+  },
+  {
+    "id": "material_skin_fragment",
+    "name": "[{}] Skin Fragment"
+  },
+  {
+    "id": "material_skin_fragment_boss30",
+    "name": "Worn Badge"
+  },
+  {
+    "id": "material_skin_fragment_c12_s06",
+    "name": "Nüwa's Crystal"
+  },
+  {
+    "id": "material_skin_fragment_c12_s12",
+    "name": "Moai Skin Fragment"
+  },
+  {
+    "id": "material_skin_fragment_c12_s6",
+    "name": "Fragment of Berserker Skin \"Shi\""
+  },
+  {
+    "id": "material_skin_fragment_c14_s6",
+    "name": "Moon's Mark"
+  },
+  {
+    "id": "material_skin_fragment_c16_s14",
+    "name": "Bozi's Soulpiece"
+  },
+  {
+    "id": "material_skin_fragment_c16_s6",
+    "name": "Fragment of Taoist Skin \"Magician\""
+  },
+  {
+    "id": "material_skin_fragment_c5_s8",
+    "name": "Ruler's Seal"
+  },
+  {
+    "id": "material_skin_fragment_c7_s12",
+    "name": "King's Emblem"
+  },
+  {
+    "id": "material_skin_fragment_flag",
+    "name": "Battle Ensign"
+  },
+  {
+    "id": "material_skin_fragment_law",
+    "name": "Judge's Scroll"
+  },
+  {
+    "id": "material_soul_fragment",
+    "name": "Soul Fragment"
+  },
+  {
+    "id": "material_tape_alien",
+    "name": "Interstellar Travel"
+  },
+  {
+    "id": "material_tape_ambition",
+    "name": "Mighty Heroes"
+  },
+  {
+    "id": "material_tape_aurora",
+    "name": "Digital Xunder #2"
+  },
+  {
+    "id": "material_tape_aurora_wrong_version",
+    "name": "Digital Xunder #2 (Demo)"
+  },
+  {
+    "id": "material_tape_bgm_multi_room_skin_17",
+    "name": "Assembly Order"
+  },
+  {
+    "id": "material_tape_bgm_room_19",
+    "name": "Hot on Fire"
+  },
+  {
+    "id": "material_tape_boss1",
+    "name": "Rival"
+  },
+  {
+    "id": "material_tape_boss2",
+    "name": "Threat"
+  },
+  {
+    "id": "material_tape_boss3",
+    "name": "Finale!"
+  },
+  {
+    "id": "material_tape_boss4",
+    "name": "Echoes of Ruins"
+  },
+  {
+    "id": "material_tape_castle",
+    "name": "Heroes' Avatar"
+  },
+  {
+    "id": "material_tape_civilization",
+    "name": "GlobalTravelOverture.mid"
+  },
+  {
+    "id": "material_tape_dark",
+    "name": "Hidden Hit"
+  },
+  {
+    "id": "material_tape_defence",
+    "name": "Till the End of Dawn"
+  },
+  {
+    "id": "material_tape_doctor_6",
+    "name": "Drum - Pulses of Vibrancy"
+  },
+  {
+    "id": "material_tape_dongzhuo",
+    "name": "The Tyrant"
+  },
+  {
+    "id": "material_tape_dragon_boy",
+    "name": "Auspicious Realm"
+  },
+  {
+    "id": "material_tape_easter",
+    "name": "Call of the Spring"
+  },
+  {
+    "id": "material_tape_elves_17",
+    "name": "Guitar - Strings of Rhythm"
+  },
+  {
+    "id": "material_tape_end_temple",
+    "name": "Kneeling at God's Feet"
+  },
+  {
+    "id": "material_tape_forest",
+    "name": "Deep in the Forest"
+  },
+  {
+    "id": "material_tape_grave",
+    "name": "Beware of Falling!"
+  },
+  {
+    "id": "material_tape_graveyard",
+    "name": "Dark Dungeon"
+  },
+  {
+    "id": "material_tape_hall",
+    "name": "Home Sweet Home"
+  },
+  {
+    "id": "material_tape_hall_cny",
+    "name": "Happy New Year!"
+  },
+  {
+    "id": "material_tape_halloween",
+    "name": "Wraith on Halloween"
+  },
+  {
+    "id": "material_tape_ice",
+    "name": "Blizzard"
+  },
+  {
+    "id": "material_tape_icecave",
+    "name": "Buried Secret"
+  },
+  {
+    "id": "material_tape_irontide_multiroom",
+    "name": "Deep in Down Grave"
+  },
+  {
+    "id": "material_tape_island",
+    "name": "Iron Will Braves the Waves"
+  },
+  {
+    "id": "material_tape_level_2g",
+    "name": "Hail to Connectionism!"
+  },
+  {
+    "id": "material_tape_level_4g",
+    "name": "Majestic Grandeur"
+  },
+  {
+    "id": "material_tape_lvbu",
+    "name": "Matchless Warrior"
+  },
+  {
+    "id": "material_tape_monster",
+    "name": "Enlightened"
+  },
+  {
+    "id": "material_tape_mythology",
+    "name": "Wander as a Cloud"
+  },
+  {
+    "id": "material_tape_necromancer_16",
+    "name": "Keyboard - Keys of Harmony"
+  },
+  {
+    "id": "material_tape_neon",
+    "name": "Digital Xunder #1"
+  },
+  {
+    "id": "material_tape_opera",
+    "name": "Stellar Moments"
+  },
+  {
+    "id": "material_tape_party",
+    "name": "Sunset Surfer"
+  },
+  {
+    "id": "material_tape_rock_girl",
+    "name": "H✦R✦S✦H"
+  },
+  {
+    "id": "material_tape_ruins",
+    "name": "Splendid Shrine"
+  },
+  {
+    "id": "material_tape_stars",
+    "name": "River of Stars"
+  },
+  {
+    "id": "material_tape_stronghold_wave",
+    "name": "Tea Break"
+  },
+  {
+    "id": "material_tape_summer",
+    "name": "A Taste of Summer"
+  },
+  {
+    "id": "material_tape_swamp",
+    "name": "Hymn"
+  },
+  {
+    "id": "material_tape_sword",
+    "name": "Clash of Blades"
+  },
+  {
+    "id": "material_tape_sword_master_4",
+    "name": "Bass - The Soul of the Beat"
+  },
+  {
+    "id": "material_tape_thunderstorm",
+    "name": "Digital Xunder #3"
+  },
+  {
+    "id": "material_tape_volcano",
+    "name": "Roaring Lava"
+  },
+  {
+    "id": "material_tape_zhuazhua",
+    "name": "Digital Xunder #4"
+  },
+  {
+    "id": "material_ticket",
+    "name": "Free Trial Voucher"
+  },
+  {
+    "id": "material_ticket_bossrush",
+    "name": "Feather of Valkyrie"
+  },
+  {
+    "id": "material_wood",
+    "name": "Timber"
+  },
+  {
+    "id": "material_zongzi_fragment",
+    "name": "Zongzi Leaf"
+  }
+]
