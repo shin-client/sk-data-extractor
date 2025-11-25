@@ -5,6 +5,7 @@ import logging
 from src import downloader, parser, exporter, utils, extractor, data_manager
 from src.config import EXPORT_DIR, OUTPUT_DIR
 
+
 def main() -> None:
     utils.setup_logger()
     logging.info("Starting Soul Knight Data Extraction (Ubuntu/AssetStudioCLI Mode)")
@@ -35,7 +36,7 @@ def main() -> None:
         version_output_dir = OUTPUT_DIR / version
         version_output_dir.mkdir(parents=True, exist_ok=True)
         logging.info(f"Output directory: {version_output_dir}")
-        
+
         # Tìm file I2Languages
         i2_files = list(EXPORT_DIR.rglob("I2Languages*.dat"))
         valid_i2 = None
@@ -47,9 +48,9 @@ def main() -> None:
         if not valid_i2:
             # Fallback tìm file không đuôi
             for f in EXPORT_DIR.rglob("I2Languages*"):
-                 if f.is_file() and f.stat().st_size >= 2_000_000 and f.suffix == "":
-                     valid_i2 = f
-                     break
+                if f.is_file() and f.stat().st_size >= 2_000_000 and f.suffix == "":
+                    valid_i2 = f
+                    break
 
         if not valid_i2:
             raise FileNotFoundError("No valid I2Languages .dat file found (>= 2MB)")
@@ -68,7 +69,9 @@ def main() -> None:
     try:
         lang_maps = data_manager.build_dictionaries(csv_path)
         full_lang_map = data_manager.load_language_map(csv_path, "English")
-        full_lang_map_cn = data_manager.load_language_map(csv_path, "Chinese (Simplified)")
+        full_lang_map_cn = data_manager.load_language_map(
+            csv_path, "Chinese (Simplified)"
+        )
 
         # Tìm file WeaponInfo
         weapon_json_file = None
@@ -80,26 +83,25 @@ def main() -> None:
         if not weapon_json_file:
             logging.warning("WeaponInfo.txt not found. Skipping weapon exports.")
         else:
-            txt_path = exporter.write_master_txt(version, weapon_json_file, lang_maps, version_output_dir)
-            logging.info(f"Master TXT exported: {txt_path}")
+            exporter.export_master_data_to_json(
+                version, weapon_json_file, lang_maps, version_output_dir
+            )
+            logging.info("Master data exported to multiple JSON files.")
 
             exporter.export_filtered_weapons_from_info(
                 weapon_json_file,
                 lang_maps["weapons"],
-                version_output_dir / "weapons.json"
+                version_output_dir / "weapons.json",
             )
 
         exporter.export_weapon_evo_data(
-            full_lang_map,
-            version_output_dir / "weapon_skins.json"
+            full_lang_map, version_output_dir / "weapon_skins.json"
         )
         exporter.export_needed_data_from_langmap(
-            full_lang_map,
-            version_output_dir / "needed_data.json"
+            full_lang_map, version_output_dir / "needed_data.json"
         )
         exporter.export_needed_data_from_langmap(
-            full_lang_map_cn,
-            version_output_dir / "needed_data_cn.json"
+            full_lang_map_cn, version_output_dir / "needed_data_cn.json"
         )
 
         logging.info("All exports completed successfully.")
@@ -107,6 +109,7 @@ def main() -> None:
     except Exception as e:
         logging.error(f"Exporting failed: {e}")
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()

@@ -8,7 +8,9 @@ from typing import List, Tuple, Dict, Any, Union
 from .config import LANGUAGES
 
 
-def write_i2_csv(version: str, records: List[Tuple[str, List[str]]], output_dir: Path) -> Path:
+def write_i2_csv(
+    version: str, records: List[Tuple[str, List[str]]], output_dir: Path
+) -> Path:
     """
     Given (key, [fields...]) records, write them into I2language_{version}.csv
     under the script folder. Returns the CSV path.
@@ -183,6 +185,161 @@ def write_master_txt(
         raise RuntimeError(f"Failed writing master TXT {txt_path}: {e}") from e
 
     return txt_path
+
+
+def export_master_data_to_json(
+    version: str,
+    weapon_json_path: Path,
+    lang_maps: Dict[str, Dict[str, Any]],
+    output_dir: Path,
+) -> None:
+    """
+    Đọc WeaponInfo.txt (JSON), kết hợp với lang_maps và xuất ra các file JSON riêng biệt
+    cho: Vũ khí, Nhân vật, Thú cưng, Buff, Thử thách, Nguyên liệu, Cây trồng.
+    """
+    logging.info(f"Starting export to JSON files in: {output_dir}")
+
+    if not weapon_json_path.exists():
+        raise FileNotFoundError(f"WeaponInfo JSON not found: {weapon_json_path}")
+
+    try:
+        with open(weapon_json_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except Exception as e:
+        raise RuntimeError(f"Failed reading {weapon_json_path}: {e}") from e
+
+    # Lấy dữ liệu từ lang_maps
+    weapons_map = lang_maps["weapons"]
+    buff_names = lang_maps["buff_names"]
+    buff_infos = lang_maps["buff_infos"]
+    challenge_names = lang_maps["challenge_names"]
+    challenge_titles = lang_maps["challenge_titles"]
+    challenge_descs = lang_maps["challenge_descs"]
+    materials = lang_maps["materials"]
+    plants = lang_maps["plants"]
+    pets = lang_maps["pets"]
+    characters = lang_maps["characters"]
+
+    # 1. Export Weapons (Kết hợp thông số gốc + tên tiếng Anh)
+    weapons_raw = data.get("weapons", [])
+    weapons_export = []
+    for w in weapons_raw:
+        name_key = w.get("name", "")
+        english_name = weapons_map.get(name_key, None)
+
+        # Chỉ lấy những trường quan trọng, thêm trường english_name
+        weapon_entry = {
+            "id": name_key,
+            "english_name": english_name,
+            "forgeable": w.get("forgeable", False),
+            "is_melee": w.get("isMelle", False),
+            "rarity": w.get("level", ""),
+            "type": w.get("type", ""),
+        }
+        weapons_export.append(weapon_entry)
+
+    # Sắp xếp theo ID
+    weapons_export.sort(key=lambda x: x["id"])
+    _save_json(output_dir / "all_weapons_info.json", weapons_export)
+
+    # 2. Export Characters & Skins
+    # Cấu trúc: { "c1": { "default_name": "...", "skins": { "skin_id": "name" } } }
+    chars_export = {}
+    max_skin_ids = {}
+
+    for char_index in sorted(characters.keys()):
+        skins = characters[char_index]
+        default_name = skins.get("0", "[Unknown]")
+
+        # Tính max skin id
+        max_skin_id = 0
+        skin_list = {}
+        if skins:
+            max_skin_id = max(int(sid) for sid in skins.keys())
+            for skin_index in sorted(skins.keys(), key=lambda x: int(x)):
+                skin_list[skin_index] = skins[skin_index]
+
+        key = f"c{char_index}"
+        max_skin_ids[key] = max_skin_id
+        chars_export[key] = {"default_name": default_name, "skins": skin_list}
+
+    _save_json(output_dir / "characters_info.json", chars_export)
+    _save_json(output_dir / "highest_skin_ids.json", max_skin_ids)
+
+    # 3. Export Pets
+    pets_export = []
+    for pet_id, pet_name in sorted(pets.items(), key=lambda kv: kv[0]):
+        pets_export.append(
+            {
+                "id": pet_id.removeprefix("Pet_name_"),
+                "full_key": pet_id,
+                "name": pet_name,
+            }
+        )
+    _save_json(output_dir / "pets_info.json", pets_export)
+
+    # 4. Export Buffs
+    buffs_export = []
+    buff_ids: set[str] = set()
+    buff_ids.update(k.replace("Buff_name_", "") for k in buff_names.keys())
+    buff_ids.update(k.replace("Buff_info_", "") for k in buff_infos.keys())
+
+    for bid in sorted(buff_ids):
+        name_key = f"Buff_name_{bid}"
+        info_key = f"Buff_info_{bid}"
+        buffs_export.append(
+            {
+                "id": bid,
+                "name": buff_names.get(name_key, "[Name Not Found]"),
+                "description": buff_infos.get(info_key, "[Description Not Found]"),
+            }
+        )
+    _save_json(output_dir / "buffs_info.json", buffs_export)
+
+    # 5. Export Challenges
+    challenges_export = []
+    challenge_ids: set[str] = set()
+    challenge_ids.update(challenge_names.keys())
+    challenge_ids.update(challenge_titles.keys())
+    challenge_ids.update(challenge_descs.keys())
+
+    sorted_cids = sorted(challenge_ids, key=lambda x: int(x) if x.isdigit() else x)
+    for cid in sorted_cids:
+        challenges_export.append(
+            {
+                "id": cid.removeprefix(
+                    "name/"
+                ),  # Xử lý trường hợp id có prefix lạ nếu có
+                "raw_id": cid,
+                "name": challenge_names.get(cid, None),
+                "title": challenge_titles.get(cid, None),
+                "description": challenge_descs.get(cid, None),
+            }
+        )
+    _save_json(output_dir / "challenges_info.json", challenges_export)
+
+    # 6. Export Materials
+    materials_export = []
+    for mid, mname in sorted(materials.items(), key=lambda kv: kv[0]):
+        materials_export.append({"id": mid, "name": mname})
+    _save_json(output_dir / "materials_info.json", materials_export)
+
+    # 7. Export Plants
+    plants_export = []
+    for pid, pname in sorted(plants.items(), key=lambda kv: kv[0]):
+        plants_export.append({"id": pid, "name": pname})
+    _save_json(output_dir / "plants_info.json", plants_export)
+
+    logging.info("Exported all master data to separate JSON files.")
+
+
+def _save_json(path: Path, data: Any) -> None:
+    """Helper để lưu file JSON format đẹp."""
+    try:
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+    except Exception as e:
+        logging.error(f"Failed to save JSON {path}: {e}")
 
 
 def export_filtered_weapons_from_info(
