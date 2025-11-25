@@ -2,11 +2,19 @@ name: Run SKData
 
 on:
   workflow_dispatch:
+
   push:
     paths:
       - 'src/**'
       - 'main.py'
       - '.github/workflows/exportskdata.yml'
+
+  # CRONJOB: 2h00 UTC every day
+  schedule:
+    - cron: '0 2 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -37,3 +45,14 @@ jobs:
             output/*.csv
             output/*.txt
             output/*.json
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add output/
+
+          git commit -m "Auto-update SK Data $(date +'%Y-%m-%d') [skip ci]" || echo "No changes to commit"
+
+          git push

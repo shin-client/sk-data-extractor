@@ -80,82 +80,82 @@ def run_asset_studio_cli(
 def run_asset_extractions(sk_extracted_path: Path) -> None:
     """
     Sử dụng UnityPy để:
-    1. Tìm file data.unity3d (thường chứa global managers).
+    1. Load toàn bộ folder assets/bin/Data (để tìm thấy cả resources.assets và data.unity3d).
     2. Extract I2Languages (dạng MonoBehaviour raw bytes).
     3. Extract WeaponInfo (dạng TextAsset).
     """
-    unity_data_path = sk_extracted_path / "assets/bin/Data/data.unity3d"
+    # Thay đổi quan trọng: Trỏ vào thư mục chứa assets thay vì file cụ thể
+    unity_data_dir: Path = sk_extracted_path / "assets/bin/Data"
 
-    if not unity_data_path.exists():
-        # Fallback: Thử tìm trong các file khác nếu cấu trúc APK thay đổi,
-        # nhưng thường SK để trong data.unity3d
-        raise FileNotFoundError(f"Unity data file missing: {unity_data_path}")
+    if not unity_data_dir.exists():
+        raise FileNotFoundError(f"Unity data directory missing: {unity_data_dir}")
 
-    logging.info(f"Loading Unity assets from: {unity_data_path}")
+    logging.info(f"Loading Unity assets from directory: {unity_data_dir}")
 
     # Tạo thư mục export
     EXPORT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Load environment
-    env: Any = UnityPy.load(str(unity_data_path))
+    # Load toàn bộ file trong thư mục Data (resources.assets, sharedassets, v.v.)
+    env: Any = UnityPy.load(str(unity_data_dir))
 
     found_i2: bool = False
     found_weapon: bool = False
 
-    # Duyệt qua các object trong file
+    # Danh sách để debug nếu không tìm thấy
+    found_text_assets: list[str] = []
+
+    # Duyệt qua các object trong tất cả các file đã load
     obj: Any
     for obj in env.objects:
 
         # 1. Xử lý TextAsset (Tìm WeaponInfo)
         if obj.type.name == "TextAsset":
             data: Any = obj.read()
-            if hasattr(data, 'name') and data.name == "WeaponInfo":
+            # Lưu tên để debug
+            if hasattr(data, "name") and data.name not in found_text_assets:
+                found_text_assets.append(data.name)
+
+            if hasattr(data, "name") and data.name == "WeaponInfo":
                 output_path: Path = EXPORT_DIR / "WeaponInfo.txt"
                 logging.info(f"Found WeaponInfo. Exporting to {output_path}")
-                # WeaponInfo là file text/json
-                if hasattr(data, 'script'):
-                    script_data: bytes = data.script if isinstance(data.script, bytes) else data.script.encode('utf-8')
+                if hasattr(data, "script"):
+                    script_data: bytes = (
+                        data.script
+                        if isinstance(data.script, bytes)
+                        else data.script.encode("utf-8")
+                    )
                     with open(output_path, "wb") as f:
                         f.write(script_data)
                     found_weapon = True
 
         # 2. Xử lý MonoBehaviour (Tìm I2Languages)
         elif obj.type.name == "MonoBehaviour":
-            # I2Languages thường là file rất nặng (vài MB).
-            # UnityPy cho phép lấy raw_data.
-            # Vì MonoBehaviour không luôn có tên rõ ràng (m_Name),
-            # ta dùng cách kiểm tra Script liên kết hoặc kích thước file.
-
-            # Cách an toàn nhất với SK hiện tại: Kiểm tra Script Name nếu có,
-            # hoặc đơn giản là dump hết các MB lớn ra để parser lọc sau (như cách cũ).
-
-            # Tuy nhiên, để tối ưu, ta thử lấy script name:
-            if obj.serialized_type.nodes:
-                # Nếu đã parse được tree, bỏ qua vì ta cần RAW bytes cho parser.py cũ
-                pass
-
-            # Lấy data raw
-            raw_data: bytes = obj.get_raw_data()
-
             # Filter sơ bộ: I2Languages thường > 2MB
-            if len(raw_data) > 2_000_000:
-                # Có thể check thêm script name nếu cần thiết, nhưng check size khá an toàn với SK
-                # Để chắc chắn, ta lưu file với tên tạm, parser sẽ check kỹ header sau.
+            # Dùng obj.byte_size nếu có để tránh read() file nhỏ, tăng tốc độ
+            byte_size: int = getattr(obj, "byte_size", 0)
+            if byte_size > 2_000_000:
+                raw_data: bytes = obj.get_raw_data()
+                # Kiểm tra lại kích thước thực tế sau khi get
+                if len(raw_data) > 2_000_000:
+                    path_id: int | str = getattr(obj, "path_id", 0)
+                    file_name: str = f"I2Languages_{path_id}.dat"
+                    output_path: Path = EXPORT_DIR / file_name
 
-                # Lưu ý: UnityPy có thể trả về obj.path_id là unique ID
-                path_id: int | str = getattr(obj, 'path_id', 0)
-                file_name: str = f"I2Languages_{path_id}.dat"
-                output_path: Path = EXPORT_DIR / file_name
-
-                logging.info(f"Found potential I2Languages ({len(raw_data)} bytes). Exporting to {output_path}")
-                with open(output_path, "wb") as f:
-                    f.write(raw_data)
-                found_i2 = True
+                    logging.info(
+                        f"Found potential I2Languages ({len(raw_data)} bytes). Exporting to {output_path}"
+                    )
+                    with open(output_path, "wb") as f:
+                        f.write(raw_data)
+                    found_i2 = True
 
     if not found_weapon:
         logging.warning("Could not find WeaponInfo TextAsset via UnityPy.")
+        # In ra 10 file text asset đầu tiên tìm thấy để debug
+        logging.info(f"Available TextAssets found (first 10): {found_text_assets[:10]}")
 
     if not found_i2:
-        logging.warning("Could not find any large MonoBehaviour (candidate for I2Languages).")
+        logging.warning(
+            "Could not find any large MonoBehaviour (candidate for I2Languages)."
+        )
 
     logging.info("UnityPy extraction finished.")
