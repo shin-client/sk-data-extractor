@@ -27,6 +27,7 @@ def write_i2_csv(version: str, records: List[Tuple[str, List[str]]], output_dir:
 
 
 def write_master_txt(
+    version: str,
     weapon_json_path: Path,
     lang_maps: Dict[str, Dict[str, Any]],
     output_dir: Path = OUTPUT_DIR,
@@ -35,7 +36,10 @@ def write_master_txt(
     Read WeaponInfo.txt (JSON), sort weapons, then write out the big ASCII master file.
     Returns path to the TXT.
     """
-    txt_path = output_dir / f"Allinfo.txt"
+    version_output_dir = output_dir / version
+    version_output_dir.mkdir(parents=True, exist_ok=True)
+
+    txt_path = version_output_dir / f"Allinfo.txt"
     logging.info(f"Writing master TXT: {txt_path}")
     if not weapon_json_path.exists():
         raise FileNotFoundError(f"WeaponInfo JSON not found: {weapon_json_path}")
