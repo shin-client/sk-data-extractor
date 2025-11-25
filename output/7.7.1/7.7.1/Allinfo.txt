@@ -1,0 +1,8460 @@
+██     ██ ███████  █████  ██████   ██████  ███    ██
+██     ██ ██      ██   ██ ██   ██ ██    ██ ████   ██
+██  █  ██ █████   ███████ ██████  ██    ██ ██ ██  ██
+██ ███ ██ ██      ██   ██ ██      ██    ██ ██  ██ ██
+ ███ ███  ███████ ██   ██ ██       ██████  ██   ████
+
+ring_0
+    Name      : Ring blue
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+ring_1
+    Name      : Ring yellow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+ring_2
+    Name      : Ring red
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+ring_3
+    Name      : Ring green
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+transform_weapon_beheaded
+    Name      : Cytoplasm
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+transform_weapon_envoy
+    Name      : Echo Amber
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+transform_weapon_ninja
+    Name      : Time Traveler's Gadget
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+transform_weapon_specialforces
+    Name      : Walkie Talkie
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+transform_weapon_transcendent
+    Name      : Dimension Travel Guide
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_000
+    Name      : Bad Pistol
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Pistol
+
+weapon_000x
+    Name      : New Pistol
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_000xx
+    Name      : New Pistol
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_000xx10
+    Name      : Azure Dragon
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_000xx11
+    Name      : Scorching Soul
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_000xx12
+    Name      : Y-Box Blaster
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_000xx2
+    Name      : Serpent Spear
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_000xx3
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_000xx4
+    Name      : Shortsword of Romulus
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_000xx5
+    Name      : Brand New Pistol
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_000xx6
+    Name      : Inferno
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_000xx7
+    Name      : Golden Bow & Silver Arrow
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_000xx8
+    Name      : Justice Servant
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_000xx9
+    Name      : Loyal Spirit
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_001
+    Name      : P250 Pistol
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Pistol
+
+weapon_002
+    Name      : AK-47
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_003
+    Name      : Shotgun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : ShotGun
+
+weapon_004
+    Name      : Shotgun Pro
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : ShotGun
+
+weapon_005
+    Name      : UZI
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_006
+    Name      : Splitter Cannon
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_007
+    Name      : Snow Fox L
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_008
+    Name      : Snow Fox XL
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_009
+    Name      : Snow Fox XXL
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Gun
+
+weapon_010
+    Name      : Desert Eagle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Pistol
+
+weapon_011
+    Name      : Alien Eagle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_012
+    Name      : Frost Eagle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_013
+    Name      : Flame Eagle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_014
+    Name      : Plasma Eagle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_015
+    Name      : Revolver
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Pistol
+
+weapon_016
+    Name      : Twin-barrel Pistol
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Pistol
+
+weapon_017
+    Name      : Assault Rifle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_018
+    Name      : Assault Rocket
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Gun
+
+weapon_019
+    Name      : Assault Rifle Pro
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Gun
+
+weapon_020
+    Name      : Shaky Blaster
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : ShotGun
+
+weapon_021
+    Name      : Blaster
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_022
+    Name      : Twin-barrel Rifle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_023
+    Name      : Splitter Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_024
+    Name      : Volcanic Blaster
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_025
+    Name      : M4
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_026
+    Name      : Improved SMG
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_027
+    Name      : MP5
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_028
+    Name      : Snow Fox Vintage
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Gun
+
+weapon_029
+    Name      : Shotgun Galaxy
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_030
+    Name      : Sidewinder Red
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_031
+    Name      : Sidewinder Green
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_032
+    Name      : Sniper Rifle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Rifle
+
+weapon_033
+    Name      : Soul Calibre
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Rifle
+
+weapon_034
+    Name      : Glacier
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Rifle
+
+weapon_035
+    Name      : Aurora
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Rifle
+
+weapon_036
+    Name      : Furnace
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Gun
+
+weapon_037
+    Name      : Fine Machine Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_038
+    Name      : Knight's Fist
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : ShotGun
+
+weapon_039
+    Name      : Gas Blaster
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_040
+    Name      : Flame Blaster
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_041
+    Name      : Gatling Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : ShotGun
+
+weapon_042
+    Name      : Fusion Drill
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Laser
+
+weapon_043
+    Name      : Rocket Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Rocket
+
+weapon_044
+    Name      : Implosion
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Rocket
+
+weapon_045
+    Name      : Ion Railgun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Hold
+
+weapon_046
+    Name      : Ion Laser
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Laser
+
+weapon_047
+    Name      : Missile Battery
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Rocket
+
+weapon_048
+    Name      : Next-gen SMG
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_049
+    Name      : Next-next-gen SMG
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Gun
+
+weapon_050
+    Name      : Guardian Rifle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_051
+    Name      : Guardian Railgun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Hold
+
+weapon_052
+    Name      : Shotgun M1
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : ShotGun
+
+weapon_053
+    Name      : Shotgun M2
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_054
+    Name      : Shotgun M3
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : ShotGun
+
+weapon_055
+    Name      : SMG M2
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_056
+    Name      : Rocket Gun M1
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Rocket
+
+weapon_057
+    Name      : SMG M1
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_058
+    Name      : SMG Helix
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_059
+    Name      : Prototype Railgun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Hold
+
+weapon_060
+    Name      : Pioneer
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Pistol
+
+weapon_061
+    Name      : Blind Missile Battery
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Rocket
+
+weapon_062
+    Name      : Machete
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_063
+    Name      : Broadsword
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_064
+    Name      : Willowblade
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Sword
+
+weapon_065
+    Name      : Pirate Saber
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_066
+    Name      : Double Blade Sword
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_067
+    Name      : Rapier
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_068
+    Name      : Axe
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Axe
+
+weapon_069
+    Name      : Battle Axe
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Axe
+
+weapon_070
+    Name      : Flame Battleaxe
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Axe
+
+weapon_071
+    Name      : Mace
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_072
+    Name      : Pitchfork
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Spear
+
+weapon_073
+    Name      : Spear
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Spear
+
+weapon_074
+    Name      : Laser Sword Blue
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Sword
+
+weapon_075
+    Name      : Laser Sword Red
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Sword
+
+weapon_076
+    Name      : Trident
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Sword
+
+weapon_077
+    Name      : Grand Knight's Sword
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Sword
+
+weapon_078
+    Name      : Flame Sword
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Sword
+
+weapon_079
+    Name      : Frost Sword
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Sword
+
+weapon_080
+    Name      : Bow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Bow
+
+weapon_081
+    Name      : Strong Bow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Bow
+
+weapon_082
+    Name      : Composite Bow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Bow
+
+weapon_083
+    Name      : Hunter Bow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Bow
+
+weapon_084
+    Name      : Crystal Bow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Bow
+
+weapon_085
+    Name      : Frost Bow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Bow
+
+weapon_086
+    Name      : Flame Bow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Bow
+
+weapon_087
+    Name      : Jade Bow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Bow
+
+weapon_088
+    Name      : Hero bow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Bow
+
+weapon_089
+    Name      : Magic Bow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Bow
+
+weapon_090
+    Name      : Plunger
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Strange
+
+weapon_091
+    Name      : Broom
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_092
+    Name      : Laser Shotgun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : ShortLaser
+
+weapon_093
+    Name      : Fish
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Strange
+
+weapon_094
+    Name      : Laser Fish
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Strange
+
+weapon_095
+    Name      : Shield
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Strange
+
+weapon_096
+    Name      : Basketball
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_097
+    Name      : Football
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_098
+    Name      : Green Onions
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_099
+    Name      : Meat
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_100
+    Name      : Badminton Racket
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Strange
+
+weapon_101
+    Name      : Ice Breaker
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : ShortLaser
+
+weapon_102
+    Name      : Nasty Laser
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : ShortLaser
+
+weapon_103
+    Name      : Arbitrator
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShortLaser
+
+weapon_104
+    Name      : The Judge
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShortLaser
+
+weapon_105
+    Name      : Triple Crossbow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Crossbow
+
+weapon_106
+    Name      : Crossbow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Crossbow
+
+weapon_107
+    Name      : Crossbow Plus
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Crossbow
+
+weapon_108
+    Name      : Illusion
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Laser
+
+weapon_109
+    Name      : Horn
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_110
+    Name      : Grenade SMG
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Gun
+
+weapon_111
+    Name      : Bazooka
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Rocket
+
+weapon_112
+    Name      : Magic Staff
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Staff
+
+weapon_113
+    Name      : Fine Magic Staff
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Staff
+
+weapon_114
+    Name      : Staff Of Thunder
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Staff
+
+weapon_115
+    Name      : Staff Of Nature
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Staff
+
+weapon_116
+    Name      : Staff of Skeleton
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Staff
+
+weapon_117
+    Name      : Staff Of Frost
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Staff
+
+weapon_118
+    Name      : Staff Of Flame
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Staff
+
+weapon_119
+    Name      : Staff Of Light
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_120
+    Name      : Caliburn
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Sword
+
+weapon_121
+    Name      : Electric Therapy
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Laser
+
+weapon_122
+    Name      : Snow Ape's Longbow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Bow
+
+weapon_123
+    Name      : Staff of Shooting Stars
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Staff
+
+weapon_124
+    Name      : TNT
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Strange
+
+weapon_125
+    Name      : Blowpipe
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Hold
+
+weapon_126
+    Name      : Feathered Crossbow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Crossbow
+
+weapon_127
+    Name      : Crystal Crab's Katana
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Sword
+
+weapon_128
+    Name      : Dragon Bros' Sniper Rifle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Gun
+
+weapon_129
+    Name      : Red Dragon
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_130
+    Name      : Bleach
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_131
+    Name      : Sandworm
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : ShotGun
+
+weapon_132
+    Name      : Varkolyn Assault Rifle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Gun
+
+weapon_133
+    Name      : Goblin Spear
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Spear
+
+weapon_134
+    Name      : Cannibal Plant
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : ShotGun
+
+weapon_135
+    Name      : One Punch
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Strange
+
+weapon_135x
+    Name      : One Punch
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Strange
+
+weapon_136
+    Name      : PKP
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_137
+    Name      : Floating Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Strange
+
+weapon_138
+    Name      : Floating Laser
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Strange
+
+weapon_139
+    Name      : Assault Shotgun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : ShotGun
+
+weapon_140
+    Name      : Cherry Blossom
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : ShotGun
+
+weapon_141
+    Name      : Bomber
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Rocket
+
+weapon_142
+    Name      : Bouncing Sniper Rifle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Rifle
+
+weapon_143
+    Name      : Bouncing Assault Rifle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_144
+    Name      : Knight Spear
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 1
+    Type      : Spear
+
+weapon_145
+    Name      : Staff Of Wizard
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Staff
+
+weapon_146
+    Name      : Plunger Plus
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Strange
+
+weapon_147
+    Name      : Charged Railgun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Hold
+
+weapon_148
+    Name      : Splash Railgun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Hold
+
+weapon_149
+    Name      : Laser Sword Green
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Sword
+
+weapon_150
+    Name      : Umbrella
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Strange
+
+weapon_151
+    Name      : M14
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_152
+    Name      : Old Sniper Rifle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Rifle
+
+weapon_153
+    Name      : Old Rocket Launcher
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Rocket
+
+weapon_154
+    Name      : Jumper
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : ShortLaser
+
+weapon_155
+    Name      : Cleaner
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : ShortLaser
+
+weapon_156
+    Name      : Webber
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : ShortLaser
+
+weapon_157
+    Name      : Laser
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Spear
+
+weapon_158
+    Name      : Wizard's Staff
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Staff
+
+weapon_159
+    Name      : Cluster Missile
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Rocket
+
+weapon_160
+    Name      : Black Hole Missile
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Rocket
+
+weapon_161
+    Name      : Heavenly Sword
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_162
+    Name      : Ninja Stars
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Throw
+
+weapon_163
+    Name      : Wrenches
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_164
+    Name      : Spike Knives
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_165
+    Name      : Ice Spikes
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Throw
+
+weapon_166
+    Name      : Boomerang
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_167
+    Name      : Hand Grenade
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Throw
+
+weapon_168
+    Name      : Molotov Cocktail
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Throw
+
+weapon_169
+    Name      : Butcher's Knife
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_170
+    Name      : Eagle of Ice and Fire
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Pistol
+
+weapon_171
+    Name      : Paper Slip
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Throw
+
+weapon_172
+    Name      : Windforce
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Bow
+
+weapon_173
+    Name      : Rainbow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : ShotGun
+
+weapon_174
+    Name      : Staff of Illusion
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Staff
+
+weapon_175
+    Name      : Snowman Eagle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Pistol
+
+weapon_176
+    Name      : Agitated Trunk
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Spear
+
+weapon_177
+    Name      : Carrot
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_178
+    Name      : Mini UZI
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_179
+    Name      : SMG M3
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Gun
+
+weapon_180
+    Name      : RYB Assault Rifle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_181
+    Name      : Assault Rifle Pro+
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Gun
+
+weapon_182
+    Name      : Poison Eagle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_183
+    Name      : Grenade Pistol
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_184
+    Name      : Next-next-next-gen SMG
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Gun
+
+weapon_185
+    Name      : Bouncing Railgun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Hold
+
+weapon_186
+    Name      : Baseball Bat
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Strange
+
+weapon_187
+    Name      : Ninja Stars Plus
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Throw
+
+weapon_188
+    Name      : Buckler
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Strange
+
+weapon_189
+    Name      : Iron Claw
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_190
+    Name      : Midnight Sickle
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_191
+    Name      : Hammer
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Axe
+
+weapon_192
+    Name      : Wooden Hammer
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Axe
+
+weapon_193
+    Name      : Stone Hammer
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Axe
+
+weapon_194
+    Name      : Bow Plus
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Bow
+
+weapon_195
+    Name      : Trekking Pole
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_196
+    Name      : Void Sword
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Sword
+
+weapon_197
+    Name      : Long-handled Axe
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Axe
+
+weapon_198
+    Name      : Meat Grinder
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Axe
+
+weapon_199
+    Name      : Executioner
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_200
+    Name      : Laser Therapy
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Laser
+
+weapon_201
+    Name      : Halberd
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 1
+    Type      : Spear
+
+weapon_202
+    Name      : Woodstick
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Spear
+
+weapon_203
+    Name      : Bamboo
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_204
+    Name      : Javelin
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Throw
+
+weapon_205
+    Name      : Frost Spear
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Throw
+
+weapon_206
+    Name      : Throwing Axe
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Throw
+
+weapon_207
+    Name      : Heavy Hunter Axe
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Throw
+
+weapon_208
+    Name      : Vine
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_209
+    Name      : Chu Ko Nu
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Crossbow
+
+weapon_210
+    Name      : Tidal Staff
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Staff
+
+weapon_211
+    Name      : Reusable Health Pot
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_212
+    Name      : Reusable Energy Pot
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_213
+    Name      : Reusable Restoration Potion
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Strange
+
+weapon_214
+    Name      : Extra Crown
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Strange
+
+weapon_215
+    Name      : The Emperor's New Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Strange
+
+weapon_216
+    Name      : Bayonet Rifle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Rifle
+
+weapon_217
+    Name      : Money Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Gun
+
+weapon_218
+    Name      : Assault Sniper Rifle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Rifle
+
+weapon_219
+    Name      : EM Sniper Rifle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Rifle
+
+weapon_220
+    Name      : Explosive Crossbow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Crossbow
+
+weapon_221
+    Name      : Explosive Warhammer
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Axe
+
+weapon_222
+    Name      : Thunder Warhammer
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Axe
+
+weapon_223
+    Name      : Green Basin
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_224
+    Name      : Electric Ninja Stars
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Throw
+
+weapon_230
+    Name      : Sawed-off Shotgun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : ShotGun
+
+weapon_231
+    Name      : Groundwater
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Pistol
+
+weapon_233
+    Name      : Rainbow Horse
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Strange
+
+weapon_234
+    Name      : Meteo Laser Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : ShortLaser
+
+weapon_235
+    Name      : Green Essence
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Throw
+
+weapon_236
+    Name      : Deadly Frisbee
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_237
+    Name      : Advanced Scientific Calculator
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_238
+    Name      : Retouch-free Camera
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_239
+    Name      : Burp Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_240
+    Name      : Fantastic Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Pistol
+
+weapon_241
+    Name      : 40m Long Blade
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_242
+    Name      : Box
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Strange
+
+weapon_243
+    Name      : Grand Wizard's Old Staff
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_244
+    Name      : Nirvana Cross
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Strange
+
+weapon_245
+    Name      : Laser Sword Gold
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 4
+    Type      : Sword
+
+weapon_246
+    Name      : Thunder Sword
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Sword
+
+weapon_247
+    Name      : Star Bow
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 4
+    Type      : Bow
+
+weapon_248
+    Name      : Weeping Eagle
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 3
+    Type      : Strange
+
+weapon_249
+    Name      : Next-next-next-next-gen SMG
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : ShortLaser
+
+weapon_250
+    Name      : Snow Fox Rose Gold
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : ShotGun
+
+weapon_251
+    Name      : Nunchaku
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Sword
+
+weapon_252
+    Name      : Super Buddy
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Rocket
+
+weapon_253
+    Name      : Magic Gloves
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Strange
+
+weapon_254
+    Name      : Staff of Anubis
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Staff
+
+weapon_255
+    Name      : Dead Star Laser Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : ShortLaser
+
+weapon_256
+    Name      : AK47 Gold
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_257
+    Name      : Desert Eagle Gold
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Pistol
+
+weapon_258
+    Name      : Blue Fire Gatling
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : ShotGun
+
+weapon_259
+    Name      : Coilgun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Hold
+
+weapon_25hammer
+    Name      : Two-Five's Pummeler
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_260
+    Name      : Brownian Coilgun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : ShotGun
+
+weapon_261
+    Name      : Ion Coilgun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Hold
+
+weapon_264
+    Name      : Bubble Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : ShotGun
+
+weapon_265
+    Name      : Lasso Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Sword
+
+weapon_266
+    Name      : Broken Hilt
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_267
+    Name      : Damaged Blade
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Throw
+
+weapon_268
+    Name      : Reforged Sacred Sword
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Sword
+
+weapon_270
+    Name      : Bayonet in a Gourd
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Sword
+
+weapon_273
+    Name      : Trumpet
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_274
+    Name      : Fist of Heaven
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Hold
+
+weapon_275
+    Name      : Sweet Talk
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Gun
+
+weapon_276
+    Name      : Death Note
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Strange
+
+weapon_277
+    Name      : Firebolt
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Gun
+
+weapon_278
+    Name      : Double Therapy
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Laser
+
+weapon_279
+    Name      : Grilled Fish
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 2
+    Type      : Strange
+
+weapon_280
+    Name      : Grilled Laser Fish
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 4
+    Type      : Strange
+
+weapon_281
+    Name      : Grilled Green Onion
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_282
+    Name      : Grilled Meat
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_283
+    Name      : Grilled Heavenly Sword
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 2
+    Type      : Strange
+
+weapon_284
+    Name      : Grilled Carrot
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_285
+    Name      : Gold Staff
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 2
+    Type      : Staff
+
+weapon_286
+    Name      : Fine Magic Staff Gold
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 5
+    Type      : Staff
+
+weapon_287
+    Name      : Revolver Gold
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 2
+    Type      : Pistol
+
+weapon_288
+    Name      : Sniper Rifle Gold
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Rifle
+
+weapon_289
+    Name      : Sniper Rifle Gold Pro
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 3
+    Type      : Rifle
+
+weapon_290
+    Name      : Rainbow Gatling
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : ShotGun
+
+weapon_291
+    Name      : Fist Bump
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Strange
+
+weapon_292
+    Name      : Pill
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Strange
+
+weapon_293
+    Name      : Happy New Year
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_294
+    Name      : Ranger's Revolver
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Pistol
+
+weapon_295
+    Name      : Toxic Webber
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 3
+    Type      : ShortLaser
+
+weapon_296
+    Name      : Thunderstorm Warhammer
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 4
+    Type      : Axe
+
+weapon_297
+    Name      : Ion Railgun M2
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 2
+    Type      : Hold
+
+weapon_298
+    Name      : EM Railgun
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 3
+    Type      : Hold
+
+weapon_299
+    Name      : Giant Axe
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Throw
+
+weapon_300
+    Name      : Verbal Fire
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Strange
+
+weapon_301
+    Name      : Golden Cudgel
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Spear
+
+weapon_302
+    Name      : Snow Fox XXXL
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Gun
+
+weapon_303
+    Name      : Windforce Ninja Stars
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Throw
+
+weapon_304
+    Name      : Centennial Carrot
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Strange
+
+weapon_305
+    Name      : Millennia Bamboo
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Throw
+
+weapon_306
+    Name      : Golden Crab Warhammer
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Axe
+
+weapon_307
+    Name      : Deep Dark Blade
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Sword
+
+weapon_308
+    Name      : Organic Wave
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Staff
+
+weapon_309
+    Name      : Quantum Ninja Stars
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Throw
+
+weapon_310
+    Name      : Mo Dao
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Sword
+
+weapon_311
+    Name      : Zeus Thunderbolt
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Throw
+
+weapon_312
+    Name      : Spike Knives Eagle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Throw
+
+weapon_313
+    Name      : Goddess Staff
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Staff
+
+weapon_314
+    Name      : Salamander
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : ShotGun
+
+weapon_315
+    Name      : Super Shotgun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : ShotGun
+
+weapon_316
+    Name      : Ballista
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Crossbow
+
+weapon_317
+    Name      : Whisper of Dark
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Throw
+
+weapon_318
+    Name      : SMG M4
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Gun
+
+weapon_319
+    Name      : Assault Rifle Elite
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Gun
+
+weapon_320
+    Name      : Ordeal in Disguise
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Strange
+
+weapon_321
+    Name      : Electric Drill
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Spear
+
+weapon_322
+    Name      : Slingshot
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Bow
+
+weapon_323
+    Name      : Breath of Hades
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 4
+    Type      : Axe
+
+weapon_324
+    Name      : Viper
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Gun
+
+weapon_325
+    Name      : Laser Sword Purple
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Sword
+
+weapon_326
+    Name      : Ice Bazooka
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Rocket
+
+weapon_327
+    Name      : Gray Fox
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Crossbow
+
+weapon_328
+    Name      : Alien Plasma Eagle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Pistol
+
+weapon_329
+    Name      : Paper Bomb Kunai
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Throw
+
+weapon_330
+    Name      : Pulse
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Laser
+
+weapon_331
+    Name      : Strength Potion
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Strange
+
+weapon_332
+    Name      : Scratch Card
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_333
+    Name      : Mini Knight Figure
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_334
+    Name      : Dark Shadow
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Strange
+
+weapon_335
+    Name      : Grave Guard's Hatchet
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Axe
+
+weapon_336
+    Name      : Shuddering Thunder
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Bow
+
+weapon_337
+    Name      : Romantic UZI SMG
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Gun
+
+weapon_338
+    Name      : Frost Battleaxe
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Axe
+
+weapon_339
+    Name      : Poker Cards
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Throw
+
+weapon_340
+    Name      : Super Monster Card
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Strange
+
+weapon_341
+    Name      : Short Staff of Valiant Youngster
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Staff
+
+weapon_342
+    Name      : Sword of King Hero
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Sword
+
+weapon_343
+    Name      : Laser Rain
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Bow
+
+weapon_344
+    Name      : Cyan Dragon Staff
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Staff
+
+weapon_345
+    Name      : Xuan Ming
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Gun
+
+weapon_346
+    Name      : Portable Bomber
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Strange
+
+weapon_347
+    Name      : Hurricane Gauntlets
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Strange
+
+weapon_348
+    Name      : Broken Warbow of Royal Guard
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Bow
+
+weapon_349
+    Name      : Warbow of Royal Guard
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Bow
+
+weapon_350
+    Name      : Old Sword of Royal Guard
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_351
+    Name      : Sword of Royal Guard
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Sword
+
+weapon_352
+    Name      : Forgotten Staff of Wizard Guard
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_353
+    Name      : Staff of Wizard Guard
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Staff
+
+weapon_354
+    Name      : Unfinished Shark Gun
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Spear
+
+weapon_355
+    Name      : Captain's Medal
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Strange
+
+weapon_356
+    Name      : Scarlet Imp
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Rocket
+
+weapon_357
+    Name      : Queen's Touch
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Laser
+
+weapon_358
+    Name      : Queen's Stroke
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_359
+    Name      : Scepter of Majesty
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Staff
+
+weapon_360
+    Name      : Polychrome
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Laser
+
+weapon_361
+    Name      : Serenity
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Rifle
+
+weapon_362
+    Name      : Storm Eye
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Bow
+
+weapon_363
+    Name      : Ancestor's Call
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Strange
+
+weapon_364
+    Name      : Hyperspace Tractor
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Sword
+
+weapon_365
+    Name      : "Lollipop"
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Strange
+
+weapon_366
+    Name      : Tome of Light
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Staff
+
+weapon_367
+    Name      : Tome of Darkness
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Staff
+
+weapon_368
+    Name      : Christmas Gift
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_369
+    Name      : Mega Pill
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Strange
+
+weapon_370
+    Name      : Frontier Crossbow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Crossbow
+
+weapon_371
+    Name      : Buccaneer Captain's Naval Cannon
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Gun
+
+weapon_372
+    Name      : Warlock's Staff
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Staff
+
+weapon_373
+    Name      : Wooden Flintlock
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Crossbow
+
+weapon_374
+    Name      : Face-Sized Momiji
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Staff
+
+weapon_375
+    Name      : Triumvirite Twinblades
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Sword
+
+weapon_376
+    Name      : 40m Long Long Blade
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Sword
+
+weapon_377
+    Name      : Plunger Gatling
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : ShotGun
+
+weapon_378
+    Name      : Laser Tempest
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Bow
+
+weapon_379
+    Name      : Ice Implosion
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Rocket
+
+weapon_380
+    Name      : Smithy's Hammer
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Axe
+
+weapon_381
+    Name      : Miraculous Welding Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Laser
+
+weapon_382
+    Name      : Staff of Incantation
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Staff
+
+weapon_383
+    Name      : Zongzi Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Gun
+
+weapon_384
+    Name      : Cursed Chalice
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Strange
+
+weapon_385
+    Name      : Asura
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Axe
+
+weapon_386
+    Name      : Iconic
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Gun
+
+weapon_387
+    Name      : Laggy Laser Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : ShortLaser
+
+weapon_388
+    Name      : Moo Moo Mallet
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Axe
+
+weapon_389
+    Name      : Sonar Detector
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Staff
+
+weapon_392
+    Name      : Out-of-Tune Mic
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Strange
+
+weapon_393
+    Name      : Trader Trigger
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Gun
+
+weapon_394
+    Name      : 40cm Ruler
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Strange
+
+weapon_395
+    Name      : Brick Dictionary
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Staff
+
+weapon_396
+    Name      : Omni Launcher
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Strange
+
+weapon_397
+    Name      : Dirty Palette
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : ShotGun
+
+weapon_398
+    Name      : Bow of Lava Core
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Bow
+
+weapon_399
+    Name      : Cue Stick
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Strange
+
+weapon_400
+    Name      : Storm Battleaxe
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 4
+    Type      : Axe
+
+weapon_401
+    Name      : Keyboard Warrior
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Strange
+
+weapon_402
+    Name      : Medusa's Gaze
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Strange
+
+weapon_403
+    Name      : Jingubang
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Sword
+
+weapon_404
+    Name      : Lightning Pentawhips
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Strange
+
+weapon_405
+    Name      : Soul Crusher
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 4
+    Type      : Sword
+
+weapon_406
+    Name      : Plasummonic
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : ShortLaser
+
+weapon_407
+    Name      : Wig
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Strange
+
+weapon_408
+    Name      : Bug Blaster
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Pistol
+
+weapon_409
+    Name      : Sweetie Milktea
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Strange
+
+weapon_410
+    Name      : Eternal Night
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Sword
+
+weapon_411
+    Name      : Seed Blaster
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Gun
+
+weapon_900
+    Name      : Candied Hawberries
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Strange
+
+weapon_901
+    Name      : Firecrackers
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 2
+    Type      : Strange
+
+weapon_902
+    Name      : Channeling Monkey
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Rocket
+
+weapon_903
+    Name      : Rocket Fireworks
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Rocket
+
+weapon_banana
+    Name      : Banana
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_bladefish
+    Name      : Bladefish
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 3
+    Type      : Sword
+
+weapon_boss_year_beast
+    Name      : Super Rocket Fireworks
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Strange
+
+weapon_bossrushfinal
+    Name      : Warhammer of Sealed Souls
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Axe
+
+weapon_bossrushfinalA
+    Name      : Oathkeeper
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Sword
+
+weapon_bossrushfinalB
+    Name      : Oathbreaker
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Sword
+
+weapon_cg_0
+    Name      : Yellow Turban Rifle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_cg_1
+    Name      : Vanguard Battalion Kinetic Rifle
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Gun
+
+weapon_cg_2
+    Name      : Flying Bear Laser Cannon
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Gun
+
+weapon_cg_3
+    Name      : Qinggang Light Sword
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Sword
+
+weapon_coop_tennis
+    Name      : Tennis Racket
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_crabclaw
+    Name      : Pincer
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 3
+    Type      : Sword
+
+weapon_deepwaterlaserfish
+    Name      : Deep-sea Laser Fish
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 4
+    Type      : ShortLaser
+
+weapon_fel_fabric
+    Name      : Fragmented Fel Cloak
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Strange
+
+weapon_fertilizer
+    Name      : Fertilizer
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_fire_squid
+    Name      : Squid
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_fish_rod_a
+    Name      : Handmade Rod
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 2
+    Type      : Strange
+
+weapon_fish_rod_b
+    Name      : Average Rod
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 3
+    Type      : Strange
+
+weapon_fish_rod_c
+    Name      : Quality Rod
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 4
+    Type      : Strange
+
+weapon_fish_rod_d
+    Name      : Premium Rod
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 5
+    Type      : Strange
+
+weapon_globefish
+    Name      : Pufferfish
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 2
+    Type      : Strange
+
+weapon_hammerhead
+    Name      : Hammerhead Shark
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 3
+    Type      : Axe
+
+weapon_init_aigirl
+    Name      : Sparking Gemini
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_init_aigirlx
+    Name      : Sparking Gemini
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_aigirlxx
+    Name      : Quantum Stinger
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_aigirlxx2
+    Name      : Zephyrage
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_aigirlxx3
+    Name      : Endgame Etiquette
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_airbender
+    Name      : Qian-kun Punch
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_init_airbenderx
+    Name      : Qian-kun Punch
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Default
+
+weapon_init_airbenderxx
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Default
+
+weapon_init_airbenderxx2
+    Name      : Cyber-Pulsating Punch
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Default
+
+weapon_init_airbenderxx3
+    Name      : Devil-Demolishing Punch
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Default
+
+weapon_init_airbenderxx4
+    Name      : Stellar Punch
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Default
+
+weapon_init_airbenderxx5
+    Name      : Blazing Steel Punch
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Default
+
+weapon_init_airbenderxx6
+    Name      : Warbreaker Punch
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Default
+
+weapon_init_airbenderxx7
+    Name      : Lee Punch
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Default
+
+weapon_init_airbenderxx8
+    Name      : Tempest Fang
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Default
+
+weapon_init_alchemist
+    Name      : Dormant Bubble Machine
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : ShotGun
+
+weapon_init_alchemistx
+    Name      : Dormant Bubble Machine
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_init_alchemistxx
+    Name      : Dormant Bubble Machine
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_init_alchemistxx10
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_init_alchemistxx2
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_init_alchemistxx3
+    Name      : Sun and Moon
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_init_alchemistxx4
+    Name      : Jinx Doll
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_init_alchemistxx5
+    Name      : Particle Bubble Gun
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_init_alchemistxx6
+    Name      : Lovelorn Pipa
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_init_alchemistxx7
+    Name      : Gold Power
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_init_alchemistxx8
+    Name      : Divine Revelation
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_init_alchemistxx9
+    Name      : Arcana Flask
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_init_arcaneknight
+    Name      : Banishing Staff
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Staff
+
+weapon_init_arcaneknightx
+    Name      : Advanced Banishing Staff
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_arcaneknightxx
+    Name      : Long River Chant
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_arcaneknightxx2
+    Name      : Gloves of Wisdom
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_arcaneknightxx3
+    Name      : Palm-leaf Fan
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_arcaneknightxx4
+    Name      : Ancestor's Wrath
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_assassin
+    Name      : Blood Blade
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_init_assassinx
+    Name      : Blood Blade
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_assassinxx
+    Name      : Blood Blade
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_assassinxx10
+    Name      : Key of Atlantis
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_assassinxx2
+    Name      : Dragon Den
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_assassinxx3
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_assassinxx4
+    Name      : Desert Lamp
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_assassinxx5
+    Name      : Broken Rainbow
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_assassinxx6
+    Name      : Free Spirit Steelbaston
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_assassinxx7
+    Name      : Air-Filled Knife
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_assassinxx8
+    Name      : Shadow Blade
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_assassinxx9
+    Name      : True Heaven's Halberd
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_astrologist
+    Name      : Astro Wand
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Staff
+
+weapon_init_astrologistx
+    Name      : Astro Staff
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_astrologistxx
+    Name      : Enlightened Plume
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_astrologistxx2
+    Name      : Quantum Oculus
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_astrologistxx3
+    Name      : Radiowave Catcher
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_astrologistxx4
+    Name      : Wink of the Deep
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_bard
+    Name      : Forest Melody
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : ShotGun
+
+weapon_init_bardx
+    Name      : Forest Melody
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_init_bardxx
+    Name      : Purr Ballad
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_init_bardxx2
+    Name      : Cheerleading Pom-Poms
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_init_bardxx3
+    Name      : Maple Echo
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : ShotGun
+
+weapon_init_beheaded
+    Name      : Vorpan
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_init_beheadedx
+    Name      : Vorpan
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_captain
+    Name      : Cutlass & Flintlock
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_init_captainx
+    Name      : Cutlass & Flintlock
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_captainxx
+    Name      : Netherflare Duet
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_captainxx2
+    Name      : Key of Liberty
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_costumeprince
+    Name      : Plastic Mucus Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_init_costumeprincex
+    Name      : Magnum Mucus Gun
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_costumeprincexx
+    Name      : Homemade Magnum Mucus Gun
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_costumeprincexx2
+    Name      : Monster-subduing Precious Rod
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_costumeprincexx3
+    Name      : Soda (Large)
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_costumeprincexx4
+    Name      : Etherealeon
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_costumeprincexx5
+    Name      : Scepter of Domination
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_costumeprincexx6
+    Name      : Rainbow Brush
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_doctor
+    Name      : Ion Excitator
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Pistol
+
+weapon_init_doctorx
+    Name      : Ion Fuser
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_doctorxx
+    Name      : Sanguine Flurry
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_doctorxx2
+    Name      : The Enforcer
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_doctorxx3
+    Name      : Ethereal Dream
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_doctorxx4
+    Name      : Illusive Drum
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_doctorxx5
+    Name      : Violet Devourer
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_doctorxx6
+    Name      : Owlways Win
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_druid
+    Name      : Crispy Bone
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Throw
+
+weapon_init_druidx
+    Name      : Crispy Bone
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_druidxx
+    Name      : Crispy Bone
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_druidxx10
+    Name      : Dawn Dewdrop
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_druidxx11
+    Name      : Ashenbeak
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_druidxx2
+    Name      : Feather Fan
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_druidxx3
+    Name      : Magic Twig
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_druidxx4
+    Name      : Reincarnation
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_druidxx5
+    Name      : Staff of Conduct
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_druidxx6
+    Name      : Cage of Stars
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_druidxx7
+    Name      : Scattered Flower
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_druidxx8
+    Name      : Dragontone
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_druidxx9
+    Name      : Lawspeaker
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_elves
+    Name      : Ancient Bow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Bow
+
+weapon_init_elvesx
+    Name      : Ancient Bow
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Bow
+
+weapon_init_elvesxx
+    Name      : Ancient Bow
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Bow
+
+weapon_init_elvesxx10
+    Name      : Mistglow Bow
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Bow
+
+weapon_init_elvesxx2
+    Name      : Iron Bow
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Bow
+
+weapon_init_elvesxx3
+    Name      : Golden Bow
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Bow
+
+weapon_init_elvesxx4
+    Name      : Starhunter
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Bow
+
+weapon_init_elvesxx5
+    Name      : Apricot Bow
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Bow
+
+weapon_init_elvesxx6
+    Name      : Cobalt Wings
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Bow
+
+weapon_init_elvesxx7
+    Name      : Shimmer Strum
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Bow
+
+weapon_init_elvesxx8
+    Name      : Feather Bow
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Bow
+
+weapon_init_elvesxx9
+    Name      : Field Volleyer
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Bow
+
+weapon_init_engineer
+    Name      : H2O
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_init_engineerx
+    Name      : H2O
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_engineerxx
+    Name      : H2O
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_engineerxx10
+    Name      : Inventor's Drill
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_engineerxx2
+    Name      : Tyrant's Halberd
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_engineerxx3
+    Name      : Stellar Bronze Hammer
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_engineerxx4
+    Name      : Impostor's Phaser
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_engineerxx5
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_engineerxx6
+    Name      : Baby Gourd
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_engineerxx7
+    Name      : Stardust Bottle
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_engineerxx8
+    Name      : Rejuvenation
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_engineerxx9
+    Name      : Dream Techgun
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_envoy
+    Name      : Visage of Elemental Power
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Staff
+
+weapon_init_envoyx
+    Name      : Visage of Elemental Power
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_envoyxx
+    Name      : Erosion
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_fighter
+    Name      : Qi Punch
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Strange
+
+weapon_init_fighterx
+    Name      : Burst Punch
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_fighterxx
+    Name      : Crescent Bladefists
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_fighterxx2
+    Name      : Velvet Paws
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_fighterxx3
+    Name      : Tanghulu Punch
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_fighterxx4
+    Name      : Jolly Mics
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_fighterxx5
+    Name      : Blazing Banquet
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_joker
+    Name      : Phantom Blade
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_init_jokerx
+    Name      : Ethereal Blade
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_jokerxx
+    Name      : 
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_jokerxx2
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_lancer
+    Name      : Dragon Fang
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Spear
+
+weapon_init_lancerx
+    Name      : Dragon Fang
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Spear
+
+weapon_init_lancerxx
+    Name      : Valor Silver Lance
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Spear
+
+weapon_init_lancerxx2
+    Name      : Waning Moon
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Spear
+
+weapon_init_lancerxx3
+    Name      : Loong of Brilliance
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Spear
+
+weapon_init_lancerxx4
+    Name      : Lance Ultima
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Spear
+
+weapon_init_mage
+    Name      : The Code
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Staff
+
+weapon_init_magex
+    Name      : The Code
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_magexx
+    Name      : The Code
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_magexx10
+    Name      : Luxumbra Scepter
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_magexx11
+    Name      : Starry Glowstick
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_magexx2
+    Name      : Embroidered Blade
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_magexx3
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_magexx4
+    Name      : Gohei
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_magexx5
+    Name      : Lifebinder
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_magexx6
+    Name      : Floral Feather Fan
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_magexx7
+    Name      : Heart of the Ocean
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_magexx8
+    Name      : Plume Dance
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_magexx9
+    Name      : Azure Wave
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_miner
+    Name      : Pickaxe
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Axe
+
+weapon_init_minerx
+    Name      : Gemmed Pickaxe
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_minerxx
+    Name      : Carrot Pickaxe
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_minerxx2
+    Name      : Colorful Toy Pickaxe
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_minerxx3
+    Name      : Star Digger
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_minerxx4
+    Name      : Nugget Rider's Pickaxe
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_minerxx5
+    Name      : Fragrance Fan
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_minerxx6
+    Name      : Quantum Axe
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_minerxx7
+    Name      : Love Fairy's Wand
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_minerxx8
+    Name      : Wings of Sweetness
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_minerxx9
+    Name      : ₍•ʚ•₎
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_necromancer
+    Name      : Staff of Plague
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Staff
+
+weapon_init_necromancerx
+    Name      : Staff of Plague
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_necromancerxx
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_necromancerxx10
+    Name      : Dear Dialer
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_necromancerxx11
+    Name      : Transcendent Trumpet
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_necromancerxx12
+    Name      : Sanguine Sprout
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_necromancerxx2
+    Name      : Green Snake Sword
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_necromancerxx3
+    Name      : Life & Death
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_necromancerxx4
+    Name      : The Promise of Light
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_necromancerxx5
+    Name      : Crow
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_necromancerxx6
+    Name      : Naraka's Breeze
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_necromancerxx7
+    Name      : Starfall Scepter
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_necromancerxx8
+    Name      : Blossom Fan
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_necromancerxx9
+    Name      : Meteoric Melody
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_ninja
+    Name      : Molecule Ichimonji
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_init_ninjax
+    Name      : Molecule Ichimonji
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_ninjaxx
+    Name      : Mindsplitter
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_officer
+    Name      : Nemesis of Villains
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Pistol
+
+weapon_init_officerx
+    Name      : Nemesis of Villains
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_officerxx
+    Name      : Coin Sword
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_officerxx2
+    Name      : Path of the Dead
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_officerxx3
+    Name      : Sanction
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_officerxx4
+    Name      : Skywrath Sword
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_officerxx5
+    Name      : Mediator
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_officerxx6
+    Name      : Golden Tiger Lance
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_officerxx7
+    Name      : Pistol of Courage
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_officerxx8
+    Name      : Bloodthirst Revolver
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_officerxx9
+    Name      : Wavebreaker
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Pistol
+
+weapon_init_paladin
+    Name      : Sacred Flail
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Axe
+
+weapon_init_paladinx
+    Name      : Sacred Flail
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_paladinxx
+    Name      : Sacred Flail
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_paladinxx10
+    Name      : Flamebringer Edge
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_paladinxx11
+    Name      : Stormrender
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_paladinxx2
+    Name      : Green Dragon Crescent Blade
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_paladinxx3
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_paladinxx4
+    Name      : Sparta's Glory
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_paladinxx5
+    Name      : Justice
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_paladinxx6
+    Name      : Nine-Toothed Rake
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_paladinxx7
+    Name      : Puffy Inflatable Hammer
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_paladinxx8
+    Name      : Starfall
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_paladinxx9
+    Name      : Tiger Roar
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Axe
+
+weapon_init_priest
+    Name      : Wooden Cross
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Staff
+
+weapon_init_priestx
+    Name      : Wooden Cross
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_priestxx
+    Name      : Wooden Cross
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_priestxx10
+    Name      : Osmanthus Bloom
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_priestxx11
+    Name      : Soothing Syringe
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_priestxx2
+    Name      : Flower Rain
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_priestxx3
+    Name      : Yi Tian Qiu
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_priestxx4
+    Name      : Oops!... I Did It Again
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_priestxx5
+    Name      : Key of Recovery
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_priestxx6
+    Name      : Nine-Ring Khakkhara
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_priestxx7
+    Name      : Stellar Whisper
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_priestxx8
+    Name      : Ink Harmony Brush
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_priestxx9
+    Name      : Starlight Sword
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_ranger
+    Name      : Jack and Mary
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Throw
+
+weapon_init_rangerx
+    Name      : Jack and Mary
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_rangerxx
+    Name      : Jack and Mary
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_rangerxx10
+    Name      : Nether Destroyer
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_rangerxx11
+    Name      : Solarshade Flame
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_rangerxx12
+    Name      : Luminous Edges
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_rangerxx13
+    Name      : Veiled Leaves
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_rangerxx2
+    Name      : Gan Jiang & Mo Ye
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_rangerxx3
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_rangerxx4
+    Name      : An Eye for an Eye
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_rangerxx5
+    Name      : Vinyl: Mania & Craze
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_rangerxx6
+    Name      : Ionic Blades
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_rangerxx7
+    Name      : Drizzle Sword & Thunder Spear
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_rangerxx8
+    Name      : Verity & Fallacy
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_rangerxx9
+    Name      : White Emperor's Swords
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Throw
+
+weapon_init_robot
+    Name      : Satellite Floating Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_init_robotx
+    Name      : Satellite Floating Gun
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_robotxx
+    Name      : Satellite Floating Gun
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_robotxx10
+    Name      : Signal of Decay
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_robotxx2
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_robotxx3
+    Name      : Farewell
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_robotxx4
+    Name      : Energy Ore
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_robotxx5
+    Name      : Gun HEV-3
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_robotxx6
+    Name      : Fish-Belly White
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_robotxx7
+    Name      : Space Hunter
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_robotxx8
+    Name      : Fledgling Phoenix
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_robotxx9
+    Name      : Catnos
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_shooter
+    Name      : Jackdaw
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Rifle
+
+weapon_init_shooterx
+    Name      : Jackdaw
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Rifle
+
+weapon_init_shooterxx
+    Name      : Sanguine Trial
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Rifle
+
+weapon_init_shooterxx2
+    Name      : Doctrinal Edict
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Rifle
+
+weapon_init_specialforces
+    Name      : S.O. Firearm
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_init_specialforcesx
+    Name      : S.O. Firearm
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_swordmaster
+    Name      : Breeze
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_init_swordmasterx
+    Name      : Zephyr
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_swordmasterxx
+    Name      : Phoenix Sword
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_swordmasterxx2
+    Name      : Rhythmic Radiance
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_swordmasterxx3
+    Name      : Plasma Edge
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_swordmasterxx4
+    Name      : Thorned Rose
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_swordmasterxx5
+    Name      : Soul Rapier
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_taoist
+    Name      : Tao Sword
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_init_taoistx
+    Name      : Tao Sword
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_taoistxx
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_taoistxx10
+    Name      : Sawtooth
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_taoistxx2
+    Name      : Taiyi Hossu
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_taoistxx3
+    Name      : Dragon's Eye Brush
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_taoistxx4
+    Name      : Spine
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_taoistxx5
+    Name      : Sword of the Heavenly Way
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_taoistxx6
+    Name      : Comet Laser Sword
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_taoistxx7
+    Name      : Sword & Scroll
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_taoistxx8
+    Name      : Full Marks
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_taoistxx9
+    Name      : Arbiter of Purgatory
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_transcendent
+    Name      : Dimensional Grip
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_init_transcendentx
+    Name      : Dimensional Grip
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_transcendentxx
+    Name      : Stygian Lance
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_trapmaster
+    Name      : Grappling Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_init_trapmasterx
+    Name      : Precision Grappling Gun
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_trapmasterxx
+    Name      : Psyche-Locking Hook
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_trapmasterxx2
+    Name      : Space Ripper
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_trapmasterxx3
+    Name      : Polaris Pistol
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_trapmasterxx4
+    Name      : Million Miles
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_trapmasterxx5
+    Name      : Netherflame Grappler
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Gun
+
+weapon_init_vampire
+    Name      : Crimson Wine Glass
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_init_vampirex
+    Name      : Crimson Wine Glass
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vampirexx
+    Name      : Crimson Wine Glass
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vampirexx10
+    Name      : Bloodwrath Cleaver
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vampirexx11
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vampirexx2
+    Name      : Soul Shackles & Soul Leading Flag
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vampirexx3
+    Name      : Night Screech
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vampirexx4
+    Name      : Blood Moon Grail
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vampirexx5
+    Name      : Sprite Stinger
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vampirexx6
+    Name      : Abyssal Core
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vampirexx7
+    Name      : Wolfshade Fan
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vampirexx8
+    Name      : Linglong
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vampirexx9
+    Name      : Milk Tea Terminator
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_viking
+    Name      : Boxing Gloves
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Strange
+
+weapon_init_vikingx
+    Name      : Boxing Gloves
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vikingxx
+    Name      : Boxing Gloves
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vikingxx10
+    Name      : Searing Grip
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vikingxx11
+    Name      : Waverider
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vikingxx12
+    Name      : Deicide's Grasp
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vikingxx2
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vikingxx3
+    Name      : Tiger Hunt
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vikingxx4
+    Name      : Handaxe of Heroic Soul
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vikingxx5
+    Name      : Bling Bling Punch
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vikingxx6
+    Name      : Radically Invasive Punch
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vikingxx7
+    Name      : Flaming Claw
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vikingxx8
+    Name      : Unyielding Grip
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_vikingxx9
+    Name      : True Dragon Crescent Blade
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_warliege
+    Name      : Blade & Shield
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Sword
+
+weapon_init_warliegex
+    Name      : Legendary Blade & Shield
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_warliegexx
+    Name      : Sever Star Broadsword
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_warliegexx2
+    Name      : Shadow Reaper
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_warliegexx3
+    Name      : Tiger's Might
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_warliegexx4
+    Name      : Judicator's Judgement
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_warliegexx5
+    Name      : Noizwave
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Sword
+
+weapon_init_warlock
+    Name      : Key of the Faint Star
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Staff
+
+weapon_init_warlockx
+    Name      : Key of the Faint Star
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_warlockxx
+    Name      : Key of Umbra
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_warlockxx2
+    Name      : Fiery Spear
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_warlockxx3
+    Name      : Ursa Key
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_warlockxx4
+    Name      : Kitten Gunner
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_warlockxx5
+    Name      : Scarlet Moon
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_warlockxx6
+    Name      : Lavender Dew
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_warlockxx7
+    Name      : Pearlescent Conch
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Staff
+
+weapon_init_werewolf
+    Name      : Flaring Claw
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Strange
+
+weapon_init_werewolfx
+    Name      : Flaring Claw
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_werewolfxx
+    Name      : Flaring Claw
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_werewolfxx2
+    Name      : Fire-tipped Spear & Universe Ring
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_werewolfxx3
+    Name      : Vigor of Boreas
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_werewolfxx4
+    Name      : Bonecrusher
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_werewolfxx5
+    Name      : Ironclad Horned Knuckles
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_werewolfxx6
+    Name      : Giant Claws
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_werewolfxx7
+    Name      : True Serpent Spear
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_init_werewolfxx8
+    Name      : Molten Claws
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Strange
+
+weapon_inkfish
+    Name      : Octopus
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 2
+    Type      : Strange
+
+weapon_laserfishee
+    Name      : Baby Laser Fish
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 2
+    Type      : Sword
+
+weapon_lighter
+    Name      : Staff of Relic Flames
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 1
+    Type      : Strange
+
+weapon_mythic_00
+    Name      : Three Pointed Double-Edged Blade
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_01
+    Name      : Heaven and Earth Bow
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_02
+    Name      : Five-Color Pen
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_03
+    Name      : Flying Dagger Miss No Doubter
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_04
+    Name      : Golden-Dragon Scissors
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_05
+    Name      : Nebula-Cannon
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_06
+    Name      : Fu-Xi Shield
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_07
+    Name      : Taiyi Hossu of Windrush
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_08
+    Name      : Jade Vase
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_09
+    Name      : Buddha's Palm
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_10
+    Name      : Moonshine Frost Blade
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_11
+    Name      : Butterfly Dance
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_12
+    Name      : Laser Lance
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_13
+    Name      : Sky Piercer
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_14
+    Name      : Emerald Crescent - EX
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_15
+    Name      : Sword of Sacrifice
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_16
+    Name      : Staff of Magic Crystal
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_17
+    Name      : Bow of Crystal Core
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_18
+    Name      : Dragon Slayer
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_19
+    Name      : True Samadhi Fire
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_20
+    Name      : True Palm-leaf Fan
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_21
+    Name      : Immortal-Binding Rope
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_22
+    Name      : Long Blade of Inferno King
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_23
+    Name      : Lightning Claymore
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_24
+    Name      : True Fiery Spear
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_25
+    Name      : Vajra Hoop
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_26
+    Name      : Eight Trigrams Furnace
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_mythic_27
+    Name      : Grimsteel Greatsword
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 6
+    Type      : Mythic
+
+weapon_officer_combo
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 5
+    Type      : Token
+
+weapon_pet_1
+    Name      : Royal Knight's Short Sword
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_pet_10
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 1
+    Type      : Laser
+
+weapon_pet_11
+    Name      : Hope
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_pet_12
+    Name      : Pharaoh's Blade
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 5
+    Type      : Sword
+
+weapon_pet_2
+    Name      : Headgear Hero's Machine Gun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Gun
+
+weapon_pet_3
+    Name      : Mercenary Intern's Shotgun
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : ShotGun
+
+weapon_pet_4
+    Name      : Legendary Apprentice's Magic Staff
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Staff
+
+weapon_pet_5
+    Name      : Raw Axe
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Axe
+
+weapon_pet_6
+    Name      : Monster Cuisine
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_pet_7
+    Name      : Crowbar
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Strange
+
+weapon_pet_8
+    Name      : Retro Spear
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Spear
+
+weapon_pet_9
+    Name      : Worn Bazooka
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Rocket
+
+weapon_shooter_combo
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 5
+    Type      : Token
+
+weapon_shovel
+    Name      : Shovel
+    Forgeable : True
+    Is melee  : True
+    Rarity    : 0
+    Type      : Sword
+
+weapon_shower
+    Name      : Watering Can
+    Forgeable : True
+    Is melee  : False
+    Rarity    : 0
+    Type      : Strange
+
+weapon_skill_joker_phantom
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 1
+    Type      : Sword
+
+weapon_swordfish
+    Name      : Swordfish
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 3
+    Type      : Sword
+
+weapon_troop_armor
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_atk_speed
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_book
+    Name      : A  Mercenary Prepares
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_cd
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_critic
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_defence
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_heal
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 5
+    Type      : Token
+
+weapon_troop_hp
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_ice
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 5
+    Type      : Token
+
+weapon_troop_reborn
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 5
+    Type      : Token
+
+weapon_troop_shield
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 5
+    Type      : Token
+
+weapon_troop_statue_assassin
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_statue_engineer
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_statue_knight
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_statue_minister
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_statue_paladin
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_statue_spirit
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_statue_thief
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_statue_viking
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_statue_wizzard
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_statue_wolf
+    Name      : [Name Not Found]
+    Forgeable : False
+    Is melee  : False
+    Rarity    : 0
+    Type      : Default
+
+weapon_troop_whistle
+    Name      : Whistle
+    Forgeable : False
+    Is melee  : True
+    Rarity    : 5
+    Type      : Default
+
+ ██████ ██   ██  █████  ██████   █████   ██████ ████████ ███████ ██████
+██      ██   ██ ██   ██ ██   ██ ██   ██ ██         ██    ██      ██   ██
+██      ███████ ███████ ██████  ███████ ██         ██    █████   ██████
+██      ██   ██ ██   ██ ██   ██ ██   ██ ██         ██    ██      ██   ██
+ ██████ ██   ██ ██   ██ ██   ██ ██   ██  ██████    ██    ███████ ██   ██
+
+c0 = Knight
+    c0_skin0 = Knight
+    c0_skin1 = Elite Knight
+    c0_skin2 = Lava Knight
+    c0_skin3 = Shiba
+    c0_skin4 = Mr. Popcorn
+    c0_skin5 = Fusion Core
+    c0_skin6 = Cyber Knight
+    c0_skin7 = Panda
+    c0_skin8 = Dark Grand Knight Skin
+    c0_skin9 = Glutton Taotie
+    c0_skin10 = King
+    c0_skin11 = Zhang Fei
+    c0_skin12 = Secret Police of Presbyterate
+    c0_skin13 = Judgment
+    c0_skin14 = Chief Centurion
+    c0_skin15 = Paladin, Let's Go!
+    c0_skin16 = Vermilion
+    c0_skin17 = P4RT¥ P4RR0T
+    c0_skin18 = Er-Lang, Paragon of Gallantry
+    c0_skin19 = "K N I T E"
+    c0_skin20 = Musca
+    c0_skin21 = Soul Knight Strange Tales: Bush Knight
+    c0_skin22 = Soul Knight Strange Tales: Aaron
+    c0_skin23 = 骑
+    c0_skin24 = Huang Zhong - Hansheng
+    c0_skin25 = Yuan Lan
+    c0_skin26 = Rogeon
+    c0_skin27 = King Snow Ape Skin
+    c0_skin28 = Knoght
+    c0_skin29 = Pyroverdict Geralt
+    c0_skin30 = Skywrath Saint Salvator
+    c0_skin31 = Knipybara
+    c0_skin32 = Gamer Gabby
+
+c1 = Rogue
+    c1_skin0 = Rogue
+    c1_skin1 = Ghost
+    c1_skin2 = Squirrel
+    c1_skin3 = Rudolph
+    c1_skin4 = Bubbles
+    c1_skin5 = Nightingale
+    c1_skin6 = Trader
+    c1_skin7 = Winged Long
+    c1_skin8 = Cubism
+    c1_skin9 = Mouse King
+    c1_skin10 = Multi-faced
+    c1_skin11 = Aether Cardinal
+    c1_skin12 = Old Fella
+    c1_skin13 = King Hammurabi
+    c1_skin14 = Neon
+    c1_skin15 = Falcon
+    c1_skin16 = Yulong, Prince of the Western Sea
+    c1_skin17 = "R O U G E"
+    c1_skin18 = Doodle Doo
+    c1_skin19 = Gemini
+    c1_skin20 = Soul Knight Strange Tales: Nightingale
+    c1_skin21 = 侠
+    c1_skin22 = Liu Bei - Xuande
+    c1_skin23 = Night Wanderer Skin
+    c1_skin24 = Demonbane Crayton
+    c1_skin25 = Oiia Meow
+    c1_skin26 = Roogue
+    c1_skin27 = Alein the Knight
+    c1_skin28 = Rogybara
+    c1_skin29 = Twinblade Sylvain
+
+c10 = Priestess
+    c10_skin0 = Priestess
+    c10_skin1 = Holy Sister
+    c10_skin2 = Red Bishop
+    c10_skin3 = Bunny
+    c10_skin4 = Sound of Paradise
+    c10_skin5 = Anubis
+    c10_skin6 = Ro
+    c10_skin7 = Boyi the Valor
+    c10_skin8 = Nurse
+    c10_skin9 = Alice
+    c10_skin10 = White Snake
+    c10_skin11 = Solar Eclipse
+    c10_skin12 = Fei Tian
+    c10_skin13 = Neko Chan
+    c10_skin14 = Sanctity
+    c10_skin15 = Golden Cicada
+    c10_skin16 = "P R E I S T E Z"
+    c10_skin17 = Virgo
+    c10_skin18 = 牧
+    c10_skin19 = Cai Wenji
+    c10_skin20 = Stellar Envoy Elizabeth
+    c10_skin21 = Priestoss
+    c10_skin22 = Fragrans Felora
+    c10_skin23 = Pripybara
+    c10_skin24 = Clinic Cloudia
+
+c11 = Druid
+    c11_skin0 = Druid
+    c11_skin1 = Farseer
+    c11_skin2 = Workaholic
+    c11_skin3 = Reindeer
+    c11_skin4 = Dragon King
+    c11_skin5 = Frostash
+    c11_skin6 = Nian
+    c11_skin7 = Baize the Wise
+    c11_skin8 = Zhuge Liang
+    c11_skin9 = Scary Beast Tamer
+    c11_skin10 = Great Inventor
+    c11_skin11 = Sacred Deer
+    c11_skin12 = Paradox
+    c11_skin13 = I Am Not Druid
+    c11_skin14 = Buck Man
+    c11_skin15 = "D R I U D"
+    c11_skin16 = Capricornus
+    c11_skin17 = Sister Zhurong
+    c11_skin18 = 德
+    c11_skin19 = Tang Yin
+    c11_skin20 = Justice Alice
+    c11_skin21 = Drood
+    c11_skin22 = Butterflette Lofeyra
+    c11_skin23 = Drupybara
+    c11_skin24 = Blightherald Gorth
+
+c12 = Robot
+    c12_skin0 = Robot
+    c12_skin1 = Cowbot
+    c12_skin2 = Simple Calculation Specialist Robot
+    c12_skin3 = Doom Corp.
+    c12_skin4 = Zulan The Colossus Skin
+    c12_skin5 = Police 9102
+    c12_skin6 = Goddess Nüwa
+    c12_skin7 = Thunder God
+    c12_skin8 = Musician
+    c12_skin9 = Consort Yu
+    c12_skin10 = Squeaky Marionette
+    c12_skin11 = Genie in the Jar
+    c12_skin12 = Moai
+    c12_skin13 = Crimebuster
+    c12_skin14 = Ben-Bor-Ba
+    c12_skin15 = "R B O O K"
+    c12_skin16 = Telescopium
+    c12_skin17 = Soul Knight Strange Tales: Self-Explosion Robot
+    c12_skin18 = 器
+    c12_skin19 = Pang Tong - Shiyuan
+    c12_skin20 = Roboto
+    c12_skin21 = Superstudent Soultama
+    c12_skin22 = Robybara
+    c12_skin23 = Silent Semi-proto X
+
+c13 = Berserker
+    c13_skin0 = Berserker
+    c13_skin1 = Wrestler
+    c13_skin2 = Gladiator
+    c13_skin3 = Zombie
+    c13_skin4 = Headless Knight Skin
+    c13_skin5 = Bruce Lee
+    c13_skin6 = Shi
+    c13_skin7 = Unicorn Huanshu
+    c13_skin8 = Unit 1202
+    c13_skin9 = Quan Huying
+    c13_skin10 = Emperor's New Clothes
+    c13_skin11 = Fighter Wu Song
+    c13_skin12 = Seahorse Fighter
+    c13_skin13 = Iron Boiler
+    c13_skin14 = King Viking
+    c13_skin15 = Thunderstorm
+    c13_skin16 = Alpha Claw
+    c13_skin17 = "B E R S E R K R"
+    c13_skin18 = Golden-Winged Great Peng
+    c13_skin19 = Ancestor Skin
+    c13_skin20 = Leo
+    c13_skin21 = 狂
+    c13_skin22 = Guan Yu - Yunchang
+    c13_skin23 = Sunchaser Acon
+    c13_skin24 = Borserker
+    c13_skin25 = Bersybara
+    c13_skin26 = Surfer Sean
+    c13_skin27 = Achilles, Hero of the Greeks
+
+c14 = Necromancer
+    c14_skin0 = Necromancer
+    c14_skin1 = Bunny Lady
+    c14_skin2 = The Devout
+    c14_skin3 = Stunt Actor
+    c14_skin4 = Guardian Lu Wu
+    c14_skin5 = Green Snake
+    c14_skin6 = New Moon
+    c14_skin7 = Bastet
+    c14_skin8 = Aurora
+    c14_skin9 = Dead Luna
+    c14_skin10 = Silk Weaver
+    c14_skin11 = "N E C R O M A N C R"
+    c14_skin12 = Cassiopeia
+    c14_skin13 = Ghostie
+    c14_skin14 = Diao Chan
+    c14_skin15 = 灵
+    c14_skin16 = Saki
+    c14_skin17 = Mobile Maven Meng
+    c14_skin18 = Necromoncer
+    c14_skin19 = Necrybara
+    c14_skin20 = Miraculous Sonatia
+    c14_skin21 = Embergaze Vera​
+
+c15 = Officer
+    c15_skin0 = Officer
+    c15_skin1 = Detective Rock
+    c15_skin2 = Jin Yi Wei
+    c15_skin3 = Vampire Hunter
+    c15_skin4 = Ghost Catcher Zhong Kui
+    c15_skin5 = Gold Mask
+    c15_skin6 = Captain Specter
+    c15_skin7 = Aristocrat Lieutenant
+    c15_skin8 = Pharaoh
+    c15_skin9 = Justicebringer
+    c15_skin10 = "O F F I C E"
+    c15_skin11 = Pagoda-Bearing Heavenly King
+    c15_skin12 = Olpaca
+    c15_skin13 = Libra
+    c15_skin14 = Ma Chao - Mengqi
+    c15_skin15 = 警
+    c15_skin16 = Ultra Red
+    c15_skin17 = Bloodlord Lyon
+    c15_skin18 = Offocer
+    c15_skin19 = Offybara
+    c15_skin20 = Abyssadmiral Dylan
+
+c16 = Taoist
+    c16_skin0 = Taoist
+    c16_skin1 = TF 0202
+    c16_skin2 = Exorcist
+    c16_skin3 = Sky Ruler
+    c16_skin4 = Sage of Taoism
+    c16_skin5 = Goblin Priest
+    c16_skin6 = Sneaky Magician
+    c16_skin7 = Thunderstorm
+    c16_skin8 = Steam Runemaster
+    c16_skin9 = Ink Wash - Miao Xian Lang
+    c16_skin10 = Eventide Angel
+    c16_skin11 = Jade Emperor the Great: Most Honored of All-Embracing Sublime Spontaneous Existence of the Golden Towers of the Ever-Radiant Realms
+    c16_skin12 = "T A O Y I S T"
+    c16_skin13 = Pisces
+    c16_skin14 = Bozi
+    c16_skin15 = 道
+    c16_skin16 = Lu Xun - Boyan
+    c16_skin17 = Wait, What?
+    c16_skin18 = Straight-A Sichen
+    c16_skin19 = Taoost
+    c16_skin20 = Dominus Faustus
+    c16_skin21 = Taopybara
+    c16_skin22 = Sharkchef Brucello
+
+c17 = Inter-dimension Traveler
+    c17_skin0 = Inter-dimension Traveler
+    c17_skin1 = Hades, King of the Underworld
+    c17_skin2 = Intor-domension Troveler
+    c17_skin3 = Inter-dimension Travara
+
+c18 = Element Envoy
+    c18_skin0 = Element Envoy
+    c18_skin1 = Amethyne Sirena
+    c18_skin2 = Olement Onvoy
+
+c19 = The Beheaded
+    c19_skin0 = The Beheaded
+
+c2 = Witch
+    c2_skin0 = Witch
+    c2_skin1 = Dark Lady
+    c2_skin2 = Librarian
+    c2_skin3 = Apprentice
+    c2_skin4 = Halloween Witch
+    c2_skin5 = Chinese New Year
+    c2_skin6 = Soul Snare
+    c2_skin7 = Grand Wizard Skin
+    c2_skin8 = Yo
+    c2_skin9 = Nine-Tail Fox
+    c2_skin10 = Li'l Red Riding Hood
+    c2_skin11 = Heroine Mu Guiying
+    c2_skin12 = Sacred Aether Pope
+    c2_skin13 = Aristocrat Mechanic
+    c2_skin14 = Mikan Ko
+    c2_skin15 = Mirabella
+    c2_skin16 = "W I C H"
+    c2_skin17 = Peafowl Princess
+    c2_skin18 = Cassandra
+    c2_skin19 = Cygnus
+    c2_skin20 = Soul Knight Strange Tales: Chest Witch
+    c2_skin21 = 法
+    c2_skin22 = Witch of the Mist Skin
+    c2_skin23 = Bian Linglong
+    c2_skin24 = Soulweaver Lunelle
+    c2_skin25 = Wotch
+    c2_skin26 = Witybara
+    c2_skin27 = Idol Isla
+
+c20 = Time Traveling Ninja
+    c20_skin0 = Time Traveling Ninja
+    c20_skin1 = Skyveil Sylph
+    c20_skin2 = Tome Troveling Ninjo
+    c20_skin3 = Time Traveling Nara
+
+c21 = Special Forces
+    c21_skin0 = Special Forces
+
+c22 = Airbender
+    c22_skin0 = Airbender
+    c22_skin1 = Devildom Magnate
+    c22_skin2 = Abo
+    c22_skin3 = Sunyata
+    c22_skin4 = "A I R B E N D R"
+    c22_skin5 = Pyxis
+    c22_skin6 = 气
+    c22_skin7 = King Skin
+    c22_skin8 = Xiahou Dun - Yuanrang
+    c22_skin9 = Airbonder
+    c22_skin10 = Martialist Lee
+    c22_skin11 = Stormcrest Falco
+    c22_skin12 = Airbybara
+
+c23 = Demonmancer
+    c23_skin0 = Demonmancer
+    c23_skin1 = How I Reincarnated as a Girl and Learned to Practice Devilish Spells in the Netherworld
+    c23_skin2 = Chewbat
+    c23_skin3 = Possessed Girl
+    c23_skin4 = "DIS R ME"
+    c23_skin5 = Red Boy
+    c23_skin6 = Ursa Minor & Major
+    c23_skin7 = 魔
+    c23_skin8 = Xiao Qiao
+    c23_skin9 = Voidlord Eclipsa
+    c23_skin10 = Demonmoncer
+    c23_skin11 = Demybara
+    c23_skin12 = Gardener Gwen
+    c23_skin13 = Aqualune Marina
+
+c24 = Miner
+    c24_skin0 = Miner
+    c24_skin1 = Moon Rabbit
+    c24_skin2 = "M I N A"
+    c24_skin3 = Chi Chi
+    c24_skin4 = Cetus
+    c24_skin5 = Nugget Rider
+    c24_skin6 = Da Qiao
+    c24_skin7 = 矿
+    c24_skin8 = Honeybee
+    c24_skin9 = Ultra Pink
+    c24_skin10 = Volcanic Sandworm Skin
+    c24_skin11 = Sugarheart Princess Angelica
+    c24_skin12 = Moner
+    c24_skin13 = Minybara
+    c24_skin14 = Seabreeze Sylvie
+
+c25 = Trap Master
+    c25_skin0 = Trap Master
+    c25_skin1 = Yama Raja
+    c25_skin2 = "TRAP MASTAH"
+    c25_skin3 = Aries
+    c25_skin4 = Holy
+    c25_skin5 = 陷
+    c25_skin6 = Astral Oracle
+    c25_skin7 = Sun Quan - Zhongmou
+    c25_skin8 = Trop Moster
+    c25_skin9 = Jack of All Tricks
+    c25_skin10 = Trapy Mara
+
+c26 = Costume Prince
+    c26_skin0 = Costume Prince
+    c26_skin1 = Dr. O's Rocket (Knock-off)
+    c26_skin2 = Apple Meow
+    c26_skin3 = Monk Sha
+    c26_skin4 = "COSTUME PRICE"
+    c26_skin5 = 皮
+    c26_skin6 = We Happy Lady
+    c26_skin7 = Duke of Pumpkin
+    c26_skin8 = Chamaeleon
+    c26_skin9 = Costome Prince
+    c26_skin10 = Noah the King
+    c26_skin11 = Painter Preston
+    c26_skin12 = Co Pybara
+
+c27 = Physicist
+    c27_skin0 = Physicist
+    c27_skin1 = Senior Commander
+    c27_skin2 = "P H Y S I O C R A T"
+    c27_skin3 = 博
+    c27_skin4 = Rakshasi
+    c27_skin5 = Lady Zhen
+    c27_skin6 = Hana
+    c27_skin7 = Physocist
+    c27_skin8 = Nyxcrown Camilla
+    c27_skin9 = Physybara
+    c27_skin10 = Athena, Goddess of Wisdom
+
+c28 = Sword Master
+    c28_skin0 = Sword Master
+    c28_skin1 = Sun Shangxiang
+    c28_skin2 = "SWORD MUSTER"
+    c28_skin3 = 剑
+    c28_skin4 = Rinne
+    c28_skin5 = Jade Blade
+    c28_skin6 = Sword Moster
+    c28_skin7 = Rosadame Evelyn
+    c28_skin8 = Swordy Mara
+    c28_skin9 = Hellbelle Lorna
+
+c29 = Lancer
+    c29_skin0 = Lancer
+    c29_skin1 = Zhao Yun - Zilong
+    c29_skin2 = "L A C E R"
+    c29_skin3 = 枪
+    c29_skin4 = Morley Skin
+    c29_skin5 = Fallen Star
+    c29_skin6 = Ming Xiao
+    c29_skin7 = Loncer
+    c29_skin8 = Gigachad
+    c29_skin9 = Lancybara
+    c29_skin10 = Ares, God of War
+
+c3 = Assassin
+    c3_skin0 = Assassin
+    c3_skin1 = Death
+    c3_skin2 = Techno Cat
+    c3_skin3 = Anbu
+    c3_skin4 = Gangster
+    c3_skin5 = Mayan Mask
+    c3_skin6 = Crimson
+    c3_skin7 = Skeleton King
+    c3_skin8 = Zheng Beast
+    c3_skin9 = Nutcracker
+    c3_skin10 = King's Hand Wu Zixu
+    c3_skin11 = Ginzo
+    c3_skin12 = Treachery
+    c3_skin13 = Prince of Persia
+    c3_skin14 = Crux
+    c3_skin15 = ヾ( ° ∀ ° )ﾉ”
+    c3_skin16 = Six−Eared Macaque
+    c3_skin17 = "A S A S S I N"
+    c3_skin18 = Kohaku
+    c3_skin19 = Scorpius
+    c3_skin20 = Lu Bu - Fengxian
+    c3_skin21 = Soul Knight Strange Tales: Crimson
+    c3_skin22 = 刺
+    c3_skin23 = Abyssal Submariner Skin
+    c3_skin24 = Assossin
+    c3_skin25 = Assassybara
+    c3_skin26 = Poseidon, King of the Sea
+
+c30 = Warliege
+    c30_skin0 = Warliege
+    c30_skin1 = Cao Cao - Mengde
+    c30_skin2 = "W O W L I E G E"
+    c30_skin3 = 领
+    c30_skin4 = Shadowmoon
+    c30_skin5 = General Yin
+    c30_skin6 = Armsmaster Augustus
+    c30_skin7 = Worliege
+    c30_skin8 = Rockstar Zock
+    c30_skin9 = Warlybara
+
+c31 = Arcane Knight
+    c31_skin0 = Arcane Knight
+    c31_skin1 = Zhou Yu - Gongjin
+    c31_skin2 = 咒
+    c31_skin3 = Ultra Black
+    c31_skin4 = Princess Iron Fan
+    c31_skin5 = Arcone Knoght
+    c31_skin6 = Ravenloom Woodoom
+    c31_skin7 = Arcany Kara
+
+c32 = Astromancer
+    c32_skin0 = Astromancer
+    c32_skin1 = Zhuge Liang - Kongming
+    c32_skin2 = 星
+    c32_skin3 = Aurora Cavalier
+    c32_skin4 = Astromoncer
+    c32_skin5 = UFO-Chaser Urian
+    c32_skin6 = Astropybara
+    c32_skin7 = Tentacled Samuel
+
+c33 = Fighter
+    c33_skin0 = Fighter
+    c33_skin1 = Guan Yinping
+    c33_skin2 = 武
+    c33_skin3 = Jade-Faced Princess
+    c33_skin4 = Snowflake Sugarena
+    c33_skin5 = Foghter
+    c33_skin6 = Journalist Junie
+    c33_skin7 = Fightybara
+    c33_skin8 = Pyropact Ignis
+
+c34 = Trickster
+    c34_skin0 = Trickster
+    c34_skin1 = 
+    c34_skin2 = 戏
+    c34_skin3 = Trockster
+    c34_skin4 = Maid Mayu
+    c34_skin5 = Crown of Clone
+    c34_skin6 = Trickybara
+
+c35 = Bard
+    c35_skin0 = Bard
+    c35_skin1 = Feline Songstress Nefriti
+    c35_skin2 = 诗
+    c35_skin3 = Bord
+    c35_skin4 = Cheerleader Clara
+    c35_skin5 = Bardybara
+    c35_skin6 = Maroonglow Maplelyn
+
+c36 = Gunner
+    c36_skin0 = Gunner
+    c36_skin1 = Renegade Lucian
+    c36_skin2 = 手
+    c36_skin3 = Gonner
+    c36_skin4 = Gunnybara
+    c36_skin5 = Theophil the Bishop
+
+c37 = Machina
+    c37_skin0 = Machina
+    c37_skin1 = Hexagon
+    c37_skin2 = Lostpearl Lazura
+    c37_skin3 = Mochino
+    c37_skin4 = Machybara
+    c37_skin5 = Caissa the Queen
+
+c38 = Captain
+    c38_skin0 = Captain
+    c38_skin1 = Dreadwake Stryke
+    c38_skin2 = Coptain
+    c38_skin3 = Deepsea 001
+    c38_skin4 = Captybara
+
+c4 = Alchemist
+    c4_skin0 = Alchemist
+    c4_skin1 = DJ
+    c4_skin2 = Santa Red
+    c4_skin3 = The Fortune God
+    c4_skin4 = Doctor Beaky
+    c4_skin5 = Varkolyn Leader Skin
+    c4_skin6 = Ogre Aoyin
+    c4_skin7 = Crew 2202
+    c4_skin8 = Judge Bao
+    c4_skin9 = Merman Venom
+    c4_skin10 = Azteca Priest
+    c4_skin11 = MoMo
+    c4_skin12 = Scorpyra
+    c4_skin13 = "A L K I M I S T"
+    c4_skin14 = Crying Lemon
+    c4_skin15 = Taurus
+    c4_skin16 = Zuo Ci - Yuanfang
+    c4_skin17 = 金
+    c4_skin18 = Vicious Witch
+    c4_skin19 = Experimenter Ellie
+    c4_skin20 = Alchomost
+    c4_skin21 = Alchybara
+    c4_skin22 = Elementaress Lizzmii
+
+c5 = Engineer
+    c5_skin0 = Engineer
+    c5_skin1 = Heavily Modded
+    c5_skin2 = Prototype
+    c5_skin3 = Sky Lantern
+    c5_skin4 = Poached Egg
+    c5_skin5 = Musician
+    c5_skin6 = HELLO WORLD
+    c5_skin7 = Floating Laser UFO
+    c5_skin8 = Ruler Huang Tian
+    c5_skin9 = Fire God
+    c5_skin10 = Warlord Xiang Yu
+    c5_skin11 = Strange Clown
+    c5_skin12 = Crowned Can
+    c5_skin13 = Ancient Bronze Smith
+    c5_skin14 = Impostor
+    c5_skin15 = Dr. O
+    c5_skin16 = "E N G I N E R R"
+    c5_skin17 = Purple Gold Red Gourd
+    c5_skin18 = Aquarius
+    c5_skin19 = Hua Tuo - Yuanhua
+    c5_skin20 = 程
+    c5_skin21 = Ultra Blue
+    c5_skin22 = Eggineer
+    c5_skin23 = Inventor Hunter
+    c5_skin24 = Engybara
+    c5_skin25 = Team Tarara
+    c5_skin26 = Programmer
+
+c6 = Vampire
+    c6_skin0 = Vampire
+    c6_skin1 = Blood Duke
+    c6_skin2 = Vampire Police
+    c6_skin3 = Old Breed
+    c6_skin4 = Jack the Pumpkin
+    c6_skin5 = Bai Wu Chang
+    c6_skin6 = Duke Silver
+    c6_skin7 = Phantom King
+    c6_skin8 = Firebrand Taowu
+    c6_skin9 = Soul Escorts
+    c6_skin10 = Annihilation
+    c6_skin11 = Night Witch Lilith
+    c6_skin12 = Bloodred
+    c6_skin13 = Boneta
+    c6_skin14 = "V A M P Y R E"
+    c6_skin15 = Corvus
+    c6_skin16 = Sima Yi - Zhongda
+    c6_skin17 = 鬼
+    c6_skin18 = Shang Zun
+    c6_skin19 = President Peach
+    c6_skin20 = Vompire
+    c6_skin21 = Shadowthane Vane
+    c6_skin22 = Vampybara
+    c6_skin23 = Spider Pepper
+
+c7 = Paladin
+    c7_skin0 = Paladin
+    c7_skin1 = Blood Dragon
+    c7_skin2 = CH3COOH
+    c7_skin3 = Santa Green
+    c7_skin4 = Virudhaka
+    c7_skin5 = Guardian
+    c7_skin6 = Silverwing
+    c7_skin7 = Grand Knight
+    c7_skin8 = Ku
+    c7_skin9 = Dijiang Bird
+    c7_skin10 = Guan Yu
+    c7_skin11 = Whip of Presbyterate
+    c7_skin12 = King Triton
+    c7_skin13 = Eroded Mecha
+    c7_skin14 = Spartan Warrior
+    c7_skin15 = Moonsteel
+    c7_skin16 = Monk Pigsy
+    c7_skin17 = "P A L A T I N"
+    c7_skin18 = Lorenzo
+    c7_skin19 = Scutum
+    c7_skin20 = 圣
+    c7_skin21 = Xu Chu - Zhongkang
+    c7_skin22 = Sisyphos
+    c7_skin23 = Paladon
+    c7_skin24 = Hellaxe Gregor
+    c7_skin25 = Palybara
+    c7_skin26 = Flametide Sigrid
+
+c8 = Elf
+    c8_skin0 = Elf
+    c8_skin1 = Revive
+    c8_skin2 = Ice Queen
+    c8_skin3 = Chang'e
+    c8_skin4 = TapTap
+    c8_skin5 = Forest Keeper
+    c8_skin6 = Devil's Snare
+    c8_skin7 = Bifang Bird
+    c8_skin8 = Sugar Plum Fairy
+    c8_skin9 = Gallant Huang Zhong
+    c8_skin10 = Princess Mermaid
+    c8_skin11 = Moonlight of Mount Olympus
+    c8_skin12 = Flashback
+    c8_skin13 = Apricot Fairy
+    c8_skin14 = 'E I F"
+    c8_skin15 = Sagittarius
+    c8_skin16 = 精
+    c8_skin17 = Hoshina
+    c8_skin18 = Bu Lianshi
+    c8_skin19 = Athlete Ayuki
+    c8_skin20 = Olf
+    c8_skin21 = Apsara Veluriya
+    c8_skin22 = Elfybara
+
+c9 = Werewolf
+    c9_skin0 = Werewolf
+    c9_skin1 = Wolverine
+    c9_skin2 = Werebear
+    c9_skin3 = Monkey King
+    c9_skin4 = Living Dead
+    c9_skin5 = Tiger Cub
+    c9_skin6 = Easter Egg
+    c9_skin7 = Leopard
+    c9_skin8 = Hellpact
+    c9_skin9 = Giant Crystal Crab
+    c9_skin10 = Winged Tiger
+    c9_skin11 = Douwa
+    c9_skin12 = Granny
+    c9_skin13 = Li'l Rascal Nezha
+    c9_skin14 = Sirius
+    c9_skin15 = Boreas Bear Spirit
+    c9_skin16 = Horror
+    c9_skin17 = Bull Demon King
+    c9_skin18 = "W H E R E W O L F"
+    c9_skin19 = Cancer
+    c9_skin20 = Zhang Fei - Yide
+    c9_skin21 = 狼
+    c9_skin22 = Wereroach
+    c9_skin23 = Beefy Reindeer
+    c9_skin24 = Grimreaper Grayson
+    c9_skin25 = Woowolf
+    c9_skin26 = Werepybara
+    c9_skin27 = Spooky Bear
+    c9_skin28 = Greedfang Warwolf Skin
+
+██████  ███████ ████████
+██   ██ ██         ██   
+██████  █████      ██   
+██      ██         ██   
+██      ███████    ██   
+
+0
+    Display name : Chilly
+
+1
+    Display name : Buddy
+
+10
+    Display name : Pigeon
+
+11
+    Display name : Flutter
+
+12
+    Display name : Baby Seal
+
+13
+    Display name : Inherited Bug
+
+14
+    Display name : Wayne
+
+15
+    Display name : Pinko Hippo
+
+16
+    Display name : Mini Tengu
+
+18
+    Display name : Peanut
+
+19
+    Display name : Max
+
+2
+    Display name : Hamm
+
+20
+    Display name : Smokey
+
+21
+    Display name : Snow
+
+22
+    Display name : Papa
+
+23
+    Display name : Cowboi
+
+24
+    Display name : Officer Chilly
+
+25
+    Display name : Blani
+
+26
+    Display name : Speedy
+
+27
+    Display name : Serenade
+
+28
+    Display name : Taro
+
+29
+    Display name : Pudding
+
+3
+    Display name : Blue
+
+30
+    Display name : Purpur
+
+31
+    Display name : Pochi
+
+32
+    Display name : Chestnut
+
+33
+    Display name : Yanyan
+
+34
+    Display name : Pepper
+
+35
+    Display name : Rosemary Cat
+
+36
+    Display name : 10% Off
+
+37
+    Display name : Quacky
+
+38
+    Display name : Sacasaca
+
+39
+    Display name : Zhaocai
+
+4
+    Display name : Robo
+
+40
+    Display name : Hammery
+
+41
+    Display name : Zongzi Junior
+
+42
+    Display name : Director Pepper
+
+43
+    Display name : Glitchy Roachy
+
+44
+    Display name : 
+
+45
+    Display name : Meower
+
+46
+    Display name : Slimy
+
+47
+    Display name : Zongzi Bro
+
+48
+    Display name : Mahhmot
+
+49
+    Display name : Kapikapi
+
+5
+    Display name : Panda
+
+50
+    Display name : Milktea Monitor Tower
+
+51
+    Display name : Lil Drillmaster
+
+6
+    Display name : BonBon
+
+7
+    Display name : Can'bellied Pig
+
+8
+    Display name : Tap
+
+9
+    Display name : Douwa
+
+██████  ██    ██ ███████ ███████ 
+██   ██ ██    ██ ██      ██      
+██████  ██    ██ █████   █████   
+██   ██ ██    ██ ██      ██      
+██████   ██████  ██      ██      
+
+00
+    Name        : Piercing Crit
+    Description : Critical hit bullets can pierce enemies
+
+01
+    Name        : Heightened Beams
+    Description : Increase the beam width of optoelectronic weapons and grant immunity to electro-charged damage.
+
+02
+    Name        : Shotgun Barrage
+    Description : Increase the number of bullets of shotguns
+
+03
+    Name        : Reflexive Edge
+    Description : Melee weapons can bounce bullets
+
+04
+    Name        : Rapid Charge
+    Description : Shorter charge time for weapons that require charging
+
+05
+    Name        : Sturdy Shield
+    Description : No extra damage is taken when armor is depleted.
+
+06
+    Name        : Trap Shield
+    Description : Immune to traps, and immune to collision damage
+
+07
+    Name        : Poison Shield
+    Description : Immune to poison gas and slow effect, increase poison damage to monsters
+
+08
+    Name        : Fire Shield
+    Description : Immune to fire, decrease explosion damage and increase fire damage to monsters
+
+09
+    Name        : On Sale!
+    Description : 50% off in store
+
+10
+    Name        : Life Harvest
+    Description : Enemies have a chance to drop health orbs when defeated.
+
+1001
+    Name        : [Name Not Found]
+    Description : Energy restored +1
+
+1002
+    Name        : [Name Not Found]
+    Description : Upgrade the skill
+
+1003
+    Name        : [Name Not Found]
+    Description : Non-primary weapons turn into floating weapons. Exclusive to this character.
+
+1004
+    Name        : [Name Not Found]
+    Description : Inter-dimension Traveler gains a chance to be immune to all damage. Every 5 bare-hand attacks trigger an enhanced one. [Exclusive to this character]
+
+1005
+    Name        : [Name Not Found]
+    Description : Immune to fire, take less explosion damage, and increase fire damage to enemies. Immune to freeze, and apply extra freeze time to enemies. Summon random elemental stelae in combat to attack enemies. [Exclusive to this character]
+
+1006
+    Name        : [Name Not Found]
+    Description : A Great Owl pet follows you around. It disappears for a while if you take any damage. Exclusive to this character.
+
+1007
+    Name        : [Name Not Found]
+    Description : Fast slash enemies nearby once in a while.
+
+1008
+    Name        : [Name Not Found]
+    Description : Three Special Forces knights are masters of different types of weapons. \nRed Knight: Attacks with some melee weapons release projectiles. \nBlue Knight: Attacks with staffs are more powerful. \nGreen Knight: Faster bullet speed for all guns.
+
+1009
+    Name        : [Name Not Found]
+    Description : Airbender's barehanded attack deals 3 instances of consecutive damage and releases a conical Qi-gong wave which inflicts AoE damage. Exclusive to this character.
+
+1010
+    Name        : [Name Not Found]
+    Description : Summon a fiery imp upon killing an enemy. Fiery imp follows you around to block bullets. Exclusive to this character.
+
+1011
+    Name        : [Name Not Found]
+    Description : Attacking enemies or taking damage increases Battlelust.\nUpon reaching max Battlelust, enter the Battle Surge state, temporarily enhancing size, attack speed, movement speed, and attack. [Exclusive to this character]
+
+1012
+    Name        : [Name Not Found]
+    Description : Casting skill increases movement speed. Fully releasing skill grants 5 Sword Intent. [Exclusive to this character]
+
+1013
+    Name        : [Name Not Found]
+    Description : Crit hit rate increases as you stay still and charge longer.
+
+1014
+    Name        : [Name Not Found]
+    Description : Skills apply star curse. At 3 stacks, astrology is triggered, with effects based on the skill and providing astral energy. Astral energy can enhance skills. [Exclusive to this character]
+
+1014_name
+    Name        : [Name Not Found]
+    Description : Star Curse
+
+1015
+    Name        : Icicle Spike
+    Description : Ice-based critical attacks launch {0} ice spikes at all directions.
+
+1016
+    Name        : Ice Sculpture
+    Description : Enemies killed by ice damage have a {0} chance of turning into ice sculptures, which automatically pursue other enemies and explode, dealing {2} ice damage to enemies within a radius of {1}.
+
+1017
+    Name        : Frost Nova
+    Description : Enemies killed by ice damage have a {0} chance to trigger a frost nova upon death.
+
+1018
+    Name        : Myriad Illusion
+    Description : Every {0}s, a phantom clone will be created, which will automatically attack enemies.
+
+1019
+    Name        : [Name Not Found]
+    Description : Consecutive attacks or enemy deaths drop musical notes. Picking them up increases bullet size by {0}% and movement speed by {1}% for {2}s, stacking up to {3} times.
+
+1020
+    Name        : Stay Focused
+    Description : Each enemy killed: attack speed +{0}%, crit hit rate +{1}%, deviation -{2}, stacking up to {3} times. Lasts for {4} seconds (resets on killing an enemy).
+
+1020_name
+    Name        : [Name Not Found]
+    Description : Stay Focused
+
+1021
+    Name        : [Name Not Found]
+    Description : Increase max power. Gain power upon consuming energy. [Exclusive to this character]
+
+1021_name
+    Name        : [Name Not Found]
+    Description : Power Protocol
+
+1022
+    Name        : [Name Not Found]
+    Description : Immune to explosive barrels and randomly drops them on the field. [Exclusive to this character]
+
+1022_name
+    Name        : [Name Not Found]
+    Description : Blast Fest
+
+11
+    Name        : Healing Surge
+    Description : Improve potion effectiveness
+
+12
+    Name        : Mana Harvest
+    Description : Enemies have a chance to drop energy orbs when defeated.
+
+13
+    Name        : Warping Touch
+    Description : Decrease monster bullet speed, larger pickup radius
+
+14
+    Name        : Gem Generosity
+    Description : Get more gems at the end of each game
+
+15
+    Name        : Brave Heart
+    Description : Increase maximum life
+
+16
+    Name        : Best Buddy
+    Description : Increase the effectiveness of pets and followers
+
+17
+    Name        : Shield Blast
+    Description : Release a radial blast when shield is down
+
+18
+    Name        : Looting Luck
+    Description : Upon being broken, crates have a chance to drop health potions, and a higher chance to drop energy orbs.
+
+19
+    Name        : Precise Strike
+    Description : Increase accuracy and critical hit chance
+
+20
+    Name        : Cooldown Rush
+    Description : Reduce skill cool down
+
+2001
+    Name        : [Name Not Found]
+    Description : Restore 10% of max health after you enter the next level. If 10% of your max health is less than 1, the restored HP will be rounded up to 1.
+
+2002
+    Name        : [Name Not Found]
+    Description : Restore 30% of max energy after you enter the next level.
+
+2003
+    Name        : [Name Not Found]
+    Description : Chance to inflict chain lightning upon hitting enemies. Lightning has a chance to stun enemies.
+
+2004
+    Name        : [Name Not Found]
+    Description : Release ice shards in all directions upon hitting enemies. Ice shards have a chance to freeze enemies.
+
+2005
+    Name        : [Name Not Found]
+    Description : Beg for mercy (Pressure Level -1)
+
+2006
+    Name        : [Name Not Found]
+    Description : Beg for mercy (remove the negative challenge condition you just got)
+
+2007
+    Name        : [Name Not Found]
+    Description : Max energy +20 (max 10 stacks)
+
+21
+    Name        : Dual Statue
+    Description : Statue effects can be triggered twice per skill cast. You can be buffed by 2 different statue effects at the same time.
+
+2101
+    Name        : Whirlwind Slash
+    Description : Release a whirlwind slash when you defeat an enemy in melee range. Cooldown {0} seconds.
+
+2102
+    Name        : Split Shot
+    Description : {0}% chance to fire another bullet upon scoring a ranged hit.
+
+2103
+    Name        : Well Begun
+    Description : Guaranteed critical hit when the enemy's HP is full.
+
+2104
+    Name        : [Name Not Found]
+    Description : Damage taken by enemies increases by {0}% for each elemental effect they have.
+
+2105
+    Name        : Elemental Cycle
+    Description : Fire damage, ice damage, poison damage, and electric damage, each type of elemental damage increases by {0}% in turn. The cycle lasts for {1} seconds.
+
+2106
+    Name        : Kinetic Strike
+    Description : Gain Kinetics stacks from movement. Hitting a target converts all stacks of Kinetics into extra damage ({0} at most). At full Kinetics stacks, your next attack is guaranteed to crit and stun enemies.
+
+2107
+    Name        : [Name Not Found]
+    Description : Consume extra {0}% of max energy per hit, and deal extra electricity damage to the target that is equal to {1}% of extra energy consumed.
+
+2108
+    Name        : Party Time!
+    Description : When pets and followers start to fight, their attack speed increases by {0}% and attack damage by {1}% for {2} seconds.
+
+2109
+    Name        : [Name Not Found]
+    Description : The control effect is extended by {0} seconds. Damage dealt to affected enemies increases by {1}%.
+
+2110
+    Name        : [Name Not Found]
+    Description : Gain Energize stacks from moving and hitting enemies. At full stacks, your next skill casting discharges all stacks to enhance the skill effect for a short duration.
+
+2111
+    Name        : [Name Not Found]
+    Description : Gain 1 stack of buff for every {0} points of energy consumed. Buffs includes attack damage +{1}%, fire rate +{2}%, bullet size +{3}%. Buffs last for {4} seconds. Max {5} stacks.
+
+2112
+    Name        : [Name Not Found]
+    Description : Max health +{1} for every {0} Rosemary Beans you have.
+
+2113
+    Name        : [Name Not Found]
+    Description : Defense +{1} when energy is higher than {0}%.
+
+2114
+    Name        : [Name Not Found]
+    Description : Life Regen +{0}. Restoration of energy orbs -{1}.
+
+2115
+    Name        : [Name Not Found]
+    Description : Continue to stun enemies nearby when being invincible.
+
+2116
+    Name        : [Name Not Found]
+    Description : Gain extra {0}% of owned Rosemary Beans at the start of each level.
+
+2117
+    Name        : [Name Not Found]
+    Description : Block 1 elemental effect every {0} seconds.
+
+2118
+    Name        : Elemental Blessing
+    Description : {0}% chance to restore {1} armor when you inflict a debuff on enemies.
+
+2119
+    Name        : [Name Not Found]
+    Description : {0}% chance to gain {1} Rosemary Beans when you kill an enemy with critical hit.
+
+2120
+    Name        : [Name Not Found]
+    Description : Restoration of energy orb +{0}, number of enemies +{1}%.
+
+2121
+    Name        : [Name Not Found]
+    Description : Fire rate +{0}% when you stand still. Defense -{1} when you are moving.
+
+2122
+    Name        : [Name Not Found]
+    Description : Refresh items {0} times for free in each level.
+
+2123
+    Name        : [Name Not Found]
+    Description : Number of plants increases in Rosemary Island.
+
+2124
+    Name        : [Name Not Found]
+    Description : Release multiple spikes in all directions when you take a hit. Spikes deal more damage if you have higher max HP.
+
+2125
+    Name        : [Name Not Found]
+    Description : Selling price of items reduces by {0}%.
+
+2126
+    Name        : [Name Not Found]
+    Description : Extra health restored will be converted to armor.
+
+2127
+    Name        : [Name Not Found]
+    Description : Defense -{0}. Drain health from nearby enemies every {1} seconds.
+
+2128
+    Name        : [Name Not Found]
+    Description : Pets will mimic your attacks. Cooldown {0} seconds.
+
+2129
+    Name        : [Name Not Found]
+    Description : Salary increases by {0}, but you lose {2} health every {1} seconds while in combat.
+
+2130
+    Name        : [Name Not Found]
+    Description : Max health drops to 1. At the end of next level, earn {0} Rosemary Beans and forget this buff.
+
+2131
+    Name        : [Name Not Found]
+    Description : Bullets will circle around you after they are shot out.
+
+2132
+    Name        : [Name Not Found]
+    Description : Gain {0} stacks of splash. Each stack enables your attack to deal {1}% of splash damage to enemies. Gain {2} stacks when you defeat enemies. Lose {3} stacks when you take damage. Max {4} stacks.
+
+2133
+    Name        : [Name Not Found]
+    Description : Summon {1} random pet for every {0} energy you have.
+
+2134
+    Name        : [Name Not Found]
+    Description : When standing within the range of an elemental attack, its radius and damage gradually increase and its duration is extended.
+
+2135
+    Name        : [Name Not Found]
+    Description : Release one extra knockback attack for every {0} melee attacks dealt.
+
+2136
+    Name        : [Name Not Found]
+    Description : {0} chance to teleport to a random location before taking damage.
+
+2137
+    Name        : [Name Not Found]
+    Description : At the start of each level, salary +{0}, max health +{1}, max energy +{2}.
+
+2138
+    Name        : [Name Not Found]
+    Description : Every time a skill is used, the skill damage increases by {0}%.
+
+2139
+    Name        : [Name Not Found]
+    Description : Enemies have a chance to drop random potions when defeated. All potion effects increase by {0}%.
+
+2140
+    Name        : [Name Not Found]
+    Description : Upon hitting enemies, optoelectronic weapons have a {0}% chance to refract {1} beams of laser.
+
+2141
+    Name        : [Name Not Found]
+    Description : Instantly get a random armor mount. Piloting the armor mount to defeat enemies grants a random stats boost on the armor mount.
+
+2142
+    Name        : [Name Not Found]
+    Description : Enemies' HP +{0}%, move speed -{1}%.
+
+2143
+    Name        : [Name Not Found]
+    Description : Get a Legendary Buff for every {0} plants of Rosemary Island destroyed.
+
+2144
+    Name        : [Name Not Found]
+    Description : {0}% chance to restore {1} energy when getting currencies.
+
+2145
+    Name        : Hero's Valor
+    Description : Each skill use increases damage by {0}%, stacking up to {1} times. Instantly gain full stacks when health drops to 1.
+
+2145_name
+    Name        : [Name Not Found]
+    Description : Hero's Valor
+
+2145_slim
+    Name        : [Name Not Found]
+    Description : Each use of the skill increases damage by {0}%, stacking up to {1} times.
+
+2146
+    Name        : Martial Spirit
+    Description : Every {0}th attack is guaranteed to crit.
+
+2146_name
+    Name        : [Name Not Found]
+    Description : Martial Spirit
+
+2147
+    Name        : [Name Not Found]
+    Description : Plants on the Rosemary Island gain +{0}% health and yield {1}% more Rosemary Beans.
+
+2148
+    Name        : [Name Not Found]
+    Description : Whenever a plant is destroyed, it deals {0} damage to nearby enemies.
+
+2149
+    Name        : [Name Not Found]
+    Description : Max HP, max armor, and max energy no longer change. Melee damage, ranged damage, and elemental damage +{0}.
+
+2150
+    Name        : [Name Not Found]
+    Description : Explosions cover a larger area but deal {0}% less damage.
+
+2170
+    Name        : [Name Not Found]
+    Description : Release <color=#FFEB04FF>Holy Nova</color> and gain immunity to this hit when taking lethal damage. Cooldown {0} seconds. \n<color=#FFEB04FF>Holy Nova</color>: Destroys non-boss enemies and their bullets, and dishes out a massive amount of damage to bosses, while healing all allies. Effective range {1}.
+
+2171
+    Name        : [Name Not Found]
+    Description : Enemies drop soul pieces when they die. Collect enough soul pieces to release <color=#A473FCFF>Soul Strike</color> on your next hit. \n<color=#A473FCFF>Soul Strike</color>: Inflicts a massive amount of damage to the target as well as AoE damage to enemies around them. Damage permanently increases by {0}% every time Soul Strike is triggered.
+
+2172
+    Name        : [Name Not Found]
+    Description : Gain 1 stack of Blockade every {0} seconds. Max {1} stacks. Each stack of Blockade can block one hit and release a <color=#00FFFFFF>Frost Ring</color>. \n<color=#00FFFFFF>Frost Ring</color>: Reduces movement speed and fire rate of surrounding enemies and makes them suffer from Frostbite. Enemies affected by Frostbite will be frozen on hit.
+
+2173
+    Name        : [Name Not Found]
+    Description : Release a conical <color=#FF0000FF>Dragonbreath</color> every {0} seconds. \n<color=#FF0000FF>Dragonbreath</color>: Burns enemies on hit and inflicts an explosion when it hits burnt enemies.
+
+2174
+    Name        : [Name Not Found]
+    Description : After you move a certain distance, release a <color=#00FF00FF>tornado</color> that continuously pulls in enemies, harms them, and destroys enemy bullets.
+
+2175
+    Name        : [Name Not Found]
+    Description : After you cast the skill, your next attack will be strengthened and come with a random elemental effect.
+
+2177
+    Name        : [Name Not Found]
+    Description : Put on Sunglasses and call your friends for fire support. Cooldown {0} seconds.
+
+2178
+    Name        : [Name Not Found]
+    Description : Casting a skill drops firecrackers that explode upon contact with enemies or after a period time.
+
+2179
+    Name        : [Name Not Found]
+    Description : When near pets, followers, or summons, releases lightning bolts upon nearby enemies over time.
+
+2180
+    Name        : [Name Not Found]
+    Description : Attacks in battle might deal +{0} damage and restore {1}% of consumed energy.
+
+2181
+    Name        : [Name Not Found]
+    Description : Marks enemies you hit. Hitting a marked enemy with your weapon deals {0}% damage to nearby enemies.
+
+2182
+    Name        : [Name Not Found]
+    Description : All damage you deal within {0}s of hitting an enemy is absorbed. For the next {1}s, all your attacks deal additional damage equal to {2}% of the absorbed damage.
+
+2183
+    Name        : [Name Not Found]
+    Description : Your main weapon copies your secondary weapon's attack style for {0}s. Cooldown: {1}s.
+
+2184
+    Name        : [Name Not Found]
+    Description : Summons a pack of monkeys.
+
+22
+    Name        : Ice Shield
+    Description : Immune to freeze, and extra freeze time for the enemies
+
+2201
+    Name        : [Name Not Found]
+    Description : Defeated enemies may drop additional coins.
+
+23
+    Name        : Bouncing Bullets
+    Description : Bullets can bounce
+
+24
+    Name        : Extra Weapon
+    Description : Take an extra weapon into the fight
+
+25
+    Name        : [Name Not Found]
+    Description : Elemental bullets deal double damage on critical hit
+
+26
+    Name        : [Name Not Found]
+    Description : Increase damage of staves
+
+27
+    Name        : Ironclad
+    Description : Armor +1
+
+28
+    Name        : Long Reach
+    Description : Increase the attack range of melee weapon
+
+29
+    Name        : Mana Might
+    Description : Max Energy +100
+
+30
+    Name        : Combo Turbo
+    Description : Increase the number of combo hits for combo-hit weapons
+
+31
+    Name        : Rapid Fire
+    Description : Increase firing speed of weapon
+
+32
+    Name        : Blast on Death
+    Description : Monsters have a chance to explode upon death.
+
+33
+    Name        : Golden Armor
+    Description : Increases your max armor by 1 point when the number of coins reaches 100, 200 and 300. (max 3 points)
+
+34
+    Name        : Vengeance Instinct
+    Description : Guaranteed critical hit for a short duration when HP reduces.
+
+35
+    Name        : Blitz Defense
+    Description : When you inflict a critical hit, your movement speed increases for a short duration. Armor slowly regenerates as you move.
+
+36
+    Name        : [Name Not Found]
+    Description : Chance to restore some energy when armor is damaged.
+
+37
+    Name        : Armor Resilience
+    Description : Armor regenerates instantly by 50% when it is depleted. The effect can be triggered once every 60 secs.
+
+38
+    Name        : Secret of Qi-gong
+    Description : Release a Qi-gong wave that consumes energy when you attack with bare hands.
+
+39
+    Name        : Elemental Torrent
+    Description : Elemental bullets deal double damage on critical hit. Staff weapons deal higher damage.
+
+40
+    Name        : Electric Pulse
+    Description : Crit hit rate +5%. Critical hits summon lightning upon the target.
+
+41
+    Name        : [Name Not Found]
+    Description : Your health slowly regenerates.
+
+42
+    Name        : [Name Not Found]
+    Description : Your armor recovers faster.
+
+44
+    Name        : [Name Not Found]
+    Description : Poison effect now can stack up to {0} times.
+
+45
+    Name        : [Name Not Found]
+    Description : Frozen effect lasts {0} seconds longer.
+
+46
+    Name        : [Name Not Found]
+    Description : Deal {0}% more damage to frozen enemies.
+
+47
+    Name        : [Name Not Found]
+    Description : Restores {0} armor upon defeating an enemy. Cooldown: {1}s.
+
+48
+    Name        : [Name Not Found]
+    Description : After releasing a fully charged weapon attack, summons a mirror image that lasts {0}s.
+
+49
+    Name        : [Name Not Found]
+    Description : Dealing elemental damage has a {0}% chance to summon a matching elemental minion for {1}s. Repeated triggers extend the minion's duration.
+
+50
+    Name        : [Name Not Found]
+    Description : Skill cooldown is extended by {0}s. Defeating an enemy accelerates cooldown by {1}%.
+
+51
+    Name        : [Name Not Found]
+    Description : Armor restores {0}% slower in battle. For every {1} armor you own, weapon hits deal +1 damage.
+
+52
+    Name        : [Name Not Found]
+    Description : Switching weapons increases weapon damage by {0}% for {1}s, stacking up to {2} times.
+
+53
+    Name        : [Name Not Found]
+    Description : Attacks increase movement speed by {1}% for {0}s, stacking up to {2} times.
+
+54
+    Name        : [Name Not Found]
+    Description : Machine gun and sniper bullets pierce only 1 enemy at a time. After piercing enemies, these bullets automatically track and strike enemies, dealing {0}% damage.
+
+55
+    Name        : [Name Not Found]
+    Description : Attacks toss random elemental vials at enemies. For every {1} energy consumed in the last {0}s, tosses an extra bottle. Cooldown: {2}s.
+
+56
+    Name        : [Name Not Found]
+    Description : Energy orbs restore {0}% less energy. You might generate energy orbs while moving in battle.
+
+57
+    Name        : [Name Not Found]
+    Description : Picking up an energy orb grants {0} special bullets. Upon consuming 1 energy, fires 1 special bullet.
+
+58
+    Name        : [Name Not Found]
+    Description : Ignite the ground while moving, dealing {0} fire damage to enemies and possibly inflicting burn.
+
+59
+    Name        : [Name Not Found]
+    Description : Dealing lightning damage to burning enemies or fire damage to electro-charged enemies triggers an additional {0} area damage.
+
+ ██████ ██   ██  █████  ██       █████  ███    ██  ██████  ███████ 
+██      ██   ██ ██   ██ ██      ██   ██ ████   ██ ██       ██      
+██      ███████ ███████ ██      ███████ ██ ██  ██ ██   ███ █████   
+██      ██   ██ ██   ██ ██      ██   ██ ██  ██ ██ ██    ██ ██      
+ ██████ ██   ██ ██   ██ ███████ ██   ██ ██   ████  ██████  ███████ 
+
+ARAMDisableAttack
+    Name        : [Name Not Found]
+    Title       : Spellbound
+    Description : You are unable to attack or use skills, and receive {0} Rosemary Beans at the end of combat.
+
+ARAMMagicBomb
+    Name        : [Name Not Found]
+    Title       : Alchemy Accident
+    Description : Bombs randomly drop on the battlefield, dealing {1} unavoidable damage to all nearby units after {0}s.
+
+ARAMPickUpCoinDamage
+    Name        : [Name Not Found]
+    Title       : Undercooked Rosemary Bean
+    Description : Lose {1} health for every {0} pickups of Rosemary Beans.
+
+ARAMUseSkillToMove
+    Name        : [Name Not Found]
+    Title       : Root Entanglement
+    Description : Unable to move and take {0}% less damage. This effect is temporarily disabled for {1}s after using a skill.
+
+AggressiveEnemy
+    Name        : More aggressive enemies!
+    Title       : Feral Enemies
+    Description : More aggressive enemies!
+
+AllAlone
+    Name        : No pets or mercenaries
+    Title       : Lone Wolf
+    Description : No pets or mercenaries
+
+BadLuck
+    Name        : Bad Luck
+    Title       : Bad Luck
+    Description : You are jinxed!
+
+BigSale
+    Name        : First three purchases in dungeon are free
+    Title       : [Title Not Found]
+    Description : [Description Not Found]
+
+BlackFog
+    Name        : Miasma
+    Title       : [Title Not Found]
+    Description : Turn invisible but gain stacks within miasmas. Lose HP if stacks max.
+
+BombGift
+    Name        : Bombs and coins spawn in chests when you clear a room (except for boss rooms).
+    Title       : Bomb Chest
+    Description : Bombs and coins spawn in chests when you clear a room (except for boss rooms).
+
+BoomBoomBoom
+    Name        : Boom Boom Boom
+    Title       : Boom Boom Boom
+    Description : Complete the game once. And in this game, both enemies and players explode upon death. The explosion deals damage to players.\n\n
+
+BoxMutation
+    Name        : Crate Mutation
+    Title       : [Title Not Found]
+    Description : Some crates in levels will become special chests.
+
+Cruel
+    Name        : Increase critical damage
+    Title       : Dagger Frenzy
+    Description : Increase critical damage
+
+Dark
+    Name        : Vision is limited
+    Title       : Nearsighted
+    Description : Vision is limited
+
+Dejavu
+    Name        : Deja Vu
+    Title       : Deja Vu
+    Description : You may encounter levels that you have encountered before.
+
+DoubleBoss
+    Name        : Fight with 2 slightly nerfed bosses in each Boss room
+    Title       : Boss Duo
+    Description : Fight with 2 slightly nerfed bosses in each Boss room
+
+DoubleCd
+    Name        : Skill cooldown +100%
+    Title       : Double Cooldown
+    Description : Skill cooldown +100%
+
+DoubleCritic
+    Name        : Weapon crit rate +100%, crit damage -50%
+    Title       : Precision Booster
+    Description : Weapon crit rate +100%, crit damage -50%
+
+EnemyBuffImmune
+    Name        : Enemy debuff time -50%
+    Title       : Vigorous Enemies
+    Description : Enemy debuff time -50%
+
+EnemyDefence
+    Name        : Enemy defense +1
+    Title       : Tough Enemies
+    Description : Enemy defense +1
+
+EnemyDoubleHp
+    Name        : Enemy HP +100%
+    Title       : Double Joy
+    Description : Enemy HP +100%
+
+EnemyFlash
+    Name        : Monsters shift to a different position the moment they get hit
+    Title       : Blinking Enemies
+    Description : Monsters shift to a different position the moment they get hit
+
+EnemyReborn
+    Name        : Killed monsters may revive
+    Title       : [Title Not Found]
+    Description : [Description Not Found]
+
+EnemySplit
+    Name        : Monsters split into two when their HP is below 50%
+    Title       : Cell Division
+    Description : Monsters split into two when their HP is below 50%
+
+ExEnemy
+    Name        : Elite enemies appear more often
+    Title       : Full Alert
+    Description : Elite enemies appear more often
+
+Exception
+    Name        : When you take a hit, a random debuff will be applied to you. The effect only triggers once every 5 seconds.
+    Title       : Elemental Anomaly
+    Description : When you take a hit, a random debuff will be applied to you. The effect only triggers once every 5 seconds.
+
+ExtraHurtDamage
+    Name        : Character damage taken +1. Enemy damage taken +2. Can be obtained up to 10 times.
+    Title       : Double Edge (Lord of Evil)
+    Description : Character damage taken +1. Enemy damage taken +2. Can be obtained up to 10 times.
+
+FastEnemy
+    Name        : Enemies move faster, but will be stunned from time to time.
+    Title       : Sprinting Enemies
+    Description : Enemies move faster, but will be stunned from time to time.
+
+FastEnemyBullet
+    Name        : Enemy fire rate up!
+    Title       : Wild Enemies
+    Description : Enemy fire rate up!
+
+FastShooter
+    Name        : Weapon fire rate +100%, attack -50%
+    Title       : Speed Booster
+    Description : Weapon fire rate +100%, attack -50%
+
+FloorCrack
+    Name        : Rift in Time and Space
+    Title       : Rift in Time and Space
+    Description : Complete the game once. And in this game monsters, upon death, have a chance to open a rift of time and space. You will take damage if you fall into the rift.
+
+FullHouse
+    Name        : A bonus room in each level
+    Title       : Genie Lamp
+    Description : A bonus room in each level
+
+GainMount
+    Name        : A mount awaits when you enter a new biome.
+    Title       : Beastmaster
+    Description : A mount awaits when you enter a new biome.
+
+GainWeapon
+    Name        : Get a weapon when entering a new biome
+    Title       : Mythical Artifact
+    Description : Get a weapon when entering a new biome
+
+GoodLuck
+    Name        : Good Luck
+    Title       : Good Luck
+    Description : Today is your lucky day!
+
+HalfCd
+    Name        : Skill cooldown -50%
+    Title       : Halved Cooldown
+    Description : Skill cooldown -50%
+
+HardShield
+    Name        : Better defense, but armor does not regenerate during combat.
+    Title       : Shell Protection
+    Description : Better defense, but armor does not regenerate during combat.
+
+Huge
+    Name        : Gigantism
+    Title       : Giant Form
+    Description : Become larger and gain extra health and armor, but move slower.
+
+HugePet
+    Name        : Pet is gigantic, more aggressive and deals higher damage.
+    Title       : Gigantic Pet
+    Description : Pet is gigantic, more aggressive and deals higher damage.
+
+IncreaseEnemyBuffImmune
+    Name        : Increases enemy resistance to control effects. Can be obtained up to 10 times.
+    Title       : Immunity Gene (Lord of Evil)
+    Description : Increases enemy resistance to control effects. Can be obtained up to 10 times.
+
+InferiorMedicine
+    Name        : Inferior Medicament
+    Title       : Inferior Medicament
+    Description : All recovery -50%
+
+InfiniteEnergy
+    Name        : Infinite energy
+    Title       : Infinite Energy
+    Description : Infinite energy
+
+Inflation
+    Name        : Store price +100%
+    Title       : Exorbitant Price
+    Description : Store price +100%
+
+Intensive
+    Name        : More enemies in the dungeon
+    Title       : Strength in Numbers
+    Description : More enemies in the dungeon
+
+ItIsFate
+    Name        : Destined
+    Title       : Destined
+    Description : Complete the game once, and in this game, the whole team (all the team members combined) can't revive more than 2 times. If one is revived by a weapon or a challenge condition, it is not counted as one revival consumed.\n
+
+KillEnemyRebornTeammate
+    Name        : Chance to revive all teammates upon killing enemies.
+    Title       : Resurrection (Lord of Evil)
+    Description : Chance to revive all teammates upon killing enemies.
+
+LackEnergy
+    Name        : Max energy -50%
+    Title       : Energy Decay
+    Description : Max energy -50%
+
+LackHp
+    Name        : Max HP =1
+    Title       : Fragility
+    Description : Max HP =1
+
+LessBuff
+    Name        : Buff slot -1, but option +1 when you choose buffs.
+    Title       : Buff Choice +1
+    Description : Buff slot -1, but option +1 when you choose buffs.
+
+LessChoice
+    Name        : Buff slot +1, but option -1 when you choose buffs.
+    Title       : Buff Slot +1
+    Description : Buff slot +1, but option -1 when you choose buffs.
+
+LongMap
+    Name        : More rooms in the dungeon
+    Title       : Dungeon Expansion
+    Description : Each level may contain an extra battle room.
+
+MelleOnly
+    Name        : Melee weapons only
+    Title       : Melee Only
+    Description : Melee weapons only
+
+MelleWeaken
+    Name        : Melee weapons can't destroy bullets
+    Title       : [Title Not Found]
+    Description : [Description Not Found]
+
+MeridianDisorder
+    Name        : Meridian Disorder
+    Title       : Meridian Disorder
+    Description : Max armor and max HP are fixed at 1. Max energy is fixed at 999.
+
+MonsterAircraft
+    Name        : Monster Bomber
+    Title       : Monster Bomber
+    Description : Complete the game once. And in this game, from time to time, a bomber will fly across the room and bombard everyone in it, including monsters.
+
+MoreBrave
+    Name        : Killing Spree
+    Title       : Killing Spree
+    Description : You get stronger as you acquire a killstreak.
+
+MoreBuff
+    Name        : Max number of buffs +3
+    Title       : Exceptionally Talented
+    Description : Max number of buffs +3
+
+MoreChoice
+    Name        : Options +2 when you choose buffs
+    Title       : Buff Buffet
+    Description : Options +2 when you choose buffs
+
+MoreGeneEnemy
+    Name        : Spawn chance of mutated enemies +2%. Can be obtained up to 10 times.
+    Title       : Gene Mutation (Lord of Evil)
+    Description : Spawn chance of mutated enemies +2%. Can be obtained up to 10 times.
+
+MultiStatue
+    Name        : You can worship multiple statues
+    Title       : Multiple Statues
+    Description : You can worship multiple statues
+
+OneWeapon
+    Name        : Can only carry one weapon
+    Title       : One Hand
+    Description : Can only carry one weapon
+
+Painless
+    Name        : Functional UI is disabled
+    Title       : Imperception
+    Description : Functional UI is disabled
+
+RandomCharactor
+    Name        : May switch character when you enter a new level
+    Title       : Multiple Personalities
+    Description : May switch character when you enter a new level
+
+RebornTwice
+    Name        : You can resurrect twice
+    Title       : Revive Me
+    Description : Gains +1 revival chance.
+
+ReduceEnemyBuffImmune
+    Name        : Cancels 1 increased Pressure Level's weight on enemy resistance to control effects. Can be obtained up to 10 times.
+    Title       : Weaken (Lord of Evil)
+    Description : Cancels 1 increased Pressure Level's weight on enemy resistance to control effects. Can be obtained up to 10 times.
+
+ReduceEnemyMoveSpeed
+    Name        : Movement speed of enemies -1%. Can be obtained up to 10 times.
+    Title       : Slow (Lord of Evil)
+    Description : Movement speed of enemies -1%. Can be obtained up to 10 times.
+
+ReforgeWeapon
+    Name        : Weapons get reforged at the start of each level
+    Title       : Reforge Weapon
+    Description : Weapons get reforged at the start of each level
+
+RenduErmai
+    Name        : Meridian Patency
+    Title       : Meridian Patency
+    Description : Attack speed +10%, health +1, movement speed +10%, and crit hit rate +5%.
+
+ReturnPlayer
+    Name        : [Name Not Found]
+    Title       : Knight's Return
+    Description : 2 free revivals and +100 max energy in the returning level.
+
+ReturnPlayerH5
+    Name        : [Name Not Found]
+    Title       : Teamwork Dreamwork
+    Description : Max HP +1; Max energy +20.
+
+SaleDay
+    Name        : Sales Day
+    Title       : Sales Day
+    Description : Trader's special sale is on!
+
+SleepWalking
+    Name        : Random levels
+    Title       : Sleepwalk
+    Description : Random levels
+
+SlowShooter
+    Name        : Weapon attack +100%, fire rate -50%
+    Title       : Muscle Booster
+    Description : Weapon attack +100%, fire rate -50%
+
+SpaceDistortion
+    Name        : Distorted Space
+    Title       : Distorted Space
+    Description : Complete the game once. And in this game, you will get bigger or smaller from time to time. You move slower if you grow bigger, and you move faster once you shrink smaller.\n
+
+SuperFactor
+    Name        : Other challenge conditions are reinforced
+    Title       : [Title Not Found]
+    Description : [Description Not Found]
+
+Tenacious
+    Name        : Regenerate HP when it's below 50%
+    Title       : Regeneration
+    Description : Regenerate HP when it's below 50%
+
+TimeDistortion
+    Name        : Time Fluctuation
+    Title       : Time Fluctuation
+    Description : Your movement speed randomly increases or decreases.
+
+TimeRacing
+    Name        : Complete the game within {0} minutes on Normal difficulty or {1} minutes on Badass difficulty.\n
+    Title       : Matrix Racer
+    Description : Complete the game once. And in this game you should finish a run within 12 minutes on Normal difficulty or 16 minutes on Badass difficulty.\n
+
+Tiny
+    Name        : Dwarfism
+    Title       : Shrinkage
+    Description : Become smaller and lose health and armor, but move faster.
+
+TopWanted
+    Name        : Most Wanted
+    Title       : Most Wanted
+    Description : Complete the game once. And in this game you will run into a bigger elite monster in each battle room.
+
+TrackingLaser
+    Name        : Homing Laser
+    Title       : [Title Not Found]
+    Description : A beam of laser will appear regularly, tracking you and dealing damage to both you and your enemies!
+
+VolcanaEruption
+    Name        : Volcano Eruption
+    Title       : Volcano Eruption
+    Description : [Description Not Found]
+
+VolcanoEruption
+    Name        : [Name Not Found]
+    Title       : [Title Not Found]
+    Description : Complete the game once. And in this game volcanic rocks will pelt down on you. These rocks deal no damage to enemies.\n
+
+WeaponEquip
+    Name        : All weapons are equipped with attachments
+    Title       : Attachment Master
+    Description : All weapons are equipped with attachments
+
+WeaponOverheating
+    Name        : Weapon Overheating
+    Title       : Weapon Overheating
+    Description : The fire rate of weapons that discharge projectiles reduces after consecutive attacks.
+
+WrongConfig
+    Name        : Config Error
+    Title       : Config Error
+    Description : Only one type of enemy will appear in each room.
+
+blessing
+    Name        : Blessing Staff
+    Title       : Blessing Staff
+    Description : Revive with HP reduced to 1. Melee weapon damage +1.
+
+change
+    Name        : Do you want to refresh the set of challenges?
+    Title       : [Title Not Found]
+    Description : [Description Not Found]
+
+curse
+    Name        : Curse of Grave Robbers
+    Title       : Curse of Grave Robbers
+    Description : You won't be immune to poison. The next 4 boxes will be empty.
+
+endurance
+    Name        : Tenacity
+    Title       : Tenacity
+    Description : Staff weapon damage +1. Immune to traps.
+
+frozen
+    Name        : Frostbite
+    Title       : Frostbite
+    Description : Armor regenerates more slowly and you won't be immune to freeze
+
+looptravel
+    Name        : [Name Not Found]
+    Title       : Matrix of the Lord of Evil
+    Description : [Mode] Matrix of the Lord of Evil
+
+might
+    Name        : Strong Body
+    Title       : Strong Body
+    Description : Armor regenerates faster and you are immune to freeze
+
+Loop
+    Name        : Loop
+    Title       : [Title Not Found]
+    Description : [Description Not Found]
+
+Troop
+    Name        : Mercenary Army
+    Title       : [Title Not Found]
+    Description : [Description Not Found]
+
+new
+    Name        : Drillmaster is secretly helping you. The challenge condition will be effective for {0} more games.\nIn the multiplayer mode, it does not work but a stack will be consumed. This challenge condition will be removed from the season mode and the Badass difficulty level.
+    Title       : [Title Not Found]
+    Description : [Description Not Found]
+
+psyche
+    Name        : Deranged
+    Title       : Deranged
+    Description : When HP reduces, Tentacles of the Past spawn around you. And you won't be immune to freeze, fire or poison.
+
+███    ███  █████  ████████ ███████ ██████  ██  █████  ██      
+████  ████ ██   ██    ██    ██      ██   ██ ██ ██   ██ ██      
+██ ████ ██ ███████    ██    █████   ██████  ██ ███████ ██      
+██  ██  ██ ██   ██    ██    ██      ██   ██ ██ ██   ██ ██      
+██      ██ ██   ██    ██    ███████ ██   ██ ██ ██   ██ ███████ 
+
+material_activity_christmas2024
+    Display name : Ice Coin
+
+material_activity_coin_bug_feature
+    Display name : Inherited Coin
+
+material_activity_coin_dream
+    Display name : 
+
+material_activity_coin_element
+    Display name : Elemental Coin
+
+material_activity_coin_fire
+    Display name : Firepower Token
+
+material_activity_coin_fusion_2025
+    Display name : Fusion Particle
+
+material_activity_coin_legend
+    Display name : Ingot
+
+material_activity_coin_reborn_egg
+    Display name : Monster Coin
+
+material_activity_coin_school
+    Display name : Scholar Coin
+
+material_ancient_weapon_fragment
+    Display name : Fragments of Ancient Weapon
+
+material_battery
+    Display name : Battery
+
+material_c17_book_1
+    Display name : Shepherd's Book
+
+material_c17_book_2
+    Display name : Resurrection Book
+
+material_c18_book_1
+    Display name : Tear of Elf
+
+material_c18_book_2
+    Display name : Magic Crystals
+
+material_c20_book_1
+    Display name : Inherited Emblem
+
+material_c20_book_2
+    Display name : Portable Time Travel Device
+
+material_c21_book_1
+    Display name : Valued Badge
+
+material_c21_book_2
+    Display name : Operation Order
+
+material_cell
+    Display name : Organic Matter
+
+material_choose_hero
+    Display name : Character Selection Card
+
+material_choose_skin
+    Display name : Skin Selection Card
+
+material_dead_cell
+    Display name : Cell
+
+material_fertilize
+    Display name : Fertilizer
+
+material_fish
+    Display name : Fish Chip
+
+material_fragment_c6h8o6
+    Display name : C6H8O6 Fragment
+
+material_fragment_zulan
+    Display name : Zulan Fragment
+
+material_fusion_fragment
+    Display name : Fusion Particle
+
+material_gear
+    Display name : Parts
+
+material_gem
+    Display name : Gem
+
+material_grain
+    Display name : Pet Treats
+
+material_halloween_new_money
+    Display name : Hades Coin
+
+material_iron
+    Display name : Ironstone
+
+material_jewelry_fragment
+    Display name : General Blueprint Fragments
+
+material_magic_black
+    Display name : Magic Stone Fragment Obsidian
+
+material_magic_blue
+    Display name : Magic Fragment Blue
+
+material_magic_cyan
+    Display name : Magic Stone Fragment Cyan
+
+material_magic_green
+    Display name : Magic Fragment Green
+
+material_magic_orange
+    Display name : Magic Stone Fragment Orange
+
+material_magic_purple
+    Display name : Magic Fragment Purple
+
+material_magic_red
+    Display name : Magic Fragment Red
+
+material_mech_fragment
+    Display name : {} Blueprint Fragment
+
+material_mech_fragment_m_mech_coin
+    Display name : 
+
+material_multi
+    Display name : Interdimensional Fragment
+
+material_season_coin
+    Display name : Season Coin
+
+material_season_ticket_treasure_box
+    Display name : Can be used to summon bodyguards and mounts at the season shop for Three Kingdoms - Gunfight.
+
+material_season_ticket_treasure_box_2
+    Display name : Summon Voucher
+
+material_season_treasure_box_2
+    Display name : Temporal Treasure
+
+material_season_tresure_box
+    Display name : Season Supply Crate
+
+material_skill_Officer_2
+    Display name : Radio
+
+material_skill_Paladin_2
+    Display name : High Templar Martial Arts
+
+material_skill_fragment
+    Display name : Torn Page [{0}]
+
+material_skin_fragment
+    Display name : [{}] Skin Fragment
+
+material_skin_fragment_boss30
+    Display name : Worn Badge
+
+material_skin_fragment_c12_s06
+    Display name : Nüwa's Crystal
+
+material_skin_fragment_c12_s12
+    Display name : Moai Skin Fragment
+
+material_skin_fragment_c12_s6
+    Display name : Fragment of Berserker Skin "Shi"
+
+material_skin_fragment_c14_s6
+    Display name : Moon's Mark
+
+material_skin_fragment_c16_s14
+    Display name : Bozi's Soulpiece
+
+material_skin_fragment_c16_s6
+    Display name : Fragment of Taoist Skin "Magician"
+
+material_skin_fragment_c5_s8
+    Display name : Ruler's Seal
+
+material_skin_fragment_c7_s12
+    Display name : King's Emblem
+
+material_skin_fragment_flag
+    Display name : Battle Ensign
+
+material_skin_fragment_law
+    Display name : Judge's Scroll
+
+material_soul_fragment
+    Display name : Soul Fragment
+
+material_tape_alien
+    Display name : Interstellar Travel
+
+material_tape_ambition
+    Display name : Mighty Heroes
+
+material_tape_aurora
+    Display name : Digital Xunder #2
+
+material_tape_aurora_wrong_version
+    Display name : Digital Xunder #2 (Demo)
+
+material_tape_bgm_multi_room_skin_17
+    Display name : Assembly Order
+
+material_tape_bgm_room_19
+    Display name : Hot on Fire
+
+material_tape_boss1
+    Display name : Rival
+
+material_tape_boss2
+    Display name : Threat
+
+material_tape_boss3
+    Display name : Finale!
+
+material_tape_boss4
+    Display name : Echoes of Ruins
+
+material_tape_castle
+    Display name : Heroes' Avatar
+
+material_tape_civilization
+    Display name : GlobalTravelOverture.mid
+
+material_tape_dark
+    Display name : Hidden Hit
+
+material_tape_defence
+    Display name : Till the End of Dawn
+
+material_tape_doctor_6
+    Display name : Drum - Pulses of Vibrancy
+
+material_tape_dongzhuo
+    Display name : The Tyrant
+
+material_tape_dragon_boy
+    Display name : Auspicious Realm
+
+material_tape_easter
+    Display name : Call of the Spring
+
+material_tape_elves_17
+    Display name : Guitar - Strings of Rhythm
+
+material_tape_end_temple
+    Display name : Kneeling at God's Feet
+
+material_tape_forest
+    Display name : Deep in the Forest
+
+material_tape_grave
+    Display name : Beware of Falling!
+
+material_tape_graveyard
+    Display name : Dark Dungeon
+
+material_tape_hall
+    Display name : Home Sweet Home
+
+material_tape_hall_cny
+    Display name : Happy New Year!
+
+material_tape_halloween
+    Display name : Wraith on Halloween
+
+material_tape_ice
+    Display name : Blizzard
+
+material_tape_icecave
+    Display name : Buried Secret
+
+material_tape_irontide_multiroom
+    Display name : Deep in Down Grave
+
+material_tape_island
+    Display name : Iron Will Braves the Waves
+
+material_tape_level_2g
+    Display name : Hail to Connectionism!
+
+material_tape_level_4g
+    Display name : Majestic Grandeur
+
+material_tape_lvbu
+    Display name : Matchless Warrior
+
+material_tape_monster
+    Display name : Enlightened
+
+material_tape_mythology
+    Display name : Wander as a Cloud
+
+material_tape_necromancer_16
+    Display name : Keyboard - Keys of Harmony
+
+material_tape_neon
+    Display name : Digital Xunder #1
+
+material_tape_opera
+    Display name : Stellar Moments
+
+material_tape_party
+    Display name : Sunset Surfer
+
+material_tape_rock_girl
+    Display name : H✦R✦S✦H
+
+material_tape_ruins
+    Display name : Splendid Shrine
+
+material_tape_stars
+    Display name : River of Stars
+
+material_tape_stronghold_wave
+    Display name : Tea Break
+
+material_tape_summer
+    Display name : A Taste of Summer
+
+material_tape_swamp
+    Display name : Hymn
+
+material_tape_sword
+    Display name : Clash of Blades
+
+material_tape_sword_master_4
+    Display name : Bass - The Soul of the Beat
+
+material_tape_thunderstorm
+    Display name : Digital Xunder #3
+
+material_tape_volcano
+    Display name : Roaring Lava
+
+material_tape_zhuazhua
+    Display name : Digital Xunder #4
+
+material_ticket
+    Display name : Free Trial Voucher
+
+material_ticket_bossrush
+    Display name : Feather of Valkyrie
+
+material_wood
+    Display name : Timber
+
+material_zongzi_fragment
+    Display name : Zongzi Leaf
+
+██████  ██       █████  ███    ██ ████████ 
+██   ██ ██      ██   ██ ████   ██    ██    
+██████  ██      ███████ ██ ██  ██    ██    
+██      ██      ██   ██ ██  ██ ██    ██    
+██      ███████ ██   ██ ██   ████    ██    
+
+plant_banboo
+    Display name : Bamboo
+
+plant_binary_tree
+    Display name : Binary Tree
+
+plant_blackrose
+    Display name : Black Rose
+
+plant_cactus
+    Display name : Cactus
+
+plant_carrot
+    Display name : Carrot
+
+plant_clivia
+    Display name : Bush Lily
+
+plant_datura
+    Display name : Devil's Snare
+
+plant_defend_flower
+    Display name : Guardian Flower
+
+plant_dragon_tree
+    Display name : Dragon Fruit Tree
+
+plant_eator
+    Display name : Titan arum
+
+plant_fantastic_flower
+    Display name : Fantastic Flower
+
+plant_firecracker
+    Display name : Firecracker
+
+plant_flatpeach
+    Display name : Heavenly Peach
+
+plant_gear_flower
+    Display name : Gear Flower
+
+plant_gem_flower
+    Display name : Gem Flower
+
+plant_gem_tree
+    Display name : Gem Tree
+
+plant_ginseng
+    Display name : Ginseng
+
+plant_heptacolor
+    Display name : Heptacolor Viola
+
+plant_icepear
+    Display name : Frozen Pear
+
+plant_iron_tree
+    Display name : Ironwood
+
+plant_lavender
+    Display name : Lavender
+
+plant_lithiumflower
+    Display name : Lithium Flower
+
+plant_lotus
+    Display name : Snow Lotus
+
+plant_lycoris
+    Display name : Red Spider Lily
+
+plant_magic_branch
+    Display name : Magic Branch
+
+plant_magic_flower
+    Display name : Magic Flower
+
+plant_mandrake
+    Display name : Mandrake
+
+plant_mirror_plane_flower
+    Display name : Mirror Flower
+
+plant_monotropa
+    Display name : Ghost Pipe
+
+plant_mushroom
+    Display name : Crystal Mushroom
+
+plant_mushroom_gold
+    Display name : Golden Mushroom
+
+plant_nepenthes
+    Display name : Monkey Cup
+
+plant_pumpkin
+    Display name : Pumpkin
+
+plant_qilixiang
+    Display name : Daphne Odera
+
+plant_radar
+    Display name : Radar Flower
+
+plant_rainbow_grass
+    Display name : Rainbow Grass
+
+plant_red_black_tree
+    Display name : Red Black Tree
+
+plant_roselle
+    Display name : Roselle
+
+plant_rosemary
+    Display name : Rosemary
+
+plant_shadow_bamboo
+    Display name : Shadow Bamboo
+
+plant_shallot
+    Display name : Green Onions
+
+plant_silver_poplar
+    Display name : Abele
+
+plant_strange_flower
+    Display name : Strange Flower
+
+plant_tree
+    Display name : Oak Tree
+
+plant_tree_L
+    Display name : Oak Tree L
+
+plant_trumpet
+    Display name : Trumpet Flower
+
+plant_vine
+    Display name : Vine
+
+plant_watermelon
+    Display name : Watermelon
+
+plant_worm
+    Display name : Caterpillar fungus
+
+plant_xmas
+    Display name : Xmas Tree
+
+plant_zongzi
+    Display name : Zongzi Flower
+
