@@ -79,45 +79,64 @@ def run_asset_studio_cli(
 
 def run_asset_extractions(sk_extracted_path: Path) -> None:
     """
-    Sử dụng UnityPy để:
-    1. Load toàn bộ folder assets/bin/Data (để tìm thấy cả resources.assets và data.unity3d).
-    2. Extract I2Languages (dạng MonoBehaviour raw bytes).
-    3. Extract WeaponInfo (dạng TextAsset).
+    Sử dụng UnityPy với cơ chế quét file mạnh mẽ hơn để tìm I2Languages và WeaponInfo.
     """
-    # Thay đổi quan trọng: Trỏ vào thư mục chứa assets thay vì file cụ thể
-    unity_data_dir: Path = sk_extracted_path / "assets/bin/Data"
+    # 1. Tìm tất cả các file có thể chứa asset trong thư mục assets
+    # Soul Knight thường để ở assets/bin/Data, nhưng ta quét rộng hơn để chắc chắn
+    assets_root: Path = sk_extracted_path / "assets"
+    
+    # Tìm các file có đuôi phổ biến hoặc file quan trọng không đuôi (như globalgamemanagers)
+    files_to_load: list[Path] = []
+    
+    # Các pattern file Unity thường gặp
+    patterns: list[str] = ["*.assets", "*.unity3d", "*.resource", "*.bundle", "globalgamemanagers", "data.unity3d"]
+    
+    if assets_root.exists():
+        for pattern in patterns:
+            files_to_load.extend(list(assets_root.rglob(pattern)))
+        
+        # Thêm trường hợp file resources không có đuôi (đôi khi xảy ra)
+        potential_resources: list[Path] = list(assets_root.rglob("resources"))
+        files_to_load.extend(potential_resources)
+    else:
+        raise FileNotFoundError(f"Assets directory missing: {assets_root}")
 
-    if not unity_data_dir.exists():
-        raise FileNotFoundError(f"Unity data directory missing: {unity_data_dir}")
+    # Loại bỏ trùng lặp và convert sang string
+    files_to_load_str: list[str] = list(set([str(p) for p in files_to_load]))
+    
+    if not files_to_load_str:
+        raise RuntimeError("No Unity asset files found in the extracted APK!")
 
-    logging.info(f"Loading Unity assets from directory: {unity_data_dir}")
+    logging.info(f"Loading {len(files_to_load_str)} asset files via UnityPy...")
+    # In ra 5 file đầu tiên để debug
+    for f in files_to_load_str[:5]:
+        logging.info(f" - Loading: {Path(f).name}")
 
-    # Tạo thư mục export
     EXPORT_DIR.mkdir(parents=True, exist_ok=True)
-
-    # Load toàn bộ file trong thư mục Data (resources.assets, sharedassets, v.v.)
-    env: Any = UnityPy.load(str(unity_data_dir))
-
+    
+    # Load tất cả file tìm được
+    env: Any = UnityPy.load(*files_to_load_str)
+    
     found_i2: bool = False
     found_weapon: bool = False
+    
+    # Thống kê object để debug
+    obj_stats: dict[str, int] = {}
 
-    # Danh sách để debug nếu không tìm thấy
-    found_text_assets: list[str] = []
-
-    # Duyệt qua các object trong tất cả các file đã load
+    # Duyệt qua các object
     obj: Any
     for obj in env.objects:
+        
+        # Thống kê type
+        type_str: str = str(obj.type.name) if hasattr(obj, "type") else "Unknown"
+        obj_stats[type_str] = obj_stats.get(type_str, 0) + 1
 
-        # 1. Xử lý TextAsset (Tìm WeaponInfo)
+        # --- 1. Xử lý TextAsset (ClassID 49) ---
         if obj.type.name == "TextAsset":
             data: Any = obj.read()
-            # Lưu tên để debug
-            if hasattr(data, "name") and data.name not in found_text_assets:
-                found_text_assets.append(data.name)
-
             if hasattr(data, "name") and data.name == "WeaponInfo":
                 output_path: Path = EXPORT_DIR / "WeaponInfo.txt"
-                logging.info(f"Found WeaponInfo. Exporting to {output_path}")
+                logging.info(f"✅ Found WeaponInfo! Exporting to {output_path}")
                 if hasattr(data, "script"):
                     script_data: bytes = (
                         data.script
@@ -127,35 +146,42 @@ def run_asset_extractions(sk_extracted_path: Path) -> None:
                     with open(output_path, "wb") as f:
                         f.write(script_data)
                     found_weapon = True
+            
+            # Debug: In thử tên vài text asset nếu chưa tìm thấy WeaponInfo
+            if not found_weapon and obj_stats["TextAsset"] <= 5:
+                asset_name: str = data.name if hasattr(data, "name") else "Unknown"
+                logging.info(f"   (Seen TextAsset: {asset_name})")
 
-        # 2. Xử lý MonoBehaviour (Tìm I2Languages)
+        # --- 2. Xử lý MonoBehaviour (ClassID 114) - Tìm I2Languages ---
         elif obj.type.name == "MonoBehaviour":
-            # Filter sơ bộ: I2Languages thường > 2MB
-            # Dùng obj.byte_size nếu có để tránh read() file nhỏ, tăng tốc độ
+            # I2Languages thường rất nặng (> 2MB)
             byte_size: int = getattr(obj, "byte_size", 0)
             if byte_size > 2_000_000:
                 raw_data: bytes = obj.get_raw_data()
-                # Kiểm tra lại kích thước thực tế sau khi get
                 if len(raw_data) > 2_000_000:
+                    # Đặt tên file có path_id để tránh trùng
                     path_id: int | str = getattr(obj, "path_id", 0)
                     file_name: str = f"I2Languages_{path_id}.dat"
                     output_path: Path = EXPORT_DIR / file_name
-
-                    logging.info(
-                        f"Found potential I2Languages ({len(raw_data)} bytes). Exporting to {output_path}"
-                    )
+                    
+                    logging.info(f"✅ Found potential I2Languages ({len(raw_data)} bytes). Exporting to {output_path}")
                     with open(output_path, "wb") as f:
                         f.write(raw_data)
                     found_i2 = True
 
+    # Report kết quả
+    logging.info("--- Extraction Summary ---")
+    logging.info(f"Object Types found: {obj_stats}")
+    
     if not found_weapon:
-        logging.warning("Could not find WeaponInfo TextAsset via UnityPy.")
-        # In ra 10 file text asset đầu tiên tìm thấy để debug
-        logging.info(f"Available TextAssets found (first 10): {found_text_assets[:10]}")
-
+        logging.error("❌ Could not find WeaponInfo TextAsset.")
+        # Nếu có TextAsset nhưng không phải WeaponInfo, lỗi do tên file đổi hoặc file nằm chỗ khác
+        if obj_stats.get("TextAsset", 0) > 0:
+            logging.warning("TextAssets were found, but none named 'WeaponInfo'. Check log for list.")
+        else:
+            logging.warning("No TextAssets found at all. 'resources.assets' might not be loaded.")
+    
     if not found_i2:
-        logging.warning(
-            "Could not find any large MonoBehaviour (candidate for I2Languages)."
-        )
+        logging.error("❌ Could not find I2Languages MonoBehaviour.")
 
     logging.info("UnityPy extraction finished.")
