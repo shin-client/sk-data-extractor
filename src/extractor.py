@@ -79,108 +79,117 @@ def run_asset_studio_cli(
 
 def run_asset_extractions(sk_extracted_path: Path) -> None:
     """
-    Sử dụng UnityPy với cơ chế quét file mạnh mẽ hơn để tìm I2Languages và WeaponInfo.
+    Sử dụng UnityPy để quét assets.
+    - Tìm I2Languages dựa trên kích thước file.
+    - Tìm WeaponInfo dựa trên nội dung JSON (do tên file có thể bị mất).
     """
-    # 1. Tìm tất cả các file có thể chứa asset trong thư mục assets
-    # Soul Knight thường để ở assets/bin/Data, nhưng ta quét rộng hơn để chắc chắn
     assets_root: Path = sk_extracted_path / "assets"
-    
-    # Tìm các file có đuôi phổ biến hoặc file quan trọng không đuôi (như globalgamemanagers)
-    files_to_load: list[Path] = []
-    
-    # Các pattern file Unity thường gặp
-    patterns: list[str] = ["*.assets", "*.unity3d", "*.resource", "*.bundle", "globalgamemanagers", "data.unity3d"]
-    
-    if assets_root.exists():
-        for pattern in patterns:
-            files_to_load.extend(list(assets_root.rglob(pattern)))
-        
-        # Thêm trường hợp file resources không có đuôi (đôi khi xảy ra)
-        potential_resources: list[Path] = list(assets_root.rglob("resources"))
-        files_to_load.extend(potential_resources)
-    else:
-        raise FileNotFoundError(f"Assets directory missing: {assets_root}")
 
-    # Loại bỏ trùng lặp và convert sang string
-    files_to_load_str: list[str] = list(set([str(p) for p in files_to_load]))
-    
-    if not files_to_load_str:
+    files_to_load: list[str] = []
+
+    # Chiến thuật 1: Load toàn bộ file trong thư mục Data (nơi chứa assets chính)
+    data_dir: Path = assets_root / "bin" / "Data"
+    if data_dir.exists():
+        # Load tất cả file, bất kể đuôi gì
+        files_to_load.extend([str(p) for p in data_dir.glob("*") if p.is_file()])
+
+    # Chiến thuật 2: Fallback quét recursive nếu cấu trúc folder lạ
+    if not files_to_load:
+        patterns: list[str] = ["*.assets", "*.unity3d", "*.resource", "*.bundle", "globalgamemanagers", "data.unity3d"]
+        if assets_root.exists():
+            for pattern in patterns:
+                files_to_load.extend([str(p) for p in assets_root.rglob(pattern)])
+            # Thêm resources (file không đuôi)
+            files_to_load.extend([str(p) for p in assets_root.rglob("resources") if p.is_file()])
+
+    # Loại bỏ trùng lặp
+    files_to_load = list(set(files_to_load))
+
+    if not files_to_load:
         raise RuntimeError("No Unity asset files found in the extracted APK!")
 
-    logging.info(f"Loading {len(files_to_load_str)} asset files via UnityPy...")
-    # In ra 5 file đầu tiên để debug
-    for f in files_to_load_str[:5]:
-        logging.info(f" - Loading: {Path(f).name}")
+    logging.info(f"Loading {len(files_to_load)} asset files via UnityPy...")
 
     EXPORT_DIR.mkdir(parents=True, exist_ok=True)
-    
-    # Load tất cả file tìm được
-    env: Any = UnityPy.load(*files_to_load_str)
-    
+
+    # Load environment
+    env: Any = UnityPy.load(*files_to_load)
+
     found_i2: bool = False
     found_weapon: bool = False
-    
-    # Thống kê object để debug
+
     obj_stats: dict[str, int] = {}
 
-    # Duyệt qua các object
     obj: Any
     for obj in env.objects:
-        
-        # Thống kê type
         type_str: str = str(obj.type.name) if hasattr(obj, "type") else "Unknown"
         obj_stats[type_str] = obj_stats.get(type_str, 0) + 1
 
         # --- 1. Xử lý TextAsset (ClassID 49) ---
         if obj.type.name == "TextAsset":
-            data: Any = obj.read()
-            if hasattr(data, "name") and data.name == "WeaponInfo":
-                output_path: Path = EXPORT_DIR / "WeaponInfo.txt"
-                logging.info(f"✅ Found WeaponInfo! Exporting to {output_path}")
-                if hasattr(data, "script"):
-                    script_data: bytes = (
+            try:
+                data: Any = obj.read()
+                # Lấy tên (có thể là Unknown)
+                name: str = data.name if hasattr(data, "name") and data.name else "Unknown"
+
+                # Cách 1: Tìm theo tên chuẩn (Ưu tiên)
+                if name == "WeaponInfo":
+                    output_path: Path = EXPORT_DIR / "WeaponInfo.txt"
+                    logging.info(f"✅ Found WeaponInfo by NAME. Exporting to {output_path}")
+                    if hasattr(data, "script"):
+                        script_data: bytes = (
+                            data.script
+                            if isinstance(data.script, bytes)
+                            else data.script.encode("utf-8")
+                        )
+                        with open(output_path, "wb") as f:
+                            f.write(script_data)
+                        found_weapon = True
+
+                # Cách 2: Tìm theo nội dung (Fallback)
+                # Nếu chưa tìm thấy và script có dữ liệu
+                elif not found_weapon and hasattr(data, "script") and data.script:
+                    # Kiểm tra chữ ký đặc trưng của WeaponInfo JSON
+                    # Nó phải chứa key "weapons" và "forgeable"
+                    # data.script là bytes, nên ta so sánh với bytes string
+                    script_bytes: bytes = (
                         data.script
                         if isinstance(data.script, bytes)
                         else data.script.encode("utf-8")
                     )
-                    with open(output_path, "wb") as f:
-                        f.write(script_data)
-                    found_weapon = True
-            
-            # Debug: In thử tên vài text asset nếu chưa tìm thấy WeaponInfo
-            if not found_weapon and obj_stats["TextAsset"] <= 5:
-                asset_name: str = data.name if hasattr(data, "name") else "Unknown"
-                logging.info(f"   (Seen TextAsset: {asset_name})")
+                    content_preview: bytes = script_bytes[:2000]  # Chỉ check header để nhanh
+                    if b'"weapons"' in content_preview and b'"forgeable"' in content_preview:
+                        output_path: Path = EXPORT_DIR / "WeaponInfo.txt"
+                        logging.info(f"✅ Found WeaponInfo by CONTENT (Name was: {name}). Exporting to {output_path}")
+                        with open(output_path, "wb") as f:
+                            f.write(script_bytes)
+                        found_weapon = True
 
-        # --- 2. Xử lý MonoBehaviour (ClassID 114) - Tìm I2Languages ---
+            except Exception as e:
+                logging.warning(f"Error reading TextAsset: {e}")
+
+        # --- 2. Xử lý MonoBehaviour (ClassID 114) - I2Languages ---
         elif obj.type.name == "MonoBehaviour":
-            # I2Languages thường rất nặng (> 2MB)
+            # Kiểm tra kích thước trước khi get_raw_data để tối ưu
             byte_size: int = getattr(obj, "byte_size", 0)
             if byte_size > 2_000_000:
                 raw_data: bytes = obj.get_raw_data()
                 if len(raw_data) > 2_000_000:
-                    # Đặt tên file có path_id để tránh trùng
                     path_id: int | str = getattr(obj, "path_id", 0)
                     file_name: str = f"I2Languages_{path_id}.dat"
                     output_path: Path = EXPORT_DIR / file_name
-                    
+
                     logging.info(f"✅ Found potential I2Languages ({len(raw_data)} bytes). Exporting to {output_path}")
                     with open(output_path, "wb") as f:
                         f.write(raw_data)
                     found_i2 = True
 
-    # Report kết quả
     logging.info("--- Extraction Summary ---")
     logging.info(f"Object Types found: {obj_stats}")
-    
+
     if not found_weapon:
-        logging.error("❌ Could not find WeaponInfo TextAsset.")
-        # Nếu có TextAsset nhưng không phải WeaponInfo, lỗi do tên file đổi hoặc file nằm chỗ khác
-        if obj_stats.get("TextAsset", 0) > 0:
-            logging.warning("TextAssets were found, but none named 'WeaponInfo'. Check log for list.")
-        else:
-            logging.warning("No TextAssets found at all. 'resources.assets' might not be loaded.")
-    
+        logging.error("❌ Could not find WeaponInfo TextAsset (checked Name and Content).")
+
     if not found_i2:
         logging.error("❌ Could not find I2Languages MonoBehaviour.")
 
