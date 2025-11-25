@@ -7,10 +7,9 @@ APK_REGEX = re.compile(
     r"https://apk\.chillyroom\.com/apks/[\w\d.\-]+/SoulKnight-release-chillyroom-([\w\d.\-]+)\.apk"
 )
 
-ASSET_STUDIO_CLI_URL = (
-    "https://github.com/aelurum/AssetStudio/releases/download/"
-    "v0.19.0/AssetStudioModCLI_net9_linux64.zip"
-)
+ASSET_STUDIO_REPO_API = "https://api.github.com/repos/aelurum/AssetStudio/releases/latest"
+
+ASSET_STUDIO_ARTIFACT_REGEX = re.compile(r"AssetStudioModCLI_net9_linux64\.zip", re.IGNORECASE)
 
 LANGUAGES: List[str] = [
     "English",
