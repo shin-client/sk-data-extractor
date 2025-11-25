@@ -115,32 +115,3 @@ def run_asset_extractions(sk_extracted_path: Path) -> None:
         mode="export",
         filter_name="WeaponInfo",
     )
-
-    # --- BƯỚC MỚI: Liệt kê tất cả TextAsset để tìm CharacterData/HeroConfig ---
-    # Ta chạy chế độ 'info' (hoặc export dummy) để xem danh sách file
-    # Vì AssetStudioModCLI không có chế độ 'list' thuần túy dễ đọc,
-    # ta sẽ thử export TOÀN BỘ TextAsset nhưng lọc theo tên chung chung
-    # hoặc đơn giản là export hết TextAsset ra một folder riêng để bạn kiểm tra artifact
-
-    logging.info("--- SCANNING FOR INTERESTING TEXT ASSETS ---")
-    debug_export_dir = EXPORT_DIR / "DebugTextAssets"
-    debug_export_dir.mkdir(parents=True, exist_ok=True)
-
-    # Tìm các file có từ khóa tiềm năng
-    interesting_keywords = "Character,Hero,Config,Data,Global,Manager"
-
-    run_asset_studio_cli(
-        unity_data_path=unity_data,
-        output_dir=debug_export_dir,
-        asset_type="textasset",
-        mode="export",
-        filter_name=interesting_keywords,  # Lọc nhiều từ khóa cùng lúc
-    )
-
-    # Liệt kê các file tìm được ra log để bạn xem tên chính xác
-    logging.info("--- FOUND POTENTIAL FILES ---")
-    found_files = list(debug_export_dir.rglob("*.txt"))
-    for f in found_files:
-        logging.info(f"Found: {f.name}")
-
-    logging.info("-----------------------------")
