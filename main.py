@@ -1,3 +1,4 @@
+import shutil
 import sys
 import logging
 
@@ -73,26 +74,41 @@ def main() -> None:
             csv_path, "Chinese (Simplified)"
         )
 
-        # Tìm file WeaponInfo
-        weapon_json_file = None
-        for f in EXPORT_DIR.iterdir():
-            if f.name.lower().endswith("weaponinfo.txt"):
-                weapon_json_file = f
-                break
+        # --- XỬ LÝ WEAPON FILES (Info & Item) ---
+        weapon_info_file = None
+        weapon_item_file = None
 
-        if not weapon_json_file:
+        # 1. Quét thư mục MỘT LẦN duy nhất để tìm các file cần thiết
+        for f in EXPORT_DIR.iterdir():
+            name_lower = f.name.lower()
+
+            if name_lower.endswith("weaponinfo.txt"):
+                weapon_info_file = f
+            elif "weaponitem" in name_lower:
+                weapon_item_file = f
+
+        # 2. Xử lý WeaponInfo (Parse & Export JSON)
+        if not weapon_info_file:
             logging.warning("WeaponInfo.txt not found. Skipping weapon exports.")
         else:
             exporter.export_master_data_to_json(
-                version, weapon_json_file, lang_maps, version_output_dir
+                version, weapon_info_file, lang_maps, version_output_dir
             )
             logging.info("Master data exported to multiple JSON files.")
 
             exporter.export_filtered_weapons_from_info(
-                weapon_json_file,
+                weapon_info_file,
                 lang_maps["weapons"],
                 version_output_dir / "weapons.json",
             )
+
+        # 3. Xử lý WeaponItem (Copy file)
+        if not weapon_item_file:
+            logging.warning("WeaponItem file not found in export directory.")
+        else:
+            dest_path = version_output_dir / weapon_item_file.name
+            shutil.copy2(weapon_item_file, dest_path)
+            logging.info(f"Copied WeaponItem file to: {dest_path}")
 
         exporter.export_weapon_evo_data(
             full_lang_map, version_output_dir / "weapon_skins.json"
