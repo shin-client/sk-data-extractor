@@ -52,7 +52,6 @@ def run_asset_studio_cli(
         mode,
         "-o",
         str(output_dir),
-        "--load-all",
     ]
 
     if filter_name:
