@@ -1,0 +1,2239 @@
+{
+    "weaponItemInfos": [
+        {
+            "name": "wi0_mirror",
+            "item_level": 0,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Laser",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "ShortLaser",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun003",
+                        "GunRainbowLaser"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi10_flame_stone",
+            "item_level": 4,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi11_poison_stone",
+            "item_level": 1,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Hold",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": [
+                        "GunThrow"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": [
+                        "GunThrowSword",
+                        "GunInitRogue"
+                    ]
+                },
+                {
+                    "id": 5,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "Gun008"
+                    ]
+                },
+                {
+                    "id": 6,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": [
+                        "Gun001"
+                    ]
+                },
+                {
+                    "id": 7,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "Gun008",
+                        "GunThrow",
+                        "GunLock",
+                        "GunLock_Vampire_s9"
+                    ]
+                },
+                {
+                    "id": 8,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun007"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi12_lightning_stone",
+            "item_level": 3,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Bow",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "Gun002",
+                        "Gun005",
+                        "Gun008",
+                        "GunGuardsBow"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Hold",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": [
+                        "GunThrow"
+                    ]
+                },
+                {
+                    "id": 5,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": [
+                        "GunThrowSword",
+                        "GunInitRogue"
+                    ]
+                },
+                {
+                    "id": 6,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 7,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 8,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun008",
+                        "GunThrow",
+                        "GunLock",
+                        "Gun001",
+                        "GunLock_Vampire_s9"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi13_through",
+            "item_level": 1,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi14_ammo",
+            "item_level": 2,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": [
+                        "Gun002"
+                    ]
+                },
+                {
+                    "id": 0,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": [
+                        "Gun002"
+                    ]
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Bow",
+                    "supportWeaponScripts": [
+                        "GunMagicBow",
+                        "GunHeroBow"
+                    ]
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": [
+                        "GunThrow"
+                    ]
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Rocket",
+                    "supportWeaponScripts": [
+                        "Gun002"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi15_auto",
+            "item_level": 4,
+            "supportWeapons": [],
+            "notSupportWeapons": [
+                "weapon_380",
+                "weapon_316"
+            ],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi16_auto_pistol",
+            "item_level": 0,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi17_fast_continuous",
+            "item_level": 2,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": [
+                        "Gun008"
+                    ]
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": [
+                        "Gun008"
+                    ]
+                },
+                {
+                    "id": 0,
+                    "weaponType": "ShortLaser",
+                    "supportWeaponScripts": [
+                        "GunNext4"
+                    ]
+                },
+                {
+                    "id": 0,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": [
+                        "Gun019"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi19_portable_oven",
+            "item_level": 0,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": true,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi1_energycollector",
+            "item_level": 0,
+            "supportWeapons": [
+                {
+                    "id": 1,
+                    "weaponType": "ShortLaser",
+                    "supportWeaponScripts": [
+                        "Gun009",
+                        "Gun014"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Hold",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun007",
+                        "GunInitRobot",
+                        "GunInitRobotxx4"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Spear",
+                    "supportWeaponScripts": [
+                        "GunSpearLaser"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi1_energycollector_1",
+            "item_level": 1,
+            "supportWeapons": [
+                {
+                    "id": 1,
+                    "weaponType": "ShortLaser",
+                    "supportWeaponScripts": [
+                        "Gun009",
+                        "Gun014"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Hold",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun007",
+                        "GunInitRobot",
+                        "GunInitRobotxx4"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Spear",
+                    "supportWeaponScripts": [
+                        "GunSpearLaser"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi1_energycollector_2",
+            "item_level": 2,
+            "supportWeapons": [
+                {
+                    "id": 1,
+                    "weaponType": "ShortLaser",
+                    "supportWeaponScripts": [
+                        "Gun009",
+                        "Gun014"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Hold",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun007",
+                        "GunInitRobot",
+                        "GunInitRobotxx4"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Spear",
+                    "supportWeaponScripts": [
+                        "GunSpearLaser"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi1_energycollector_laser_3",
+            "item_level": 3,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "ShortLaser",
+                    "supportWeaponScripts": [
+                        "GunNext4"
+                    ]
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Laser",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun003",
+                        "GunRainbowLaser"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi1_energycollector_laser_4",
+            "item_level": 4,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Laser",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun003",
+                        "GunRainbowLaser"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi20_golden_paint",
+            "item_level": 0,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": true,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi21_time_machine",
+            "item_level": 0,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": true,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi22_upgrade_kit",
+            "item_level": 0,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": true,
+            "processName": "UpgradeKit",
+            "activityLimit": false
+        },
+        {
+            "name": "wi23_blue_paint",
+            "item_level": 0,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": true,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi25_barnacle",
+            "item_level": 2,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi27_bullet_fish",
+            "item_level": 3,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi28_starfish_sword",
+            "item_level": 2,
+            "supportWeapons": [],
+            "notSupportWeapons": [
+                "weapon_343",
+                "weapon_378"
+            ],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi29_binary_jellyfish",
+            "item_level": 4,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Laser",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "ShortLaser",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi2_gaussiancoil",
+            "item_level": 0,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Rocket",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "Gun002",
+                        "GunMissle"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Hold",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "GunInitRobot",
+                        "GunInitRobotxx4"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 5,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi2_gaussiancoil_2",
+            "item_level": 2,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Rocket",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "Gun002",
+                        "GunMissle"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Hold",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "GunInitRobot",
+                        "GunInitRobotxx4"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 5,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi2_gaussiancoil_3",
+            "item_level": 3,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Rocket",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "Gun002",
+                        "GunMissle"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Hold",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "GunInitRobot",
+                        "GunInitRobotxx4"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 5,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi2_gaussiancoil_smg_2",
+            "item_level": 2,
+            "supportWeapons": [
+                {
+                    "id": 3,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 4,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi2_gaussiancoil_smg_4",
+            "item_level": 4,
+            "supportWeapons": [
+                {
+                    "id": 3,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 4,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi30_sharpen_fish",
+            "item_level": 3,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Sword",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Axe",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Spear",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi31_sea_urchin",
+            "item_level": 2,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi32_coral_pendant",
+            "item_level": 3,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi33_sardine",
+            "item_level": 3,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Rocket",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi34_tortoise_grandfather",
+            "item_level": 4,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi35_water_monkey_ornaments",
+            "item_level": 4,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi36_8x_mirror",
+            "item_level": 4,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi37_pitcher_gloves",
+            "item_level": 0,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi37_pitcher_gloves_1",
+            "item_level": 2,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi37_pitcher_gloves_2",
+            "item_level": 4,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi38_legend_pitcher_gloves",
+            "item_level": 5,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi39_sage_stone",
+            "item_level": 5,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Staff",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi3_grindstone",
+            "item_level": 0,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Axe",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Bow",
+                    "supportWeaponScripts": [
+                        "Gun005",
+                        "Gun002",
+                        "Gun001",
+                        "GunHeroBow",
+                        "Gun008"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Spear",
+                    "supportWeaponScripts": [
+                        "Gun015",
+                        "GunInitWerewolf",
+                        "GunSpearSword",
+                        "GunSpearLaser",
+                        "GunSpearBullet",
+                        "GunInitLancer"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun006",
+                        "GunInitBaserker",
+                        "GunBadminton",
+                        "GunHurricaneGloves",
+                        "GunInitBaserkerxx4"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Sword",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": [
+                        "GunThrowSword",
+                        "GunInitRogue"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi3_grindstone_2",
+            "item_level": 2,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Axe",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Bow",
+                    "supportWeaponScripts": [
+                        "Gun005",
+                        "Gun002",
+                        "Gun001",
+                        "GunHeroBow",
+                        "Gun008"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Spear",
+                    "supportWeaponScripts": [
+                        "Gun015",
+                        "GunInitWerewolf",
+                        "GunSpearSword",
+                        "GunSpearLaser",
+                        "GunSpearBullet",
+                        "GunInitLancer"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun006",
+                        "GunInitBaserker",
+                        "GunBadminton",
+                        "GunHurricaneGloves",
+                        "GunInitBaserkerxx4"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Sword",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": [
+                        "GunThrowSword",
+                        "GunInitRogue"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi3_grindstone_3",
+            "item_level": 3,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Axe",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Bow",
+                    "supportWeaponScripts": [
+                        "Gun005",
+                        "Gun002",
+                        "Gun001",
+                        "GunHeroBow",
+                        "Gun008"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Spear",
+                    "supportWeaponScripts": [
+                        "Gun015",
+                        "GunInitWerewolf",
+                        "GunSpearSword",
+                        "GunSpearLaser",
+                        "GunSpearBullet",
+                        "GunInitLancer"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun006",
+                        "GunInitBaserker",
+                        "GunBadminton",
+                        "GunHurricaneGloves",
+                        "GunInitBaserkerxx4"
+                    ]
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Sword",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": [
+                        "GunThrowSword",
+                        "GunInitRogue"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi3_grindstone_special",
+            "item_level": 1,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": [
+                        "GunThrow",
+                        "GunQuantumShuriken",
+                        "Poker"
+                    ]
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Bow",
+                    "supportWeaponScripts": [
+                        "GunMagicBow"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi3_grindstone_special_4",
+            "item_level": 4,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": [
+                        "GunThrow",
+                        "GunQuantumShuriken",
+                        "Poker"
+                    ]
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Bow",
+                    "supportWeaponScripts": [
+                        "GunMagicBow"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi40_headshot",
+            "item_level": 4,
+            "supportWeapons": [
+                {
+                    "id": 1,
+                    "weaponType": "Bow",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 4,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 5,
+                    "weaponType": "Rocket",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 6,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [
+                "weapon_315"
+            ],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi41_matrix",
+            "item_level": 5,
+            "supportWeapons": [
+                {
+                    "id": 1,
+                    "weaponType": "Bow",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 4,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 5,
+                    "weaponType": "Rocket",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 6,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [
+                "weapon_315"
+            ],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi42_hurt_damage",
+            "item_level": 1,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi42_hurt_damage_1",
+            "item_level": 2,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi42_hurt_damage_2",
+            "item_level": 3,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi43_golden_rule",
+            "item_level": 0,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi43_golden_rule_1",
+            "item_level": 1,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi43_golden_rule_2",
+            "item_level": 2,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi44_arrow_knee",
+            "item_level": 2,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Bow",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 5,
+                    "weaponType": "Rocket",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": true
+        },
+        {
+            "name": "wi45_shield_explode",
+            "item_level": 4,
+            "supportWeapons": [
+                {
+                    "id": 2,
+                    "weaponType": "Rocket",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi46_soap",
+            "item_level": 1,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi47_body_boom",
+            "item_level": 4,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": true
+        },
+        {
+            "name": "wi48_stand_critical",
+            "item_level": 3,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": true
+        },
+        {
+            "name": "wi49_random_chaos",
+            "item_level": 3,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi4_helt",
+            "item_level": 1,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Sword",
+                    "supportWeaponScripts": [
+                        "Gun006",
+                        "Gun015",
+                        "GunInitAssassin",
+                        "GunInitWerewolf",
+                        "GunMasterWerewolf",
+                        "GunRotateLaser",
+                        "GunInitNinja",
+                        "RGProtoWeapon"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Axe",
+                    "supportWeaponScripts": [
+                        "GunAxe",
+                        "GunHarmmer",
+                        "GunSickle",
+                        "GunInitPaladin"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Spear",
+                    "supportWeaponScripts": [
+                        "Gun015",
+                        "GunSpearSword",
+                        "GunInitWerewolf"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun006",
+                        "GunInitBaserker",
+                        "GunInitBaserkerxx4",
+                        "GunQueenSlap"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi4_helt_2",
+            "item_level": 2,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Sword",
+                    "supportWeaponScripts": [
+                        "Gun006",
+                        "Gun015",
+                        "GunInitAssassin",
+                        "GunInitWerewolf",
+                        "GunMasterWerewolf",
+                        "GunRotateLaser",
+                        "GunInitNinja",
+                        "RGProtoWeapon"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Axe",
+                    "supportWeaponScripts": [
+                        "GunAxe",
+                        "GunHarmmer",
+                        "GunSickle",
+                        "GunInitPaladin"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Spear",
+                    "supportWeaponScripts": [
+                        "Gun015",
+                        "GunSpearSword",
+                        "GunInitWerewolf"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun006",
+                        "GunInitBaserker",
+                        "GunInitBaserkerxx4",
+                        "GunQueenSlap"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi4_helt_3",
+            "item_level": 3,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Sword",
+                    "supportWeaponScripts": [
+                        "Gun006",
+                        "Gun015",
+                        "GunInitAssassin",
+                        "GunInitWerewolf",
+                        "GunMasterWerewolf",
+                        "GunRotateLaser",
+                        "GunInitNinja",
+                        "RGProtoWeapon"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Axe",
+                    "supportWeaponScripts": [
+                        "GunAxe",
+                        "GunHarmmer",
+                        "GunSickle",
+                        "GunInitPaladin"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Spear",
+                    "supportWeaponScripts": [
+                        "Gun015",
+                        "GunInitWerewolf",
+                        "GunSpearSword"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun006",
+                        "GunInitBaserker",
+                        "GunInitBaserkerxx4",
+                        "GunQueenSlap"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi50_eight_shot",
+            "item_level": 2,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Bow",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Rocket",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Throw",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 5,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 6,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [
+                "weapon_299"
+            ],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": true
+        },
+        {
+            "name": "wi51_around_sword",
+            "item_level": 5,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Sword",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Axe",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Spear",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi52_ice_path",
+            "item_level": 4,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Bow",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Rocket",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": true
+        },
+        {
+            "name": "wi53_jump_machine",
+            "item_level": 2,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Bow",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Rocket",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 4,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Sword",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Axe",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Spear",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Staff",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": true
+        },
+        {
+            "name": "wi54_pull",
+            "item_level": 3,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": true
+        },
+        {
+            "name": "wi5_missle",
+            "item_level": 1,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "Gun008",
+                        "GunQueenSlap"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi5_missle_3",
+            "item_level": 2,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "Gun008",
+                        "GunQueenSlap"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi5_missle_4",
+            "item_level": 3,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "Gun008",
+                        "GunQueenSlap"
+                    ]
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi6_spiralcoil",
+            "item_level": 0,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "GunPortableBoomFactory"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi6_spiralcoil_1",
+            "item_level": 2,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "GunPortableBoomFactory"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi6_spiralcoil_4",
+            "item_level": 4,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "GunPortableBoomFactory"
+                    ]
+                },
+                {
+                    "id": 3,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi7_telescopic",
+            "item_level": 0,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi7_telescopic2",
+            "item_level": 3,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Pistol",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 2,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi8_effecientreactor",
+            "item_level": 1,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Rocket",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "Gun002",
+                        "GunMissle",
+                        "Gun018"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Staff",
+                    "supportWeaponScripts": [
+                        "Gun010",
+                        "Gun012",
+                        "GunSummon01",
+                        "GunPhantom",
+                        "GunInitMage",
+                        "GunInitPriest",
+                        "GunInitPriestxx3"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "GunLock",
+                        "GunTNT",
+                        "GunLock_Vampire_s9"
+                    ]
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Hold",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [
+                "weapon_361",
+                "weapon_381"
+            ],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi8_effecientreactor_2",
+            "item_level": 2,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Rocket",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "Gun002",
+                        "GunMissle",
+                        "Gun018"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Staff",
+                    "supportWeaponScripts": [
+                        "Gun010",
+                        "Gun012",
+                        "GunSummon01",
+                        "GunPhantom",
+                        "GunInitMage",
+                        "GunInitPriest",
+                        "GunInitPriestxx3"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "GunLock",
+                        "GunTNT",
+                        "GunLock_Vampire_s9"
+                    ]
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Hold",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [
+                "weapon_361",
+                "weapon_381"
+            ],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi8_effecientreactor_3",
+            "item_level": 4,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Rocket",
+                    "supportWeaponScripts": [
+                        "Gun001",
+                        "Gun002",
+                        "GunMissle",
+                        "Gun018"
+                    ]
+                },
+                {
+                    "id": 1,
+                    "weaponType": "Staff",
+                    "supportWeaponScripts": [
+                        "Gun010",
+                        "Gun012",
+                        "GunSummon01",
+                        "GunPhantom",
+                        "GunInitMage",
+                        "GunInitPriest",
+                        "GunInitPriestxx3"
+                    ]
+                },
+                {
+                    "id": 2,
+                    "weaponType": "Strange",
+                    "supportWeaponScripts": [
+                        "GunLock",
+                        "GunTNT",
+                        "GunLock_Vampire_s9"
+                    ]
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Rifle",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Hold",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [
+                "weapon_361",
+                "weapon_381"
+            ],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi8_effecientreactor_smg",
+            "item_level": 4,
+            "supportWeapons": [
+                {
+                    "id": 0,
+                    "weaponType": "Gun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "ShotGun",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "Laser",
+                    "supportWeaponScripts": []
+                },
+                {
+                    "id": 0,
+                    "weaponType": "ShortLaser",
+                    "supportWeaponScripts": []
+                }
+            ],
+            "notSupportWeapons": [
+                "weapon_361",
+                "weapon_381"
+            ],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        },
+        {
+            "name": "wi9_energy_stone",
+            "item_level": 2,
+            "supportWeapons": [],
+            "notSupportWeapons": [],
+            "byWeapon": false,
+            "processName": "",
+            "activityLimit": false
+        }
+    ]
+}
