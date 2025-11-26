@@ -52,10 +52,11 @@ def run_asset_studio_cli(
         mode,
         "-o",
         str(output_dir),
-        "--filter-by-name",
-        filter_name,
-        "--load-all"
+        "--load-all",
     ]
+
+    if filter_name:
+        cmd.extend(["--filter-by-name", filter_name])
 
     if assembly_folder:
         if not assembly_folder.exists():
