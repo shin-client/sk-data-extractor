@@ -106,10 +106,7 @@ def main() -> None:
         if not weapon_item_file:
             logging.warning("WeaponItem file not found in export directory.")
         else:
-            # Lấy tên file gốc (bỏ đuôi .txt) và thêm đuôi .json
-            # Ví dụ: WeaponItem.txt -> WeaponItem.json
-            new_filename = weapon_item_file.stem + ".json"
-            dest_path = version_output_dir / new_filename
+            dest_path = version_output_dir / "weapon_items.json"
 
             shutil.copy2(weapon_item_file, dest_path)
             logging.info(f"Copied and renamed WeaponItem to: {dest_path}")
