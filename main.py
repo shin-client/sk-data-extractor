@@ -82,9 +82,9 @@ def main() -> None:
         for f in EXPORT_DIR.iterdir():
             name_lower = f.name.lower()
 
-            if name_lower.endswith("weaponinfo.txt"):
+            if "weaponinfo" in name_lower and f.suffix == ".txt":
                 weapon_info_file = f
-            elif "weaponitem" in name_lower:
+            elif "weaponitem" in name_lower and f.suffix == ".txt":
                 weapon_item_file = f
 
         # 2. Xử lý WeaponInfo (Parse & Export JSON)
@@ -102,13 +102,17 @@ def main() -> None:
                 version_output_dir / "weapons.json",
             )
 
-        # 3. Xử lý WeaponItem (Copy file)
+        # 3. Xử lý WeaponItem
         if not weapon_item_file:
             logging.warning("WeaponItem file not found in export directory.")
         else:
-            dest_path = version_output_dir / weapon_item_file.name
+            # Lấy tên file gốc (bỏ đuôi .txt) và thêm đuôi .json
+            # Ví dụ: WeaponItem.txt -> WeaponItem.json
+            new_filename = weapon_item_file.stem + ".json"
+            dest_path = version_output_dir / new_filename
+
             shutil.copy2(weapon_item_file, dest_path)
-            logging.info(f"Copied WeaponItem file to: {dest_path}")
+            logging.info(f"Copied and renamed WeaponItem to: {dest_path}")
 
         exporter.export_weapon_evo_data(
             full_lang_map, version_output_dir / "weapon_skins.json"
