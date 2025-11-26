@@ -54,6 +54,7 @@ def run_asset_studio_cli(
         str(output_dir),
         "--filter-by-name",
         filter_name,
+        "--load-all"
     ]
 
     if assembly_folder:
@@ -83,7 +84,11 @@ def run_asset_extractions(sk_extracted_path: Path) -> None:
     managed_folder = sk_extracted_path / "assets/bin/Data/Managed"
 
     if not unity_data.exists():
-        raise FileNotFoundError(f"Unity data file missing: {unity_data}")
+        found = list(sk_extracted_path.rglob("data.unity3d"))
+        if found:
+            unity_data = found[0]
+        else:
+            raise FileNotFoundError(f"Unity data file missing in: {sk_extracted_path}")
 
     EXPORT_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -112,4 +117,12 @@ def run_asset_extractions(sk_extracted_path: Path) -> None:
         asset_type="textasset",
         mode="export",
         filter_name="WeaponInfo",
+    )
+
+    run_asset_studio_cli(
+        unity_data_path=unity_data,
+        output_dir=EXPORT_DIR,
+        asset_type="TextAsset",
+        mode="export",
+        filter_name="WeaponItem",
     )

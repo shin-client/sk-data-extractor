@@ -7,10 +7,15 @@ import stat
 from pathlib import Path
 from typing import Tuple
 from src.config import (
-    APK_REGEX, BASE_URL, DATA_DIR,
-    ASSET_STUDIO_REPO_API, ASSET_STUDIO_ARTIFACT_REGEX,
-    ASSET_STUDIO_DIR, ASSET_STUDIO_ZIP
+    APK_REGEX,
+    BASE_URL,
+    DATA_DIR,
+    ASSET_STUDIO_REPO_API,
+    ASSET_STUDIO_ARTIFACT_REGEX,
+    ASSET_STUDIO_DIR,
+    ASSET_STUDIO_ZIP,
 )
+
 
 def get_latest_asset_studio_url() -> str:
     """
@@ -18,7 +23,9 @@ def get_latest_asset_studio_url() -> str:
     """
     logging.info(f"Checking for latest AssetStudio release at: {ASSET_STUDIO_REPO_API}")
     try:
-        resp = requests.get(ASSET_STUDIO_REPO_API, timeout=15)
+        resp = requests.get(
+            ASSET_STUDIO_REPO_API, timeout=15, headers={"Accept-Encoding": "zstd"}
+        )
         resp.raise_for_status()
         data = resp.json()
 
@@ -29,14 +36,21 @@ def get_latest_asset_studio_url() -> str:
 
             # Kiểm tra xem tên file có khớp với pattern linux net9 không
             if ASSET_STUDIO_ARTIFACT_REGEX.search(name):
-                logging.info(f"Found latest AssetStudio: {name} ({data.get('tag_name')})")
+                logging.info(
+                    f"Found latest AssetStudio: {name} ({data.get('tag_name')})"
+                )
                 return browser_download_url
 
         # Nếu không tìm thấy file mong muốn
-        raise RuntimeError("Could not find AssetStudioModCLI_net9_linux64.zip in the latest release assets.")
+        raise RuntimeError(
+            "Could not find AssetStudioModCLI_net9_linux64.zip in the latest release assets."
+        )
 
     except Exception as e:
-        raise RuntimeError(f"Failed to fetch latest AssetStudio release info: {e}") from e
+        raise RuntimeError(
+            f"Failed to fetch latest AssetStudio release info: {e}"
+        ) from e
+
 
 def download_file(url: str, dest: Path, chunk_size: int = 8192) -> None:
     dest.parent.mkdir(parents=True, exist_ok=True)
@@ -51,6 +65,7 @@ def download_file(url: str, dest: Path, chunk_size: int = 8192) -> None:
     except Exception as e:
         raise RuntimeError(f"Failed to download {url}: {e}") from e
 
+
 def extract_zip(zip_path: Path, target_dir: Path) -> None:
     if not zip_path.exists():
         raise FileNotFoundError(f"Zip file not found: {zip_path}")
@@ -62,6 +77,7 @@ def extract_zip(zip_path: Path, target_dir: Path) -> None:
     except zipfile.BadZipFile as e:
         raise RuntimeError(f"Bad zip file {zip_path}: {e}") from e
 
+
 def flatten_directory(root_dir: Path, target_file_name: str) -> None:
     """
     Tìm file mục tiêu trong subfolder và di chuyển tất cả nội dung ra root_dir.
@@ -72,14 +88,18 @@ def flatten_directory(root_dir: Path, target_file_name: str) -> None:
 
     found_files = list(root_dir.rglob(target_file_name))
     if not found_files:
-        logging.warning(f"Could not find {target_file_name} in {root_dir} (even recursively).")
+        logging.warning(
+            f"Could not find {target_file_name} in {root_dir} (even recursively)."
+        )
         return
 
     actual_file = found_files[0]
     parent_dir = actual_file.parent
 
     if parent_dir != root_dir:
-        logging.info(f"Found nested folder structure at {parent_dir}. Flattening to {root_dir}...")
+        logging.info(
+            f"Found nested folder structure at {parent_dir}. Flattening to {root_dir}..."
+        )
         for item in parent_dir.iterdir():
             dest = root_dir / item.name
             if dest.exists():
@@ -92,6 +112,7 @@ def flatten_directory(root_dir: Path, target_file_name: str) -> None:
             shutil.rmtree(parent_dir)
         except Exception:
             pass
+
 
 def get_latest_apk_info() -> Tuple[str, str]:
     logging.info(f"Fetching website: {BASE_URL}")
@@ -108,6 +129,7 @@ def get_latest_apk_info() -> Tuple[str, str]:
     link = match.group(0)
     logging.info(f"Found version: {version}")
     return version, link
+
 
 def ensure_apk_extracted(version: str, link: str) -> Path:
     versioned_apk_file = DATA_DIR / f"sk-{version}.apk"
@@ -126,6 +148,7 @@ def ensure_apk_extracted(version: str, link: str) -> Path:
             raise RuntimeError(f"Failed extracting APK: {e}") from e
 
     return sk_extracted_path
+
 
 def ensure_asset_studio() -> Path:
     """
