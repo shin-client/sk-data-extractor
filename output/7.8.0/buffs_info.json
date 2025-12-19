@@ -1,0 +1,802 @@
+[
+  {
+    "id": "00",
+    "name": "Piercing Crit",
+    "description": "Critical hit bullets can pierce enemies"
+  },
+  {
+    "id": "01",
+    "name": "Heightened Beams",
+    "description": "Increase the beam width of optoelectronic weapons and grant immunity to electro-charged damage."
+  },
+  {
+    "id": "02",
+    "name": "Shotgun Barrage",
+    "description": "Increase the number of bullets of shotguns"
+  },
+  {
+    "id": "03",
+    "name": "Reflexive Edge",
+    "description": "Melee weapons can bounce bullets"
+  },
+  {
+    "id": "04",
+    "name": "Rapid Charge",
+    "description": "Shorter charge time for weapons that require charging"
+  },
+  {
+    "id": "05",
+    "name": "Sturdy Shield",
+    "description": "No extra damage is taken when armor is depleted."
+  },
+  {
+    "id": "06",
+    "name": "Trap Shield",
+    "description": "Immune to traps, and immune to collision damage"
+  },
+  {
+    "id": "07",
+    "name": "Poison Shield",
+    "description": "Immune to poison gas and slow effect, increase poison damage to monsters"
+  },
+  {
+    "id": "08",
+    "name": "Fire Shield",
+    "description": "Immune to fire, decrease explosion damage and increase fire damage to monsters"
+  },
+  {
+    "id": "09",
+    "name": "On Sale!",
+    "description": "50% off in store"
+  },
+  {
+    "id": "10",
+    "name": "Life Harvest",
+    "description": "Enemies have a chance to drop health orbs when defeated."
+  },
+  {
+    "id": "1001",
+    "name": "[Name Not Found]",
+    "description": "Energy restored +1"
+  },
+  {
+    "id": "1002",
+    "name": "[Name Not Found]",
+    "description": "Upgrade the skill"
+  },
+  {
+    "id": "1003",
+    "name": "[Name Not Found]",
+    "description": "Non-primary weapons turn into floating weapons. Exclusive to this character."
+  },
+  {
+    "id": "1004",
+    "name": "[Name Not Found]",
+    "description": "Inter-dimension Traveler gains a chance to be immune to all damage. Every 5 bare-hand attacks trigger an enhanced one. [Exclusive to this character]"
+  },
+  {
+    "id": "1005",
+    "name": "[Name Not Found]",
+    "description": "Immune to fire, take less explosion damage, and increase fire damage to enemies. Immune to freeze, and apply extra freeze time to enemies. Summon random elemental stelae in combat to attack enemies. [Exclusive to this character]"
+  },
+  {
+    "id": "1006",
+    "name": "[Name Not Found]",
+    "description": "A Great Owl pet follows you around. It disappears for a while if you take any damage. Exclusive to this character."
+  },
+  {
+    "id": "1007",
+    "name": "[Name Not Found]",
+    "description": "Fast slash enemies nearby once in a while."
+  },
+  {
+    "id": "1008",
+    "name": "[Name Not Found]",
+    "description": "Three Special Forces knights are masters of different types of weapons. \\nRed Knight: Attacks with some melee weapons release projectiles. \\nBlue Knight: Attacks with staffs are more powerful. \\nGreen Knight: Faster bullet speed for all guns."
+  },
+  {
+    "id": "1009",
+    "name": "[Name Not Found]",
+    "description": "Airbender's barehanded attack deals 3 instances of consecutive damage and releases a conical Qi-gong wave which inflicts AoE damage. Exclusive to this character."
+  },
+  {
+    "id": "1010",
+    "name": "[Name Not Found]",
+    "description": "Summon a fiery imp upon killing an enemy. Fiery imp follows you around to block bullets. Exclusive to this character."
+  },
+  {
+    "id": "1011",
+    "name": "[Name Not Found]",
+    "description": "Attacking enemies or taking damage increases Battlelust.\\nUpon reaching max Battlelust, enter the Battle Surge state, temporarily enhancing size, attack speed, movement speed, and attack. [Exclusive to this character]"
+  },
+  {
+    "id": "1012",
+    "name": "[Name Not Found]",
+    "description": "Casting skill increases movement speed. Fully releasing skill grants 5 Sword Intent. [Exclusive to this character]"
+  },
+  {
+    "id": "1013",
+    "name": "[Name Not Found]",
+    "description": "Crit hit rate increases as you stay still and charge longer."
+  },
+  {
+    "id": "1014",
+    "name": "[Name Not Found]",
+    "description": "Skills apply star curse. At 3 stacks, astrology is triggered, with effects based on the skill and providing astral energy. Astral energy can enhance skills. [Exclusive to this character]"
+  },
+  {
+    "id": "1014_name",
+    "name": "[Name Not Found]",
+    "description": "Star Curse"
+  },
+  {
+    "id": "1015",
+    "name": "Icicle Spike",
+    "description": "Ice-based critical attacks launch {0} ice spikes at all directions."
+  },
+  {
+    "id": "1016",
+    "name": "Ice Sculpture",
+    "description": "Enemies killed by ice damage have a {0} chance of turning into ice sculptures, which automatically pursue other enemies and explode, dealing {2} ice damage to enemies within a radius of {1}."
+  },
+  {
+    "id": "1017",
+    "name": "Frost Nova",
+    "description": "Enemies killed by ice damage have a {0} chance to trigger a frost nova upon death."
+  },
+  {
+    "id": "1018",
+    "name": "Myriad Illusion",
+    "description": "Every {0}s, a phantom clone will be created, which will automatically attack enemies."
+  },
+  {
+    "id": "1019",
+    "name": "[Name Not Found]",
+    "description": "Consecutive attacks or enemy deaths drop musical notes. Picking them up increases bullet size by {0}% and movement speed by {1}% for {2}s, stacking up to {3} times."
+  },
+  {
+    "id": "1020",
+    "name": "Stay Focused",
+    "description": "Each enemy killed: attack speed +{0}%, crit hit rate +{1}%, deviation -{2}, stacking up to {3} times. Lasts for {4} seconds (resets on killing an enemy)."
+  },
+  {
+    "id": "1020_name",
+    "name": "[Name Not Found]",
+    "description": "Stay Focused"
+  },
+  {
+    "id": "1021",
+    "name": "[Name Not Found]",
+    "description": "Increase max power. Gain power upon consuming energy. [Exclusive to this character]"
+  },
+  {
+    "id": "1021_name",
+    "name": "[Name Not Found]",
+    "description": "Power Protocol"
+  },
+  {
+    "id": "1022",
+    "name": "[Name Not Found]",
+    "description": "Immune to explosive barrels and randomly drops them on the field. [Exclusive to this character]"
+  },
+  {
+    "id": "1022_name",
+    "name": "[Name Not Found]",
+    "description": "Blast Fest"
+  },
+  {
+    "id": "11",
+    "name": "Healing Surge",
+    "description": "Improve potion effectiveness"
+  },
+  {
+    "id": "12",
+    "name": "Mana Harvest",
+    "description": "Enemies have a chance to drop energy orbs when defeated."
+  },
+  {
+    "id": "13",
+    "name": "Warping Touch",
+    "description": "Decrease monster bullet speed, larger pickup radius"
+  },
+  {
+    "id": "14",
+    "name": "Gem Generosity",
+    "description": "Get more gems at the end of each game"
+  },
+  {
+    "id": "15",
+    "name": "Brave Heart",
+    "description": "Increase maximum life"
+  },
+  {
+    "id": "16",
+    "name": "Best Buddy",
+    "description": "Increase the effectiveness of pets and followers"
+  },
+  {
+    "id": "17",
+    "name": "Shield Blast",
+    "description": "Release a radial blast when shield is down"
+  },
+  {
+    "id": "18",
+    "name": "Looting Luck",
+    "description": "Upon being broken, crates have a chance to drop health potions, and a higher chance to drop energy orbs."
+  },
+  {
+    "id": "19",
+    "name": "Precise Strike",
+    "description": "Increase accuracy and critical hit chance"
+  },
+  {
+    "id": "20",
+    "name": "Cooldown Rush",
+    "description": "Reduce skill cool down"
+  },
+  {
+    "id": "2001",
+    "name": "[Name Not Found]",
+    "description": "Restore 10% of max health after you enter the next level. If 10% of your max health is less than 1, the restored HP will be rounded up to 1."
+  },
+  {
+    "id": "2002",
+    "name": "[Name Not Found]",
+    "description": "Restore 30% of max energy after you enter the next level."
+  },
+  {
+    "id": "2003",
+    "name": "[Name Not Found]",
+    "description": "Chance to inflict chain lightning upon hitting enemies. Lightning has a chance to stun enemies."
+  },
+  {
+    "id": "2004",
+    "name": "[Name Not Found]",
+    "description": "Release ice shards in all directions upon hitting enemies. Ice shards have a chance to freeze enemies."
+  },
+  {
+    "id": "2005",
+    "name": "[Name Not Found]",
+    "description": "Beg for mercy (Pressure Level -1)"
+  },
+  {
+    "id": "2006",
+    "name": "[Name Not Found]",
+    "description": "Beg for mercy (remove the negative challenge condition you just got)"
+  },
+  {
+    "id": "2007",
+    "name": "[Name Not Found]",
+    "description": "Max energy +20 (max 10 stacks)"
+  },
+  {
+    "id": "21",
+    "name": "Dual Statue",
+    "description": "Statue effects can be triggered twice per skill cast. You can be buffed by 2 different statue effects at the same time."
+  },
+  {
+    "id": "2101",
+    "name": "Whirlwind Slash",
+    "description": "Release a whirlwind slash when you defeat an enemy in melee range. Cooldown {0} seconds."
+  },
+  {
+    "id": "2102",
+    "name": "Split Shot",
+    "description": "{0}% chance to fire another bullet upon scoring a ranged hit."
+  },
+  {
+    "id": "2103",
+    "name": "Well Begun",
+    "description": "Guaranteed critical hit when the enemy's HP is full."
+  },
+  {
+    "id": "2104",
+    "name": "[Name Not Found]",
+    "description": "Damage taken by enemies increases by {0}% for each elemental effect they have."
+  },
+  {
+    "id": "2105",
+    "name": "Elemental Cycle",
+    "description": "Fire damage, ice damage, poison damage, and electric damage, each type of elemental damage increases by {0}% in turn. The cycle lasts for {1} seconds."
+  },
+  {
+    "id": "2106",
+    "name": "Kinetic Strike",
+    "description": "Gain Kinetics stacks from movement. Hitting a target converts all stacks of Kinetics into extra damage ({0} at most). At full Kinetics stacks, your next attack is guaranteed to crit and stun enemies."
+  },
+  {
+    "id": "2107",
+    "name": "[Name Not Found]",
+    "description": "Consume extra {0}% of max energy per hit, and deal extra electricity damage to the target that is equal to {1}% of extra energy consumed."
+  },
+  {
+    "id": "2108",
+    "name": "Party Time!",
+    "description": "When pets and followers start to fight, their attack speed increases by {0}% and attack damage by {1}% for {2} seconds."
+  },
+  {
+    "id": "2109",
+    "name": "[Name Not Found]",
+    "description": "The control effect is extended by {0} seconds. Damage dealt to affected enemies increases by {1}%."
+  },
+  {
+    "id": "2110",
+    "name": "[Name Not Found]",
+    "description": "Gain Energize stacks from moving and hitting enemies. At full stacks, your next skill casting discharges all stacks to enhance the skill effect for a short duration."
+  },
+  {
+    "id": "2111",
+    "name": "[Name Not Found]",
+    "description": "Gain 1 stack of buff for every {0} points of energy consumed. Buffs includes attack damage +{1}%, fire rate +{2}%, bullet size +{3}%. Buffs last for {4} seconds. Max {5} stacks."
+  },
+  {
+    "id": "2112",
+    "name": "[Name Not Found]",
+    "description": "Max health +{1} for every {0} Rosemary Beans you have."
+  },
+  {
+    "id": "2113",
+    "name": "[Name Not Found]",
+    "description": "Defense +{1} when energy is higher than {0}%."
+  },
+  {
+    "id": "2114",
+    "name": "[Name Not Found]",
+    "description": "Life Regen +{0}. Restoration of energy orbs -{1}."
+  },
+  {
+    "id": "2115",
+    "name": "[Name Not Found]",
+    "description": "Continue to stun enemies nearby when being invincible."
+  },
+  {
+    "id": "2116",
+    "name": "[Name Not Found]",
+    "description": "Gain extra {0}% of owned Rosemary Beans at the start of each level."
+  },
+  {
+    "id": "2117",
+    "name": "[Name Not Found]",
+    "description": "Block 1 elemental effect every {0} seconds."
+  },
+  {
+    "id": "2118",
+    "name": "Elemental Blessing",
+    "description": "{0}% chance to restore {1} armor when you inflict a debuff on enemies."
+  },
+  {
+    "id": "2119",
+    "name": "[Name Not Found]",
+    "description": "{0}% chance to gain {1} Rosemary Beans when you kill an enemy with critical hit."
+  },
+  {
+    "id": "2120",
+    "name": "[Name Not Found]",
+    "description": "Restoration of energy orb +{0}, number of enemies +{1}%."
+  },
+  {
+    "id": "2121",
+    "name": "[Name Not Found]",
+    "description": "Fire rate +{0}% when you stand still. Defense -{1} when you are moving."
+  },
+  {
+    "id": "2122",
+    "name": "[Name Not Found]",
+    "description": "Refresh items {0} times for free in each level."
+  },
+  {
+    "id": "2123",
+    "name": "[Name Not Found]",
+    "description": "Number of plants increases in Rosemary Island."
+  },
+  {
+    "id": "2124",
+    "name": "[Name Not Found]",
+    "description": "Release multiple spikes in all directions when you take a hit. Spikes deal more damage if you have higher max HP."
+  },
+  {
+    "id": "2125",
+    "name": "[Name Not Found]",
+    "description": "Selling price of items reduces by {0}%."
+  },
+  {
+    "id": "2126",
+    "name": "[Name Not Found]",
+    "description": "Extra health restored will be converted to armor."
+  },
+  {
+    "id": "2127",
+    "name": "[Name Not Found]",
+    "description": "Defense -{0}. Drain health from nearby enemies every {1} seconds."
+  },
+  {
+    "id": "2128",
+    "name": "[Name Not Found]",
+    "description": "Pets will mimic your attacks. Cooldown {0} seconds."
+  },
+  {
+    "id": "2129",
+    "name": "[Name Not Found]",
+    "description": "Salary increases by {0}, but you lose {2} health every {1} seconds while in combat."
+  },
+  {
+    "id": "2130",
+    "name": "[Name Not Found]",
+    "description": "Max health drops to 1. At the end of next level, earn {0} Rosemary Beans and forget this buff."
+  },
+  {
+    "id": "2131",
+    "name": "[Name Not Found]",
+    "description": "Bullets will circle around you after they are shot out."
+  },
+  {
+    "id": "2132",
+    "name": "[Name Not Found]",
+    "description": "Gain {0} stacks of splash. Each stack enables your attack to deal {1}% of splash damage to enemies. Gain {2} stacks when you defeat enemies. Lose {3} stacks when you take damage. Max {4} stacks."
+  },
+  {
+    "id": "2133",
+    "name": "[Name Not Found]",
+    "description": "Summon {1} random pet for every {0} energy you have."
+  },
+  {
+    "id": "2134",
+    "name": "[Name Not Found]",
+    "description": "When standing within the range of an elemental attack, its radius and damage gradually increase and its duration is extended."
+  },
+  {
+    "id": "2135",
+    "name": "[Name Not Found]",
+    "description": "Release one extra knockback attack for every {0} melee attacks dealt."
+  },
+  {
+    "id": "2136",
+    "name": "[Name Not Found]",
+    "description": "{0} chance to teleport to a random location before taking damage."
+  },
+  {
+    "id": "2137",
+    "name": "[Name Not Found]",
+    "description": "At the start of each level, salary +{0}, max health +{1}, max energy +{2}."
+  },
+  {
+    "id": "2138",
+    "name": "[Name Not Found]",
+    "description": "Every time a skill is used, the skill damage increases by {0}%."
+  },
+  {
+    "id": "2139",
+    "name": "[Name Not Found]",
+    "description": "Enemies have a chance to drop random potions when defeated. All potion effects increase by {0}%."
+  },
+  {
+    "id": "2140",
+    "name": "[Name Not Found]",
+    "description": "Upon hitting enemies, optoelectronic weapons have a {0}% chance to refract {1} beams of laser."
+  },
+  {
+    "id": "2141",
+    "name": "[Name Not Found]",
+    "description": "Instantly get a random armor mount. Piloting the armor mount to defeat enemies grants a random stats boost on the armor mount."
+  },
+  {
+    "id": "2142",
+    "name": "[Name Not Found]",
+    "description": "Enemies' HP +{0}%, move speed -{1}%."
+  },
+  {
+    "id": "2143",
+    "name": "[Name Not Found]",
+    "description": "Get a Legendary Buff for every {0} plants of Rosemary Island destroyed."
+  },
+  {
+    "id": "2144",
+    "name": "[Name Not Found]",
+    "description": "{0}% chance to restore {1} energy when getting currencies."
+  },
+  {
+    "id": "2145",
+    "name": "Hero's Valor",
+    "description": "Each skill use increases damage by {0}%, stacking up to {1} times. Instantly gain full stacks when health drops to 1."
+  },
+  {
+    "id": "2145_name",
+    "name": "[Name Not Found]",
+    "description": "Hero's Valor"
+  },
+  {
+    "id": "2145_slim",
+    "name": "[Name Not Found]",
+    "description": "Each use of the skill increases damage by {0}%, stacking up to {1} times."
+  },
+  {
+    "id": "2146",
+    "name": "Martial Spirit",
+    "description": "Every {0}th attack is guaranteed to crit."
+  },
+  {
+    "id": "2146_name",
+    "name": "[Name Not Found]",
+    "description": "Martial Spirit"
+  },
+  {
+    "id": "2147",
+    "name": "[Name Not Found]",
+    "description": "Plants on the Rosemary Island gain +{0}% health and yield {1}% more Rosemary Beans."
+  },
+  {
+    "id": "2148",
+    "name": "[Name Not Found]",
+    "description": "Whenever a plant is destroyed, it deals {0} damage to nearby enemies."
+  },
+  {
+    "id": "2149",
+    "name": "[Name Not Found]",
+    "description": "Max HP, max armor, and max energy no longer change. Melee damage, ranged damage, and elemental damage +{0}."
+  },
+  {
+    "id": "2150",
+    "name": "[Name Not Found]",
+    "description": "Explosions cover a larger area but deal {0}% less damage."
+  },
+  {
+    "id": "2170",
+    "name": "[Name Not Found]",
+    "description": "Release <color=#FFEB04FF>Holy Nova</color> and gain immunity to this hit when taking lethal damage. Cooldown {0} seconds. \\n<color=#FFEB04FF>Holy Nova</color>: Destroys non-boss enemies and their bullets, and dishes out a massive amount of damage to bosses, while healing all allies. Effective range {1}."
+  },
+  {
+    "id": "2171",
+    "name": "[Name Not Found]",
+    "description": "Enemies drop soul pieces when they die. Collect enough soul pieces to release <color=#A473FCFF>Soul Strike</color> on your next hit. \\n<color=#A473FCFF>Soul Strike</color>: Inflicts a massive amount of damage to the target as well as AoE damage to enemies around them. Damage permanently increases by {0}% every time Soul Strike is triggered."
+  },
+  {
+    "id": "2172",
+    "name": "[Name Not Found]",
+    "description": "Gain 1 stack of Blockade every {0} seconds. Max {1} stacks. Each stack of Blockade can block one hit and release a <color=#00FFFFFF>Frost Ring</color>. \\n<color=#00FFFFFF>Frost Ring</color>: Reduces movement speed and fire rate of surrounding enemies and makes them suffer from Frostbite. Enemies affected by Frostbite will be frozen on hit."
+  },
+  {
+    "id": "2173",
+    "name": "[Name Not Found]",
+    "description": "Release a conical <color=#FF0000FF>Dragonbreath</color> every {0} seconds. \\n<color=#FF0000FF>Dragonbreath</color>: Burns enemies on hit and inflicts an explosion when it hits burnt enemies."
+  },
+  {
+    "id": "2174",
+    "name": "[Name Not Found]",
+    "description": "After you move a certain distance, release a <color=#00FF00FF>tornado</color> that continuously pulls in enemies, harms them, and destroys enemy bullets."
+  },
+  {
+    "id": "2175",
+    "name": "[Name Not Found]",
+    "description": "After you cast the skill, your next attack will be strengthened and come with a random elemental effect."
+  },
+  {
+    "id": "2177",
+    "name": "[Name Not Found]",
+    "description": "Put on Sunglasses and call your friends for fire support. Cooldown {0} seconds."
+  },
+  {
+    "id": "2178",
+    "name": "[Name Not Found]",
+    "description": "Casting a skill drops firecrackers that explode upon contact with enemies or after a period time."
+  },
+  {
+    "id": "2179",
+    "name": "[Name Not Found]",
+    "description": "When near pets, followers, or summons, releases lightning bolts upon nearby enemies over time."
+  },
+  {
+    "id": "2180",
+    "name": "[Name Not Found]",
+    "description": "Attacks in battle might deal +{0} damage and restore {1}% of consumed energy."
+  },
+  {
+    "id": "2181",
+    "name": "[Name Not Found]",
+    "description": "Marks enemies you hit. Hitting a marked enemy with your weapon deals {0}% damage to nearby enemies."
+  },
+  {
+    "id": "2182",
+    "name": "[Name Not Found]",
+    "description": "All damage you deal within {0}s of hitting an enemy is absorbed. For the next {1}s, all your attacks deal additional damage equal to {2}% of the absorbed damage."
+  },
+  {
+    "id": "2183",
+    "name": "[Name Not Found]",
+    "description": "Your main weapon copies your secondary weapon's attack style for {0}s. Cooldown: {1}s."
+  },
+  {
+    "id": "2184",
+    "name": "[Name Not Found]",
+    "description": "Summons a pack of monkeys."
+  },
+  {
+    "id": "22",
+    "name": "Ice Shield",
+    "description": "Immune to freeze, and extra freeze time for the enemies"
+  },
+  {
+    "id": "2201",
+    "name": "[Name Not Found]",
+    "description": "Defeated enemies may drop additional coins."
+  },
+  {
+    "id": "23",
+    "name": "Bouncing Bullets",
+    "description": "Bullets can bounce"
+  },
+  {
+    "id": "24",
+    "name": "Extra Weapon",
+    "description": "Take an extra weapon into the fight"
+  },
+  {
+    "id": "25",
+    "name": "[Name Not Found]",
+    "description": "Elemental bullets deal double damage on critical hit"
+  },
+  {
+    "id": "26",
+    "name": "[Name Not Found]",
+    "description": "Increase damage of staves"
+  },
+  {
+    "id": "27",
+    "name": "Ironclad",
+    "description": "Armor +1"
+  },
+  {
+    "id": "28",
+    "name": "Long Reach",
+    "description": "Increase the attack range of melee weapon"
+  },
+  {
+    "id": "29",
+    "name": "Mana Might",
+    "description": "Max Energy +100"
+  },
+  {
+    "id": "30",
+    "name": "Combo Turbo",
+    "description": "Increase the number of combo hits for combo-hit weapons"
+  },
+  {
+    "id": "31",
+    "name": "Rapid Fire",
+    "description": "Increase firing speed of weapon"
+  },
+  {
+    "id": "32",
+    "name": "Blast on Death",
+    "description": "Monsters have a chance to explode upon death."
+  },
+  {
+    "id": "33",
+    "name": "Golden Armor",
+    "description": "Increases your max armor by 1 point when the number of coins reaches 100, 200 and 300. (max 3 points)"
+  },
+  {
+    "id": "34",
+    "name": "Vengeance Instinct",
+    "description": "Guaranteed critical hit for a short duration when HP reduces."
+  },
+  {
+    "id": "35",
+    "name": "Blitz Defense",
+    "description": "When you inflict a critical hit, your movement speed increases for a short duration. Armor slowly regenerates as you move."
+  },
+  {
+    "id": "36",
+    "name": "[Name Not Found]",
+    "description": "Chance to restore some energy when armor is damaged."
+  },
+  {
+    "id": "37",
+    "name": "Armor Resilience",
+    "description": "Armor regenerates instantly by 50% when it is depleted. The effect can be triggered once every 60 secs."
+  },
+  {
+    "id": "38",
+    "name": "Secret of Qi-gong",
+    "description": "Release a Qi-gong wave that consumes energy when you attack with bare hands."
+  },
+  {
+    "id": "39",
+    "name": "Elemental Torrent",
+    "description": "Elemental bullets deal double damage on critical hit. Staff weapons deal higher damage."
+  },
+  {
+    "id": "40",
+    "name": "Electric Pulse",
+    "description": "Crit hit rate +5%. Critical hits summon lightning upon the target."
+  },
+  {
+    "id": "41",
+    "name": "[Name Not Found]",
+    "description": "Your health slowly regenerates."
+  },
+  {
+    "id": "42",
+    "name": "[Name Not Found]",
+    "description": "Your armor recovers faster."
+  },
+  {
+    "id": "44",
+    "name": "[Name Not Found]",
+    "description": "Poison effect now can stack up to {0} times."
+  },
+  {
+    "id": "45",
+    "name": "[Name Not Found]",
+    "description": "Frozen effect lasts {0} seconds longer."
+  },
+  {
+    "id": "46",
+    "name": "[Name Not Found]",
+    "description": "Deal {0}% more damage to frozen enemies."
+  },
+  {
+    "id": "47",
+    "name": "[Name Not Found]",
+    "description": "Restores {0} armor upon defeating an enemy. Cooldown: {1}s."
+  },
+  {
+    "id": "48",
+    "name": "[Name Not Found]",
+    "description": "After releasing a fully charged weapon attack, summons a mirror image that lasts {0}s."
+  },
+  {
+    "id": "49",
+    "name": "[Name Not Found]",
+    "description": "Dealing elemental damage has a {0}% chance to summon a matching elemental minion for {1}s. Repeated triggers extend the minion's duration."
+  },
+  {
+    "id": "50",
+    "name": "[Name Not Found]",
+    "description": "Skill cooldown is extended by {0}s. Defeating an enemy accelerates cooldown by {1}%."
+  },
+  {
+    "id": "51",
+    "name": "[Name Not Found]",
+    "description": "Armor restores {0}% slower in battle. For every {1} armor you own, weapon hits deal +1 damage."
+  },
+  {
+    "id": "52",
+    "name": "[Name Not Found]",
+    "description": "Switching weapons increases weapon damage by {0}% for {1}s, stacking up to {2} times."
+  },
+  {
+    "id": "53",
+    "name": "[Name Not Found]",
+    "description": "Attacks increase movement speed by {1}% for {0}s, stacking up to {2} times."
+  },
+  {
+    "id": "54",
+    "name": "[Name Not Found]",
+    "description": "Machine gun and sniper bullets pierce only 1 enemy at a time. After piercing enemies, these bullets automatically track and strike enemies, dealing {0}% damage."
+  },
+  {
+    "id": "55",
+    "name": "[Name Not Found]",
+    "description": "Attacks toss random elemental vials at enemies. For every {1} energy consumed in the last {0}s, tosses an extra bottle. Cooldown: {2}s."
+  },
+  {
+    "id": "56",
+    "name": "[Name Not Found]",
+    "description": "Energy orbs restore {0}% less energy. You might generate energy orbs while moving in battle."
+  },
+  {
+    "id": "57",
+    "name": "[Name Not Found]",
+    "description": "Picking up an energy orb grants {0} special bullets. Upon consuming 1 energy, fires 1 special bullet."
+  },
+  {
+    "id": "58",
+    "name": "[Name Not Found]",
+    "description": "Ignite the ground while moving, dealing {0} fire damage to enemies and possibly inflicting burn."
+  },
+  {
+    "id": "59",
+    "name": "[Name Not Found]",
+    "description": "Dealing lightning damage to burning enemies or fire damage to electro-charged enemies triggers an additional {0} area damage."
+  }
+]
