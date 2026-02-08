@@ -1,0 +1,206 @@
+[
+  {
+    "id": "plant_banboo",
+    "name": "Bamboo"
+  },
+  {
+    "id": "plant_binary_tree",
+    "name": "Binary Tree"
+  },
+  {
+    "id": "plant_blackrose",
+    "name": "Black Rose"
+  },
+  {
+    "id": "plant_cactus",
+    "name": "Cactus"
+  },
+  {
+    "id": "plant_carrot",
+    "name": "Carrot"
+  },
+  {
+    "id": "plant_clivia",
+    "name": "Bush Lily"
+  },
+  {
+    "id": "plant_datura",
+    "name": "Devil's Snare"
+  },
+  {
+    "id": "plant_defend_flower",
+    "name": "Guardian Flower"
+  },
+  {
+    "id": "plant_dragon_tree",
+    "name": "Dragon Fruit Tree"
+  },
+  {
+    "id": "plant_eator",
+    "name": "Titan arum"
+  },
+  {
+    "id": "plant_fantastic_flower",
+    "name": "Fantastic Flower"
+  },
+  {
+    "id": "plant_firecracker",
+    "name": "Firecracker"
+  },
+  {
+    "id": "plant_flatpeach",
+    "name": "Heavenly Peach"
+  },
+  {
+    "id": "plant_gear_flower",
+    "name": "Gear Flower"
+  },
+  {
+    "id": "plant_gem_flower",
+    "name": "Gem Flower"
+  },
+  {
+    "id": "plant_gem_tree",
+    "name": "Gem Tree"
+  },
+  {
+    "id": "plant_ginseng",
+    "name": "Ginseng"
+  },
+  {
+    "id": "plant_heptacolor",
+    "name": "Heptacolor Viola"
+  },
+  {
+    "id": "plant_icepear",
+    "name": "Frozen Pear"
+  },
+  {
+    "id": "plant_iron_tree",
+    "name": "Ironwood"
+  },
+  {
+    "id": "plant_lavender",
+    "name": "Lavender"
+  },
+  {
+    "id": "plant_lithiumflower",
+    "name": "Lithium Flower"
+  },
+  {
+    "id": "plant_lotus",
+    "name": "Snow Lotus"
+  },
+  {
+    "id": "plant_lycoris",
+    "name": "Red Spider Lily"
+  },
+  {
+    "id": "plant_magic_branch",
+    "name": "Magic Branch"
+  },
+  {
+    "id": "plant_magic_flower",
+    "name": "Magic Flower"
+  },
+  {
+    "id": "plant_mandrake",
+    "name": "Mandrake"
+  },
+  {
+    "id": "plant_mirror_plane_flower",
+    "name": "Mirror Flower"
+  },
+  {
+    "id": "plant_monotropa",
+    "name": "Ghost Pipe"
+  },
+  {
+    "id": "plant_mushroom",
+    "name": "Crystal Mushroom"
+  },
+  {
+    "id": "plant_mushroom_gold",
+    "name": "Golden Mushroom"
+  },
+  {
+    "id": "plant_nepenthes",
+    "name": "Monkey Cup"
+  },
+  {
+    "id": "plant_pumpkin",
+    "name": "Pumpkin"
+  },
+  {
+    "id": "plant_qilixiang",
+    "name": "Daphne Odera"
+  },
+  {
+    "id": "plant_radar",
+    "name": "Radar Flower"
+  },
+  {
+    "id": "plant_rainbow_grass",
+    "name": "Rainbow Grass"
+  },
+  {
+    "id": "plant_red_black_tree",
+    "name": "Red Black Tree"
+  },
+  {
+    "id": "plant_roselle",
+    "name": "Roselle"
+  },
+  {
+    "id": "plant_rosemary",
+    "name": "Rosemary"
+  },
+  {
+    "id": "plant_shadow_bamboo",
+    "name": "Shadow Bamboo"
+  },
+  {
+    "id": "plant_shallot",
+    "name": "Green Onions"
+  },
+  {
+    "id": "plant_silver_poplar",
+    "name": "Abele"
+  },
+  {
+    "id": "plant_strange_flower",
+    "name": "Strange Flower"
+  },
+  {
+    "id": "plant_tree",
+    "name": "Oak Tree"
+  },
+  {
+    "id": "plant_tree_L",
+    "name": "Oak Tree L"
+  },
+  {
+    "id": "plant_trumpet",
+    "name": "Trumpet Flower"
+  },
+  {
+    "id": "plant_vine",
+    "name": "Vine"
+  },
+  {
+    "id": "plant_watermelon",
+    "name": "Watermelon"
+  },
+  {
+    "id": "plant_worm",
+    "name": "Caterpillar fungus"
+  },
+  {
+    "id": "plant_xmas",
+    "name": "Xmas Tree"
+  },
+  {
+    "id": "plant_zongzi",
+    "name": "Zongzi Flower"
+  }
+]
